@@ -34,18 +34,11 @@ without a rewrite.
 Security → WAF → **Rate limiting rules** (1 rule is free): match path `/api/relay`, 30 requests per 1 minute per IP, action Block.
 The relay already rejects other origins and destinations that are not on the allowlist.
 
-## Test deployment (current): GitHub Pages + Vercel relay
+## Other static hosts
 
-- **Site:** https://tommykho.github.io/fiverings/. Built and deployed by `.github/workflows/pages.yml` (official Pages actions) on every push.
-  It is built with `BASE_PATH=/fiverings`, `SITE_URL=https://tommykho.github.io` and
-  `PUBLIC_RELAY_URL=https://fiverings-relay.vercel.app/api/relay`.
-- **Relay:** Vercel project `fiverings-relay` (https://fiverings-relay.vercel.app). It is a direct upload of `api/relay.js` + `server/relay-core.js`, with no Git link, and is public
-  (Vercel Authentication off). `ALLOWED_ORIGINS=https://tommykho.github.io`.
-- Deploys from **`main`**. One-time settings:
-  1. **Settings → General → Default branch → `main`.** The `github-pages` environment only accepts deploys from the default branch.
-  2. **Settings → Pages → Build and deployment → Source: GitHub Actions.** Do not use "Deploy from a branch": that serves the raw repository, not the built site.
-  3. Push to `main`, or run the workflow from Actions → *Deploy GitHub Pages* → *Run workflow*.
-- Any static host works the same way. Set `BASE_PATH` when serving from a sub-path, and `PUBLIC_RELAY_URL` when the host has no functions.
+GitHub Pages is **not** used for this project (no Pages workflow is included). Any static host works:
+run `npm run build` and serve `dist/`. Set `BASE_PATH` when serving from a sub-path, and `PUBLIC_RELAY_URL`
+when the host has no server functions (point it at a relay on Vercel, Cloudflare or a NAS).
 
 ## Local Cloudflare emulation (optional)
 
