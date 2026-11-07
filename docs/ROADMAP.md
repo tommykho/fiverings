@@ -10,7 +10,8 @@
 - [x] Ask Musashi: 12 AI options (bring your own key, no key, on device, self-hosted), local retrieval, citation verification, manual-only mode
 - [x] 30-second podcast: Kokoro on device plus Gemini/OpenAI/ElevenLabs keys, singing-bowl intro, MP3 download
 - [x] Dojo journal preview (stored in the browser under `fr.` keys), relay with tests, Cloudflare Pages config
-- [ ] First deployment: Cloudflare Pages from `main` (GitHub Pages intentionally not used)
+- [x] Test deployment: GitHub Pages via GitHub Actions from `main` + the sister project's Vercel relay
+- [ ] Production deployment: Cloudflare Pages from `main`
 
 ## Decisions needed from the owner
 1. **Licence for the code** (MIT or AGPL, for example) before accepting contributions. The English rendering needs its own statement.

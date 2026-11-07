@@ -2,7 +2,7 @@
 
 *Musashi's strategy, for the duels you actually face.*
 
-**Deploy targets** (not live until first deploy, see [docs/DEPLOY.md](docs/DEPLOY.md)): https://fiverings.pages.dev (Cloudflare Pages, from `main`)
+**Deploy targets** (not live until first deploy, see [docs/DEPLOY.md](docs/DEPLOY.md)): https://fiverings.pages.dev (Cloudflare Pages) · test site https://tommykho.github.io/fiverings/ (GitHub Pages via Actions, from `main`)
 
 A static website that turns Miyamoto Musashi's *Book of Five Rings* (五輪書, written 1643–1645) into practical tactics
 for work, career, business, family and self. The original Japanese is public domain. The English is a new rendering
