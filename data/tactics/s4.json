@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "read-the-rival-schools",
+    "title": "Read the Rival Schools",
+    "situation": "Leadership waves off a rival's new feature as a copy, but nobody has studied what it actually does well.",
+    "domain": "business",
+    "tags": ["competitors", "research", "strategy", "roadmap"],
+    "chapter": 4,
+    "principle": "Learn the rival's reasoning before you judge it",
+    "verses": ["4.1", "4.11"],
+    "scene": "You are in the Monday planning meeting when someone shows a screenshot of a rival's new feature and laughs: a copy, they say, nothing to learn. The room relaxes. You have used that product for a week, and you know it handles one slow case better than yours does. You say nothing yet. Tonight you read their release notes, their support threads and the reviews that complain about them. You find the strengths hidden under the marketing and the failures they never advertise. A school you dismiss without study is a school you cannot beat. Know the other path before you call it wrong.",
+    "moves": [
+      { "title": "Collect what they actually ship", "detail": "Read the rival's public release notes, pricing page and help docs, and sign up for a trial. Write down what each feature is for, in the customer's words, not just what it is called." },
+      { "title": "State each rival's reasoning", "detail": "For every approach you examine, write its underlying logic in one sentence, as its own supporters would put it. If you cannot state their reasoning fairly, you are not ready to critique it." },
+      { "title": "Sort strengths from faults", "detail": "Make two columns from customer reviews and forum threads. Keep only the points you can verify. A fault you cannot check is a rumour, and it belongs in neither column." },
+      { "title": "Compare against your own logic", "detail": "Write one sentence explaining why your approach differs and why it is sound. Then pick one strength to borrow and one fault to avoid repeating, so the study changes your work." }
+    ],
+    "script": {
+      "label": "Slack message to leadership",
+      "text": "Before we set the roadmap, I spent two hours on [Competitor]'s public docs, pricing and a trial account. Their strength is [X], which customers mention in [N] reviews. Their weakness is [Y], visible in their support threads. Our approach differs because [reason], and I still think it is the right call. I suggest we keep our approach and borrow [one specific idea]. Could we spend 15 minutes on this on Thursday?"
+    },
+    "backfire": "Do not use this to excuse copying or to dress up a plan that is already decided. Use only public sources and your own trial access: no confidential information, no posing as a customer to pull private data, and no mocking the rival's staff in the write-up. If you read reviews but never touch the product, your comparison is hearsay.",
+    "signals": "The team argues about specific features and customer outcomes instead of logos, and a roadmap change points back to a named strength or fault.",
+    "effort": "hours",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "the-longer-sword-trap",
+    "title": "The Longer Sword Trap",
+    "situation": "Your team wants the biggest platform on the market because size feels safe, though the work is small and daily.",
+    "domain": "business",
+    "tags": ["tools", "budget", "procurement", "software"],
+    "chapter": 4,
+    "principle": "Match the size of the commitment to the fight you are in",
+    "verses": ["4.2", "4.11"],
+    "scene": "Your operations lead wants the enterprise platform: the three-year contract, the seventy-page security questionnaire, the training bootcamp. It looks like the serious choice. Meanwhile your five-person team does most of its real work in a shared spreadsheet and a common inbox. The big system is a long blade, impressive at a distance and clumsy in the tight space where your work actually happens. Nobody in the room is wrong to want power. They are wrong to assume that power is the same as fit. Measure the fight you are actually in before you buy the weapon.",
+    "moves": [
+      { "title": "Name the real distance", "detail": "Describe the work you actually do: how often each task happens, who touches it and how fast decisions must move. Note whether the need is daily, weekly or once a year." },
+      { "title": "Price the close-range cost", "detail": "Count setup hours, training time, seat licences and the friction of daily use. A large tool that nobody opens is a long sword in a narrow hallway, and the cost shows up in idle seats." },
+      { "title": "Trial the lean option", "detail": "Run a 30-day pilot of a smaller tool on your three most common workflows, with two people who will use it every day. Agree on the measures before you start, such as setup time and tickets removed." },
+      { "title": "Reserve the big tool", "detail": "If a larger platform answers a real long-range need, such as audit trails or multi-region access, keep it for that job and say so in the budget. Do not buy it as a general insurance policy." }
+    ],
+    "script": {
+      "label": "Email to operations and finance",
+      "text": "I'd like to propose a 30-day pilot of [lean tool] for our team before we commit to [enterprise platform] at [annual cost]. The pilot covers our three most common workflows: [A], [B] and [C]. We will track setup time, daily active use and the number of manual steps it removes. If the lean tool handles at least two of the three well, we save [amount] and can revisit the larger option with real data. If it does not, we will have clear evidence for the bigger purchase. Shall we agree on the measures this week?"
+    },
+    "backfire": "Do not use this to starve a team of tools it needs for safety, compliance or scale. If a customer contract or regulation requires the larger platform, the close-range argument does not apply. Do not design a pilot to fail, and agree the pass criteria with the people who will be affected before you start.",
+    "signals": "Team members can name which workflow each tool serves, and the budget decision cites usage data rather than the size of the vendor.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "force-breaks-the-blade",
+    "title": "Force Breaks the Blade",
+    "situation": "A vendor deal has stalled for weeks, and each email you send is sharper than the last.",
+    "domain": "work",
+    "tags": ["negotiation", "pressure", "escalation", "clarity"],
+    "chapter": 4,
+    "principle": "Aim with principle, not pressure",
+    "verses": ["4.3"],
+    "scene": "The vendor contract has been stuck for three weeks. Every message you send is a little sharper than the one before, with the deadline in bold and the word urgent in the subject line. Their legal team answers more slowly each time. You feel the blade meet something hard, and you push harder. Then you notice that the more force you apply, the less either side can see the real issue, which is one unclear payment clause. Pressure hardens their position just as it hardens yours. Set the aim, lower the volume, and let a clear clause do the cutting.",
+    "moves": [
+      { "title": "State the aim in one sentence", "detail": "Write the outcome you need and the reason for it, in plain words: what you need, by when, and what goes wrong without it. Pressure without a stated aim only adds noise to the thread." },
+      { "title": "Ask instead of asserting", "detail": "Replace the next two claims with questions about their concern, such as which clause worries them most. Let them test your reasoning in the open instead of defending against your tone." },
+      { "title": "Put the document on the table", "detail": "Bring the specific contract clause, invoice history or service data that supports your view. Let the document carry the force, so your voice does not have to." },
+      { "title": "Offer a clear way forward", "detail": "Propose a route that lets them keep face: a two-week pilot, a time-limited amendment or a fixed decision date. A visible exit lowers the stakes for both sides." }
+    ],
+    "script": {
+      "label": "Reply to the vendor thread",
+      "text": "I think my last few messages made this harder for both of us, so let me restate what I need. A decision on the payment schedule by Friday lets our QA team start on the 5th. The clause that worries me is section [number], because [one-line reason]. I'm not certain how you read it, so could you tell me your view? If a two-week pilot on the current terms would answer both our concerns, I'm happy to draft it. I'd rather get the terms right than win the argument."
+    },
+    "backfire": "Do not use a calm tone as a trick to lower their guard, and never invent data or deadlines. If the situation involves a safety or legal risk, escalate through the right channel without apologising for it. Lowering the pressure is not surrender: when you hold the authority and the facts, state the decision plainly.",
+    "signals": "The other side starts asking specific questions about your reasoning, and the disagreement narrows to one or two points you can resolve on paper.",
+    "effort": "hours",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "do-not-wait-for-the-gap",
+    "title": "Do Not Wait for the Gap",
+    "situation": "You wait for your manager to hand you a bigger role, reacting to openings instead of creating one.",
+    "domain": "career",
+    "tags": ["promotion", "initiative", "manager", "ownership"],
+    "chapter": 4,
+    "principle": "Create the opening with a proposal, then set the terms",
+    "verses": ["4.4"],
+    "scene": "For a year you have watched a gap open in the team: nobody owns the handover between design and release, and every launch loses two days to it. You have mentioned it twice in passing. Each time you wait, hoping the manager will notice and offer the work. That is the mind of someone who waits for the opponent to move first. Your skills are ready; what is missing is a proposal with your name and a plan. A bigger role seldom arrives by waiting at the door. It usually follows someone who has already done the first piece of it.",
+    "moves": [
+      { "title": "Name the gap you can fill", "detail": "List three problems in your team's work that nobody clearly owns and that touch your manager's goals. Check each one against two or three colleagues before you claim it." },
+      { "title": "Propose before you are asked", "detail": "Write a one-page proposal for the strongest gap: the problem, your plan, the first 30 days and the work you would hand off to make room. Keep it specific enough to say no to." },
+      { "title": "Set terms in the first meeting", "detail": "Bring a start date, a defined scope and a check-in date. Ask for feedback on the plan, not for permission to exist. Terms set early keep the initiative from drifting back to others." },
+      { "title": "Deliver the first piece on time", "detail": "Ship the first milestone when you said you would and report it briefly in writing. Initiative fades quickly when the follow-through is missing, so treat that first deadline as the real test of your plan." }
+    ],
+    "script": {
+      "label": "Message to your manager",
+      "text": "I've noticed that the handover between design and release has no clear owner, and it has cost us two days on each of the last three launches. I'd like to take it on for the next six weeks. My one-page plan is attached: three milestones, the first two weeks, and the tasks I would hand off to make room. Could we spend 20 minutes on Thursday to shape it? If you would rather someone else owned it, I'd like to know that too, so I can plan my time."
+    },
+    "backfire": "Do not grab work that belongs to someone else, or claim a gap you have not checked. Taking initiative by stepping on a colleague is a quiet kind of retaliation. If your manager says not now, accept the answer and ask for the criteria they would use. Initiative that ignores the team's real priorities just reads as noise.",
+    "signals": "Your manager names you as the owner of the gap in meetings, or asks for your plan before you have finished writing it.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "few-cuts-done-well",
+    "title": "Few Cuts, Done Well",
+    "situation": "Your team runs fourteen frameworks and templates, and nobody can remember which one fits a given task.",
+    "domain": "work",
+    "tags": ["process", "playbook", "simplicity", "onboarding"],
+    "chapter": 4,
+    "principle": "A few essential moves, applied well, beat a crowded playbook",
+    "verses": ["4.5"],
+    "scene": "The team wiki lists fourteen templates, four decision frameworks and a checklist for each of them. New hires spend their first month asking which one to use, and veterans quietly skip half of them. Somebody proposes adding a fifteenth template to cover a new case. Your instinct is to agree, because more looks thorough. But the team is not short of method; it is short of clarity about the handful of moves that cover almost every situation. Behind all the variations the cut is simple, so the playbook should be too. Fewer, clearer moves let people act instead of searching.",
+    "moves": [
+      { "title": "Count the whole playbook", "detail": "List every framework, template and process your team uses. Mark each one you have actually used in the past month. The unused ones are the first candidates for pausing." },
+      { "title": "Find the core moves", "detail": "Group the list into the few actions that cover most real situations. For most teams this is five to seven moves. Name each one with a verb, such as scope, test, decide or hand off." },
+      { "title": "Give each move one fallback", "detail": "For every core move, write one case where it fails and the simple alternative. Resist adding a new method for each edge case. One exception per move is enough for most work." },
+      { "title": "Pause the rest for a quarter", "detail": "Set the extra material aside for 90 days rather than deleting it. If a missing method causes real harm, bring it back with a written reason, so the list grows only when needed." }
+    ],
+    "script": {
+      "label": "Team channel post",
+      "text": "We have fourteen templates and frameworks in the wiki, and I can't tell which one fits a given task. I'd like to try a shorter playbook for one quarter: five core moves, each with one fallback. Everything else is paused, not deleted. The five are [1 to 5]. Please reply with the one you would cut and why. We'll review on [date] and bring back anything that is truly needed."
+    },
+    "backfire": "Do not cut safety, compliance or quality checks because they feel like paperwork; some regulated work genuinely needs a long list. A shorter playbook is not a way to hide complexity from newcomers. If people keep working around the short list, the list is wrong, and the answer is to revise it, not to enforce it harder.",
+    "signals": "New hires find the right method within a minute, and the question of which template to use stops appearing in the channel.",
+    "effort": "hours",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "hurry-is-not-speed",
+    "title": "Hurry Is Not Speed",
+    "situation": "You rush every practice session to keep up with a faster training partner, and your form falls apart.",
+    "domain": "self",
+    "tags": ["training", "pace", "habits", "discipline"],
+    "chapter": 4,
+    "principle": "Hold your own tempo, then add speed only when the form holds",
+    "verses": ["4.9"],
+    "scene": "Your training partner finishes each set before you have warmed up. You feel the pull to match them, so you cut your rest, shorten your reps and rush the last three. Your shoulders start to creep up, and the sloppy final reps leave you more tired than the honest ones would have. The drum keeps its steady beat, and it is you who falls behind it by trying to run ahead. A master looks unhurried precisely because there is no gap in the timing. Keep the tempo you can hold, and let the speed come after the form is settled.",
+    "moves": [
+      { "title": "Set the tempo before you start", "detail": "Choose a pace you can hold for the entire session and write it on a card. Start at that pace even if it feels slow. The card is the reference when the urge to hurry arrives." },
+      { "title": "Track rhythm, not the stopwatch", "detail": "Measure clean reps, complete sets and consistent rest, not total finish time. Each session, count how many reps kept good form. Consistency is the number that improves first." },
+      { "title": "Ignore the other person's pace", "detail": "When you notice yourself reacting to a faster peer, breathe out slowly, reset to your card and count your next rep aloud. Your own count keeps the pace steady, like a hand holding a pillow in place." },
+      { "title": "Add speed in small steps", "detail": "Increase tempo only after three clean sessions at the current pace. Change one variable at a time, such as shortening rest by ten seconds, and hold it for a week before the next change." }
+    ],
+    "script": {
+      "label": "Message to a training partner",
+      "text": "I'm going to hold my own pace for the next month. I know you're further along, and I'm glad to train with you, but I'd rather finish each set clean than match you and lose my form. Could we warm up together and then run our main sets separately? I'll meet you at the end for a quick look at what we each did well. Does that work for you?"
+    },
+    "backfire": "Do not use a steady pace to excuse avoiding real effort or a fixed deadline. If a session needs urgent speed, such as a safety drill or an exam window, the rhythm rule gives way to the situation. Also check honestly whether your slow pace hides a fear of looking like a beginner, because that fear is an attachment too.",
+    "signals": "You finish sessions with clean form and without the urge to skip your cooldown, and the gap to your partner stops feeling like a verdict on you.",
+    "effort": "days",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "no-secret-advanced-level",
+    "title": "No Secret Advanced Level",
+    "situation": "You want to teach your teenager to manage money but keep the real rules to yourself until they earn them.",
+    "domain": "personal",
+    "tags": ["parenting", "money", "teaching", "trust"],
+    "chapter": 4,
+    "principle": "Teach the fundamentals openly, then add depth as the learner is ready",
+    "verses": ["4.10"],
+    "scene": "Your sixteen-year-old asks how you decided what to do with the birthday money, and you hesitate. You have a set of rules you learned the hard way, and part of you wants to keep them as a privilege, something to unlock later. Then you remember that you learned the most from a mentor who showed the reasoning behind every basic habit. Secrets feel like power, but a learner who cannot see the basics cannot build on them. There is no hidden chamber at the back of the house. Show the front door first, then the rooms as they are ready.",
+    "moves": [
+      { "title": "Write the basics on one page", "detail": "Cover earning, tracking spending, saving and the cost of debt, in plain words. No jargon and no rules that depend on a hidden explanation. A page they can read in five minutes is the first real lesson." },
+      { "title": "Explain the reason behind each rule", "detail": "For each rule, state what it protects against, such as an emergency fund against an unexpected bill. The reason is what they will reuse in new situations, long after the rule itself has changed." },
+      { "title": "Add depth when they are ready", "detail": "After they have run the basics for a month without help, introduce the next layer: how interest compounds, how to read a bank statement, or what taxes take from a paycheque." },
+      { "title": "Let a small mistake teach", "detail": "Give them a small budget where a mistake costs little. Review the result together, asking what they expected and what happened, without a told-you-so. Keep the focus on their reasoning rather than the amount lost." }
+    ],
+    "script": {
+      "label": "Note to your teenager",
+      "text": "I've been thinking about how I taught you about money, and I kept some things to myself. I'm going to write the basics on one page: how we track spending, why we keep an emergency fund, and what debt really costs. No secret rules. Once you've run the monthly budget for four weeks, we'll move to the next part together, which is interest and reading a bank statement. Want to go through the page with me on Sunday?"
+    },
+    "backfire": "Do not use openness as a cover for overriding an adult's privacy or pushing a financial plan on someone who has not asked. For adults who manage their own money, offer the basics and let them choose. Teaching in the open does not mean dropping all judgement: if a risk is serious, say so plainly and agree a limit.",
+    "signals": "They ask why a rule exists rather than whether they can get around it, and they begin explaining the basics back to you.",
+    "effort": "days",
+    "difficulty": 1,
+    "featured": false
+  }
+]

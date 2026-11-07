@@ -1,0 +1,534 @@
+[
+  {
+    "id": "c-match-the-crew-to-the-work",
+    "chapter": 1,
+    "domain": "work",
+    "difficulty": 1,
+    "title": "Assigning the Launch Crew",
+    "scenario": "You lead a six-person support team that must launch a new help center in three weeks. Priya writes clear documentation but has never handled an angry customer. Marcus solves the hardest technical tickets and dislikes writing. Two newer hires can follow a template but need checks on anything unusual. The launch date will not move, and your director wants your staffing plan on Monday. So far nobody has decided who takes which role.",
+    "options": [
+      {
+        "text": "Give the hardest escalations to the newest hires so they learn fastest, and keep veterans on easy tickets.",
+        "correct": false,
+        "why": "Each piece of work should go where its strength suits it. Sending new hires into the hardest cases puts failure exactly where it matters most, and nobody learns well from a disaster."
+      },
+      {
+        "text": "Match each person to the work their strengths suit, and give the newer hires supervised tasks where a slip is easy to fix.",
+        "correct": true,
+        "why": "A commander sorts people by their real grade and places each one where their skill fits. Matching roles to strengths keeps the work fast and sound, and puts weaker hands where mistakes can be repaired."
+      },
+      {
+        "text": "Give everyone an identical mix of tasks so nobody can claim the split was unfair, even where it suits people poorly.",
+        "correct": false,
+        "why": "Treating everyone the same ignores what each person can carry, which is the commander's core judgment. Fairness that ignores strength produces weak results and frustrated people."
+      },
+      {
+        "text": "Build the whole plan around Marcus, since his troubleshooting will resolve most problems before anyone else is needed.",
+        "correct": false,
+        "why": "Leaning the entire plan on one favourite strength creates a single point of failure. The plan breaks the moment he is away, and nobody else has been trained for the work."
+      },
+      {
+        "text": "Let each person pick the role they like best, and accept their choices without checking whether they can deliver it.",
+        "correct": false,
+        "why": "Comfort is a poor guide to competence, and placements made without any test of ability are guesses. A good commander reads the real grade of each person before assigning them."
+      }
+    ],
+    "verses": ["1.3"],
+    "tactic": "master-carpenter",
+    "lesson": "Put each person where their strength suits the task, and give weaker hands supervised work where a slip can be repaired."
+  },
+  {
+    "id": "c-presenter-who-avoids-the-room",
+    "chapter": 1,
+    "domain": "career",
+    "difficulty": 2,
+    "title": "The Analyst Who Avoids the Room",
+    "scenario": "You are an analyst who has built the strongest forecast model in your division, and you can out-reason almost anyone on paper. Next month you must present a budget reallocation to the executive committee. Your last two presentations ended in questions you could not answer on the spot. Your manager suggests practising out loud, but you would rather spend another evening tightening the spreadsheet. The committee meets in six weeks, and the decision will go to whoever argues best in the room.",
+    "options": [
+      {
+        "text": "Give the weaker skill a fixed share of your week, starting with short practice runs in front of a colleague.",
+        "correct": true,
+        "why": "Musashi trains the hand you favour least as deliberately as the one you favour. A fixed share of practice keeps the weak side from being postponed, and short runs build it steadily."
+      },
+      {
+        "text": "Keep refining the model, since sharper numbers will make any hard question in the room easy to answer.",
+        "correct": false,
+        "why": "Working only on the tool you are comfortable with leaves half the craft untrained. Better numbers do not answer a question you have never rehearsed, so the stall will come anyway."
+      },
+      {
+        "text": "Hand the presentation to the most confident colleague so your weak side never gets exposed in public.",
+        "correct": false,
+        "why": "Letting someone else carry your weak skill keeps it weak. Musashi insists on training both hands; avoiding the exposure only moves the test to a moment you cannot control."
+      },
+      {
+        "text": "Ask a colleague to play the committee's toughest member, then note where your answers stall and fix those points.",
+        "correct": true,
+        "why": "Practising against a real opponent shows the gaps before the decision does. Noticing where you falter and correcting those points is how a one-sided practitioner becomes a complete one."
+      },
+      {
+        "text": "Replace the presentation with a written memo, because arguments on paper are always more reliable than live ones.",
+        "correct": false,
+        "why": "Musashi trains for the living contest, where the response must come under pressure. A memo removes the test rather than passing it, and the committee will still ask questions in person."
+      }
+    ],
+    "verses": ["1.6"],
+    "tactic": "draw-both-swords",
+    "lesson": "Practise your weaker skill on purpose, against a real opponent, until it stops being the weak point in the room."
+  },
+  {
+    "id": "c-audit-the-three-wins",
+    "chapter": 1,
+    "domain": "work",
+    "difficulty": 2,
+    "title": "Three Wins, One Method",
+    "scenario": "Your team shipped three projects in a row on time and under budget, and the director wants your method written up for every department. You led all three, and you are proud of the checklist you invented last spring. Yet one project had a vendor who arrived early by chance, another had a client who changed scope in your favour, and the third had an unusually quiet quarter. You have one week to draft the playbook, and other managers are already asking for it.",
+    "options": [
+      {
+        "text": "Publish the checklist as the playbook now, since three successes are strong evidence that the method caused them.",
+        "correct": false,
+        "why": "Three wins can still be mostly luck, and treating them as proof passes a hidden error to everyone who copies you. Musashi asks you to examine how you succeeded before you teach it."
+      },
+      {
+        "text": "Separate what your method caused from the chance in each project, and teach only the steps that held up.",
+        "correct": true,
+        "why": "Early success can hide what has not really been learned. Auditing each win honestly, and keeping only the parts that worked for reasons you understand, is the basis for a method worth teaching."
+      },
+      {
+        "text": "Ask the director to delay the playbook until you run a fourth project, and keep your notes private until then.",
+        "correct": false,
+        "why": "Hoarding the method out of fear protects your image instead of testing the truth. A fourth project adds data, but withholding what you know leaves the current error uncorrected."
+      },
+      {
+        "text": "Teach the method together with the cases where it failed or where luck was obvious, so others learn its limits.",
+        "correct": true,
+        "why": "Showing the exceptions alongside the method gives learners the full picture, including when not to use it. Honest limits are what make a method usable by people other than its author."
+      },
+      {
+        "text": "Credit your discipline in the write-up and leave out the luck, so the other managers feel encouraged to copy you.",
+        "correct": false,
+        "why": "Leaving out the luck to inspire others misleads them about what will work. The honest account of your success is more useful to them than a flattering one."
+      }
+    ],
+    "verses": ["0.1", "1.1"],
+    "tactic": "audit-the-early-wins",
+    "lesson": "Audit each win before you teach the method: separate what your choices caused from the luck around them."
+  },
+  {
+    "id": "c-one-channel-for-everything",
+    "chapter": 1,
+    "domain": "work",
+    "difficulty": 1,
+    "title": "One Channel for Everything",
+    "scenario": "Your product team runs every conversation in one group chat: quick questions, design debates, outage alerts and a pending legal review. Last week a critical bug report scrolled past under forty memes and a lunch poll, and the fix waited two days. People complain they cannot focus, yet nobody wants to start another channel. The next launch is six weeks away, and the chat grows by the hour.",
+    "options": [
+      {
+        "text": "Keep the one group chat and ask everyone to scroll more carefully, so no critical message slips past.",
+        "correct": false,
+        "why": "Asking people to try harder does not change the tool that is causing the failure. Musashi asks you to match the instrument to the task, not to demand more attention from a poorly chosen one."
+      },
+      {
+        "text": "Match each kind of message to a tool: alerts, decisions and quick questions each get a channel with a clear purpose.",
+        "correct": true,
+        "why": "Every tool has its use, and each kind of message needs a fitting place. Sorting the work by type means urgent items are never buried under lighter ones."
+      },
+      {
+        "text": "Move every conversation into one long email thread, since a single written record is always easier to search.",
+        "correct": false,
+        "why": "Choosing one tool for every purpose just trades one kind of clutter for another. A single favourite instrument fails the moment the task calls for something else."
+      },
+      {
+        "text": "Let people raise bug reports in whatever tool they prefer, since the goal is simply that the message arrives somewhere.",
+        "correct": false,
+        "why": "Arrival is not the same as reaching the right person in time. Without a fixed place for urgent work, the message is lost in whichever tool someone happened to open."
+      },
+      {
+        "text": "Write down which tool carries alerts and which carries decisions, and review the rule with the team after one month.",
+        "correct": true,
+        "why": "A written rule makes the choice of tool deliberate, and a review keeps it honest as the work changes. Musashi's method is to know the use of each tool and adjust it to the situation."
+      }
+    ],
+    "verses": ["1.8", "1.2"],
+    "tactic": "every-tool-its-use",
+    "lesson": "Match the tool to the job; one channel for every kind of message hides the urgent one."
+  },
+  {
+    "id": "c-the-deal-with-hidden-costs",
+    "chapter": 1,
+    "domain": "business",
+    "difficulty": 2,
+    "title": "The Large Client's Offer",
+    "scenario": "A national retailer offers your small manufacturing firm a three-year contract that would double your revenue. The unit price looks good on paper, but the retailer wants a custom packaging line, 45-day payment terms and penalties for late delivery. Your two best workers would have to split their time between the new line and your existing clients. The owner is excited and wants a signature by Friday. You have the retailer's terms and one week to test the assumptions behind them.",
+    "options": [
+      {
+        "text": "Sign now to capture the revenue, and fix the cash-flow and staffing problems as they appear in the first quarter.",
+        "correct": false,
+        "why": "A fast yes that ignores the terms hands the cost of the deal to your later self. Musashi's method is to weigh gain and loss before committing; delayed problems are still problems."
+      },
+      {
+        "text": "Total the full costs, including the packaging line, the 45-day wait, the penalties and your staff's split time, before judging.",
+        "correct": true,
+        "why": "The attractive number is only one side of the scale. Musashi asks you to count both sides, including the costs that arrive later, so the real balance is visible."
+      },
+      {
+        "text": "Decline outright, since any deal that depends on one large customer is too dangerous to consider at all.",
+        "correct": false,
+        "why": "Refusing without weighing is a fixed stance that avoids looking at the particulars. The principle is to judge this deal on its terms, not on a general fear of big contracts."
+      },
+      {
+        "text": "Ask what the terms become if volume drops, and test whether your two key workers can carry both lines.",
+        "correct": true,
+        "why": "Musashi's warning is to test the situation you cannot yet see. Asking how the terms change under pressure, and checking your people's limits, reveals the hidden load before you sign."
+      },
+      {
+        "text": "Check which part of the revenue is guaranteed, and go over the contract with an accountant before the Friday deadline.",
+        "correct": true,
+        "why": "Separating guaranteed revenue from hopeful revenue shows the true gain. An honest review before the deadline keeps the decision inside what you can actually carry."
+      }
+    ],
+    "verses": ["1.9"],
+    "tactic": "weigh-gain-and-loss",
+    "lesson": "Count both sides of a big deal, including costs that arrive late, before one attractive number makes the call."
+  },
+  {
+    "id": "c-sibling-flare-up",
+    "chapter": 1,
+    "domain": "family",
+    "difficulty": 2,
+    "title": "The Sibling Flare-Up",
+    "scenario": "Every holiday dinner now ends with you and your brother arguing over something small: the wine, whose turn it is to host, how late the children stay up. Last weekend the fight was about who cleared the table. You suspect the real issue is that you have carried most of the planning for years and he has never noticed. Your mother asks you both to stop, and the next gathering is in three weeks.",
+    "options": [
+      {
+        "text": "Win the next small argument decisively, so your brother learns you will not back down on anything at the table.",
+        "correct": false,
+        "why": "Winning every small point turns the table into a contest, which keeps the real imbalance hidden. Musashi asks you to read the large and the small together, not to fight the small thing alone."
+      },
+      {
+        "text": "Look at the pattern behind the small fights, and raise the planning load with your brother privately before the next gathering.",
+        "correct": true,
+        "why": "The small quarrels are the visible part of a larger rhythm. Naming the planning load in a private talk, before the gathering, addresses the cause instead of each flare-up."
+      },
+      {
+        "text": "Stop attending gatherings until your brother apologises for how the planning has always been handled.",
+        "correct": false,
+        "why": "Walking away from the table abandons the field and leaves the imbalance untouched. Musashi's method keeps you engaged, reading the situation and choosing your moment."
+      },
+      {
+        "text": "Settle the small question in front of everyone, but also name the larger imbalance in a separate, calm conversation.",
+        "correct": true,
+        "why": "Handling the immediate question keeps the room calm, while a separate talk addresses the pattern. Holding both levels at once keeps a small event and a large pattern in proportion."
+      },
+      {
+        "text": "Tell the wider family what your brother has never done, so relatives take your side and he feels the pressure.",
+        "correct": false,
+        "why": "Turning relatives against him replaces a fair reading with public pressure, and it harms people you care about. The principle is to see the situation clearly, not to win by exposure."
+      }
+    ],
+    "verses": ["1.9"],
+    "tactic": "read-the-large-and-the-small",
+    "lesson": "A small quarrel is often the visible edge of a large pattern; settle the moment, then address the pattern privately."
+  },
+  {
+    "id": "c-five-urgent-requests",
+    "chapter": 2,
+    "domain": "work",
+    "difficulty": 2,
+    "title": "Five Urgent Requests",
+    "scenario": "It is 1:30 on a Thursday afternoon, and five managers have each sent you an urgent request. Finance wants a revised forecast by three, sales needs a pricing exception approved, a hiring manager is asking about a candidate, operations has a broken shipment, and your boss wants a status update. You lead a team of six with two hours to spare. Each sender insists their request is the only one that matters, and your inbox refreshes every few minutes.",
+    "options": [
+      {
+        "text": "Reply to whoever sounds most senior first, so the greatest pressure gets an answer and the rest can wait.",
+        "correct": false,
+        "why": "Letting the loudest or most senior voice set your order means fighting on their terms. Ranking by pressure rather than by the real sequence drops the priorities that matter most."
+      },
+      {
+        "text": "Survey all five at once, take on the one truly first in line, and keep the others queued rather than crowding you.",
+        "correct": true,
+        "why": "Musashi trains a wide view: see the whole field, then meet the attacker who comes first. Dealing with the front of the line keeps the others from surrounding you and breaking your focus."
+      },
+      {
+        "text": "Send one short note to all five stating what you will finish and when, so they stop competing for your attention.",
+        "correct": true,
+        "why": "Telling each sender when they will hear back takes the pressure out without a fight. It replaces a crowd of urgent demands with a plain sequence you can keep to."
+      },
+      {
+        "text": "Lock yourself away with the forecast for two hours and ignore every other message until it is complete.",
+        "correct": false,
+        "why": "Narrowing your sight to one task means missing the other four threats. Focus is useful only when the rest of the field is still in view."
+      },
+      {
+        "text": "Give the forecast the nearest deadline it has, and reply to the other four with honest times rather than promises.",
+        "correct": true,
+        "why": "The forecast has the nearest deadline, so it is the true first opponent. Honest timing for the rest keeps every sender informed without pulling you off your position."
+      }
+    ],
+    "verses": ["2.34", "2.4"],
+    "tactic": "many-opponents-at-once",
+    "lesson": "When many demands arrive at once, see them all, face the one truly first, and keep the rest in order in front of you."
+  },
+  {
+    "id": "c-the-unspoken-household-load",
+    "chapter": 2,
+    "domain": "family",
+    "difficulty": 1,
+    "title": "The Unspoken Household Load",
+    "scenario": "Your partner has quietly become the default for everything at home: school forms, groceries, the boiler service, the children's dentist and the weekend laundry. You have been handling dinner and car maintenance. Last Sunday you noticed a sharp tone in every conversation, and your partner says they are just tired. You want the house to feel fair again, but you also want to keep the peace this week.",
+    "options": [
+      {
+        "text": "Keep doing your share quietly and wait for your partner to notice the imbalance, since raising it will only start a fight.",
+        "correct": false,
+        "why": "A load nobody names keeps pressing on one side until something breaks. Waiting in silence lets the imbalance set, and the footing never gets the shared movement it needs."
+      },
+      {
+        "text": "Sit down together and list every recurring task, then move some steps between you so neither carries the whole load.",
+        "correct": true,
+        "why": "Naming every task makes the hidden load visible. Moving steps between you, rather than letting one person carry them all, is the core of balanced footing."
+      },
+      {
+        "text": "Take over every task that irritates you, so the house runs on your system and nothing falls to your partner.",
+        "correct": false,
+        "why": "Taking the whole load on yourself is the same error in reverse: one foot doing all the stepping. It wears you down and removes your partner from the rhythm of the house."
+      },
+      {
+        "text": "Trade one task each week, review how the split feels after a month, and adjust it as your schedules change.",
+        "correct": true,
+        "why": "Small trades with a review give both of you a way to test the rhythm. Like balanced stepping, the arrangement keeps moving rather than setting into one shape."
+      },
+      {
+        "text": "Write a strict rota with fixed roles that cannot change, so each person always knows which tasks belong to them.",
+        "correct": false,
+        "why": "Fixed roles create a stuck foot: the arrangement cannot adjust when someone is ill or busy. Musashi warns against the stuck stance, and flexibility keeps the balance alive."
+      }
+    ],
+    "verses": ["2.6"],
+    "tactic": "yin-yang-footing-at-home",
+    "lesson": "A balanced home moves steps between both people; name the hidden load out loud, then share it."
+  },
+  {
+    "id": "c-the-directors-quiet-no",
+    "chapter": 2,
+    "domain": "work",
+    "difficulty": 2,
+    "title": "The Director's Quiet No",
+    "scenario": "You want to replace the director's approval chain with a weekly review, which would cut each release from nine days to three. In the last two meetings she called the idea interesting but early, then pressed harder on a related budget line. When you describe the new process you can see tension in her shoulders, but she has not said no. Your team is ready to pilot it next month, and you need to know how firm her resistance is before you push again.",
+    "options": [
+      {
+        "text": "Propose a small, reversible trial first, then watch how she reacts to its first result before pressing further.",
+        "correct": true,
+        "why": "A small trial tests the rhythm without locking her into a commitment. Musashi advises reacting to the opponent's movement; her response to a modest result shows where the firmness really is."
+      },
+      {
+        "text": "Press harder with a detailed slide deck, since sharper evidence will overcome whatever is holding her back.",
+        "correct": false,
+        "why": "Pushing harder against a tensed position makes her pull back further, which is the wrong rhythm. Musashi's principle is to test first, then strike where the resistance has loosened."
+      },
+      {
+        "text": "Hold the proposal for a later meeting, then raise it when she relaxes and starts asking practical questions.",
+        "correct": true,
+        "why": "Waiting until tension eases and then raising the idea uses the moment her guard is down, without any trickery. Pressing into resistance wastes the energy you need for the decisive moment."
+      },
+      {
+        "text": "Drop the idea after her first objection, so the working relationship stays comfortable and nobody is pushed.",
+        "correct": false,
+        "why": "Abandoning the idea after one objection gives up an advantage you already have. Musashi wants you to read the response, not to retreat at the first sign of resistance."
+      },
+      {
+        "text": "Ask her directly what would make the process acceptable, and listen closely for the concern she has not stated.",
+        "correct": true,
+        "why": "Asking directly invites the concern she has not voiced, which is the real opening. Listening closely shows you what the resistance is made of before you commit more pressure."
+      }
+    ],
+    "verses": ["2.16"],
+    "tactic": "two-remaining-rhythm",
+    "lesson": "Test a resistance gently, notice how it shifts, and act when it relaxes instead of pushing into it."
+  },
+  {
+    "id": "c-the-sister-who-pulls-away",
+    "chapter": 2,
+    "domain": "family",
+    "difficulty": 2,
+    "title": "The Sister Who Pulls Away",
+    "scenario": "Your family wants to plan a shared holiday house for everyone, and your sister has gone quiet every time you raise it. Each time you press her for a date, she pulls further away and mutes the group chat. Your parents are getting impatient. Yesterday she mentioned that her job makes time off hard, and you suspect money is the real worry. You want her in the plan without making her feel cornered.",
+    "options": [
+      {
+        "text": "Send a firm message with a fixed date and a deadline, so she cannot avoid the decision any longer.",
+        "correct": false,
+        "why": "Pressing a retreating opponent with fixed demands tightens her body and mind. Flowing strength means steady, open pressure, not an ultimatum she has to fight."
+      },
+      {
+        "text": "Stay relaxed and open, and ask what time and budget would actually work for her before pressing for a date.",
+        "correct": true,
+        "why": "Musashi's flowing-water idea is to stay open and read the position before committing force. Learning the real limits of time and money tells you what she can actually meet."
+      },
+      {
+        "text": "Drop the plan for now and let her decide later, since a holiday is not worth a fight with your sister.",
+        "correct": false,
+        "why": "Dropping the plan leaves the opening unused and the family without a shared time. Withdrawing when pressure rises is a retreat, not an answer, and it teaches the group nothing."
+      },
+      {
+        "text": "Offer a cheaper option with flexible dates, then let her shape the details so the choice feels like hers.",
+        "correct": true,
+        "why": "A cheaper, flexible option eases the pressure as soon as you read it. Letting her shape the details gives her a real place in the plan, rather than a place to resist from."
+      },
+      {
+        "text": "Put the cost question on the table for the whole family, so no single person has to carry the worry alone.",
+        "correct": true,
+        "why": "Naming the money concern openly removes a hidden pressure she has been carrying alone. Shared weight is steadier than one person being cornered."
+      }
+    ],
+    "verses": ["2.18", "2.1"],
+    "tactic": "strike-like-flowing-water",
+    "lesson": "Stay open and read what holds someone back, then press with steady weight rather than a fixed demand."
+  },
+  {
+    "id": "c-the-locked-product-roadmap",
+    "chapter": 2,
+    "domain": "business",
+    "difficulty": 2,
+    "title": "The Locked Product Roadmap",
+    "scenario": "Your startup's product plan has been built around a subscription model for eighteen months, and you have defended it in every board meeting. Now three of your largest customers ask for usage-based pricing, and a competitor has just launched a pay-as-you-go tier that is getting attention. Your engineers have started discussing the new model, but you feel your credibility rests on not changing course. The next board review is in two weeks.",
+    "options": [
+      {
+        "text": "Keep the subscription model unchanged and argue harder, since your credibility depends on never looking unsure.",
+        "correct": false,
+        "why": "Holding one shape because it is yours is the fixed stance Musashi warns against. The aim should stay constant while the method adapts to the situation in front of you."
+      },
+      {
+        "text": "Keep retaining customers as the fixed goal, and test usage pricing as one way to reach it.",
+        "correct": true,
+        "why": "Musashi says the aim matters more than the form. Keeping retention as the goal and treating pricing as a means lets you move without losing your central purpose."
+      },
+      {
+        "text": "Reject every pricing question until the competitor's launch shows whether pay-as-you-go actually works.",
+        "correct": false,
+        "why": "Waiting on someone else's experiment lets a rival set your rhythm. Standing still in a changing field is itself a stance, and one you did not choose."
+      },
+      {
+        "text": "Pilot the usage model with one customer group, and let the results reshape the roadmap as evidence arrives.",
+        "correct": true,
+        "why": "A small pilot is a measured adjustment, not a reversal. Letting evidence reshape the approach keeps the plan alive while it adapts to the real terrain."
+      },
+      {
+        "text": "Switch all products to usage pricing overnight, so you look decisive before the board and the competitor move.",
+        "correct": false,
+        "why": "A sudden all-in switch looks decisive but skips the test. An approach that can flex is different from one flung wide, and the move could cost you the customers you already have."
+      }
+    ],
+    "verses": ["2.14", "2.7"],
+    "tactic": "stance-without-stance",
+    "lesson": "Keep the aim fixed and the method flexible; a plan that cannot move with the ground is a stance you did not choose."
+  },
+  {
+    "id": "c-pulse-before-the-pitch",
+    "chapter": 2,
+    "domain": "self",
+    "difficulty": 1,
+    "title": "Pulse Before the Pitch",
+    "scenario": "You present your team's annual results to the leadership group at nine tomorrow. Tonight your pulse is high, your slides blur when you look at them, and you keep rehearsing the one question you fear. Your shoulders sit up near your ears, and your breath catches whenever you picture the room. You have prepared thoroughly and you know the material. What you need is a steady mind and a body that stays composed when the moment arrives.",
+    "options": [
+      {
+        "text": "Stay up late rehearsing the one dreaded question until it stops frightening you, then sleep once you feel certain.",
+        "correct": false,
+        "why": "Fixing your attention on one fear narrows it to a single point. Musashi asks you to hold the whole and keep the detail light, and rest is what makes that possible."
+      },
+      {
+        "text": "Breathe slowly, drop your shoulders, and rehearse your opening so body and mind settle into what you already know.",
+        "correct": true,
+        "why": "A calm mind and an everyday posture are one posture. Musashi wants your practice body and your fighting body to match, so steady breathing and relaxed shoulders keep your attention wide enough to respond."
+      },
+      {
+        "text": "Skip the rehearsal entirely and trust that nerves will sharpen into focus once the lights come on.",
+        "correct": false,
+        "why": "Trusting that nerves will sort themselves out ignores the training you already have. Practice is what makes steadiness reliable, so leaving it out leaves you exposed."
+      },
+      {
+        "text": "Ask a colleague to take over the presentation, so you never have to face the room while your pulse is high.",
+        "correct": false,
+        "why": "Withdrawing because your pulse is high turns a passing feeling into a decision to retreat. A calm mind comes back through practice, not through avoidance."
+      },
+      {
+        "text": "Memorise scripted answers to fifty possible questions, so nothing in the room can catch you off guard.",
+        "correct": false,
+        "why": "A memorised script breaks the moment a question lands sideways. Musashi trusts a principle you can apply, not a lookup list; the freedom to respond comes from a settled mind."
+      }
+    ],
+    "verses": ["2.2", "2.3"],
+    "tactic": "calm-mind-on-the-day",
+    "lesson": "Calm before a big moment comes from steady breath and an everyday posture, not from memorised answers."
+  },
+  {
+    "id": "c-the-buyer-who-agreed",
+    "chapter": 2,
+    "domain": "career",
+    "difficulty": 2,
+    "title": "The Buyer Who Agreed",
+    "scenario": "A procurement lead told you on Tuesday that your proposal is basically what they need. Since then you have sent four follow-up emails, each longer than the last, each with a fresh list of benefits. Today she replied only asking for one more customer reference. Your sales director wants to know why the deal is still open. You know the buyer is ready to say yes, yet you keep circling the close with preambles and new details instead of a clear request.",
+    "options": [
+      {
+        "text": "Send a fifth detailed follow-up with three new benefits, so she has even more reasons to say yes.",
+        "correct": false,
+        "why": "Adding material after the buyer has agreed in principle keeps the moment from arriving. Musashi's single beat is quick and clean, and piling on preamble lets the opening close."
+      },
+      {
+        "text": "Send the reference she asked for, then ask one clear question: can we sign the order this week?",
+        "correct": true,
+        "why": "Musashi strikes at once when the ground is ready, without moving the body or showing intent. Providing what was asked, then one clear request, respects that rhythm."
+      },
+      {
+        "text": "Tell her the price rises next month unless she signs today, so the decision cannot drift any further.",
+        "correct": false,
+        "why": "Invented urgency is a false strike that damages trust. A direct, honest question wins without deception, and a manufactured deadline can cost you the buyer."
+      },
+      {
+        "text": "Stop adding material once the reference is sent, ask directly, then wait for her answer without filling the silence.",
+        "correct": true,
+        "why": "Ending the extra material and asking once shows the decision plainly. Waiting in quiet, rather than filling it, gives her room to answer."
+      },
+      {
+        "text": "Wait for her to reach out again, since pushing for the close would make you look desperate in front of her team.",
+        "correct": false,
+        "why": "Hesitating when the moment has come lets the opening pass. Asking clearly is not desperate; it is the single beat Musashi calls for, delivered at the right point."
+      }
+    ],
+    "verses": ["2.15"],
+    "tactic": "single-beat-for-the-close",
+    "lesson": "When the other side is ready, ask once, clearly and without preamble; extra material after agreement only delays the close."
+  },
+  {
+    "id": "c-the-cello-after-three-weeks",
+    "chapter": 2,
+    "domain": "self",
+    "difficulty": 1,
+    "title": "Three Weeks In, Quitting",
+    "scenario": "You started learning the cello two months ago with real energy. You practised three hours a day for the first week, then missed a few sessions and felt guilty, so you tried to catch up with long, exhausting marathons. Now you dread opening the case, and you keep comparing yourself with a friend who began last year. You want to keep going, but your pattern swings between cramming and quitting.",
+    "options": [
+      {
+        "text": "Double your practice each day until you catch up with your friend, since intensity is what separates serious players.",
+        "correct": false,
+        "why": "Cramming after a lapse breaks the path, like swinging a sword too fast to keep control. Sustained practice beats bursts of intensity, which end in burnout."
+      },
+      {
+        "text": "Quit the cello for now and try a skill that comes more naturally, since real talent should feel easy from the start.",
+        "correct": false,
+        "why": "Assuming ease is the sign of a true path makes every hard stage look like failure. Musashi treats early struggle as the normal work of any craft."
+      },
+      {
+        "text": "Set a short daily practice you can keep, and measure each week against your own earlier playing, not your friend's.",
+        "correct": true,
+        "why": "Musashi trains the direct path every day and measures progress against yesterday's self. A short, steady routine is the rhythm that lasts, and self-measurement removes the sting of comparison."
+      },
+      {
+        "text": "Study the advanced method book's theory chapters before touching the instrument again, so you can skip the basics.",
+        "correct": false,
+        "why": "Theory without the hands is cleverness without practice. Musashi insists the body learn the basics before knowledge means anything."
+      },
+      {
+        "text": "Practise only the pieces you already play well, so every session feels successful and the discouragement stops.",
+        "correct": false,
+        "why": "Sticking to what already feels good avoids the very skills you need. The principle is to train your weaker parts, not protect the comfortable ones."
+      }
+    ],
+    "verses": ["2.38", "2.8"],
+    "tactic": "beat-yesterday-self",
+    "lesson": "Train a short, steady path daily and measure yourself against your own past, not against someone who started earlier."
+  }
+]

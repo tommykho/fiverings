@@ -1,0 +1,33 @@
+{
+  "n": 3,
+  "essence": "Choose your opening, read the ground, and stop trouble at its first sign.",
+  "modern_lens": "The Fire scroll is about initiative: deciding when to move first, when to wait for a signal and when to meet the other side halfway, based on what the moment offers. Its images carry straight into meetings, negotiations and home life: set the room so clear thinking is easy, catch problems while they are still small, and keep your steadiness when pressure rises. Every move here works through clarity and timing, never through tricking or hurting anyone.",
+  "key_verse": "3.3",
+  "principles": [
+    {
+      "name": "The Three Openings",
+      "verses": ["3.3"],
+      "gloss": "Choose on purpose whether to move first, respond to a signal, or meet the other side halfway, based on what the situation shows."
+    },
+    {
+      "name": "Stop It at the Start",
+      "verses": ["3.4"],
+      "gloss": "Spot a plan at its first sign and address it before it builds momentum, instead of reacting after it has already spread."
+    },
+    {
+      "name": "Read the Ground",
+      "verses": ["3.2", "3.5"],
+      "gloss": "Pick settings and timing that make clear thinking easy for everyone, and cross big turning points only when conditions support you."
+    },
+    {
+      "name": "Zoom In and Out",
+      "verses": ["3.25"],
+      "gloss": "Move between the small detail and the big picture on purpose, so neither gets lost and decisions stay sharp."
+    },
+    {
+      "name": "Steady Under Pressure",
+      "verses": ["3.13", "3.28"],
+      "gloss": "Your calm spreads to the people around you. Build steadiness in quiet weeks so it holds in loud ones, and never use calm as a trap."
+    }
+  ]
+}

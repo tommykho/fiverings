@@ -1,0 +1,33 @@
+{
+  "n": 1,
+  "essence": "Know the ground, the people and your tools before you move.",
+  "modern_lens": "The Ground scroll is about foundations: know the scale you work at, the people and materials you have, and the standard your work must meet. Modern work rewards the same habit, so assess honestly what you control, what was luck, and what you have not yet tested. It also insists that you use every resource you have and keep training in the basics that everything else rests on.",
+  "key_verse": "1.3",
+  "principles": [
+    {
+      "name": "The Master Carpenter",
+      "verses": ["1.3", "1.4"],
+      "gloss": "Know your materials and your people, assign work by real strength, and hold one standard for everyone."
+    },
+    {
+      "name": "Use Every Tool",
+      "verses": ["1.6", "1.8"],
+      "gloss": "Use the resources you already hold before asking for more, and pick each tool for the job rather than for habit."
+    },
+    {
+      "name": "Hear the Rhythm",
+      "verses": ["1.9"],
+      "gloss": "Read the rhythms of rise and decline in your field and act while a shift is still small enough to change."
+    },
+    {
+      "name": "Count Both Scales",
+      "verses": ["1.5", "1.7"],
+      "gloss": "Keep the small event and the large pattern in view together, because understanding one shows you the other."
+    },
+    {
+      "name": "Train Daily, Honestly",
+      "verses": ["0.1", "1.9"],
+      "gloss": "Practise every day, separate skill from luck, and train your weaker side as seriously as your strong one."
+    }
+  ]
+}

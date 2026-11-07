@@ -1,0 +1,227 @@
+---
+import Base from '../layouts/Base.astro';
+import Seal from '../components/Seal.astro';
+import { u } from '../lib/url.js';
+import { RANKS } from '../lib/ranks.js';
+import { MODES } from '../lib/modes.js';
+---
+<Base title="Dojo Trial" description="Modern duels in three trials of 6, 12 and 20 bouts. Pick every move Musashi would make, get a score and earn your rank, from 入門 Nyūmon to 二天 Niten.">
+  <!-- ================= INTRO ================= -->
+  <section class="wrap fc-intro" data-stage="intro">
+    <div class="fc-intro-grid">
+      <div>
+        <p class="eyebrow" data-reveal>Dojo Trial · 道場試合</p>
+        <h1 data-reveal>Modern duels. <em>How would Musashi fight them?</em></h1>
+        <p class="lede" data-reveal>
+          Each bout is a real modern duel. Pick <strong>every</strong> move Musashi would make: there may be one, two or three.
+          Your score is what you got right against what you missed, as a percentage.
+        </p>
+        <div class="modes" role="radiogroup" aria-label="Trial" data-reveal>
+          {MODES.map((m, i) => (
+            <label class="mode">
+              <input type="radio" name="mode" value={m.id} checked={i === 1} data-mode />
+              <span class="mode-zh brush">{m.ja}</span>
+              <span class="mode-body">
+                <strong>{m.en} · {m.n} bouts</strong>
+                <span>{m.blurb}</span>
+                <em data-mode-best={m.id}></em>
+              </span>
+            </label>
+          ))}
+        </div>
+        <ul class="fc-rules" data-reveal>
+          <li>Bouts cycle: you see new ones each time until the whole bank has been fought</li>
+          <li>Score = correct ÷ (correct + missed)</li>
+          <li>Missed = a right move you left out, or a reckless move you picked</li>
+          <li>Your average decides your rank, from 入門 Nyūmon to 二天 Niten</li>
+        </ul>
+        <div class="fc-cta" data-reveal>
+          <button class="btn btn--seal" type="button" data-start>Begin the trial</button>
+          <a class="btn" href={u('/scrolls/')}>Study the book first</a>
+        </div>
+        <p class="hint" data-best></p>
+        <p class="hint" data-empty hidden>The question bank is being prepared. The bouts will appear here soon.</p>
+      </div>
+      <ol class="ladder" aria-label="Ranks" data-reveal="scale">
+        {[...RANKS].reverse().map((r) => (
+          <li class="ladder-step">
+            <span class="ladder-seal">{r.ja}</span>
+            <span class="ladder-name">{r.en}</span>
+            <span class="ladder-min">{r.min === 0 ? 'under 40%' : `${r.min}%+`}</span>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================= QUIZ ================= -->
+  <section class="wrap fc-quiz" hidden data-stage="quiz" aria-live="polite">
+    <div class="fc-top">
+      <div class="fc-progress">
+        <span class="label" data-counter>Bout 1 / 20</span>
+        <ol class="pips" data-pips aria-hidden="true"></ol>
+      </div>
+      <div class="fc-running"><span class="label">Score so far</span><strong data-running>–</strong></div>
+    </div>
+
+    <div class="fc-grid">
+      <article class="panel scenario" data-scenario-card>
+        <div class="scn-head">
+          <span class="scn-seal" data-q-seal>地</span>
+          <div>
+            <p class="eyebrow" data-q-chapter>The Ground Scroll · 地之巻</p>
+            <div class="card-meta"><span class="chip chip--seal" data-q-domain>Work</span><span class="chip" data-q-diff>●○○</span></div>
+          </div>
+        </div>
+        <h2 class="scn-title" data-q-title>—</h2>
+        <p class="scn-text" data-q-text></p>
+        <p class="scn-ask">Select <strong>every</strong> move Musashi would make.</p>
+        <div class="outcome" hidden data-outcome></div>
+      </article>
+
+      <div class="moves-col">
+        <fieldset class="moves-set" data-options>
+          <legend class="label">Possible moves</legend>
+        </fieldset>
+        <div class="fc-actions">
+          <button class="btn btn--seal" type="button" data-confirm disabled>Confirm moves</button>
+          <button class="btn btn--seal" type="button" data-next hidden>Next bout →</button>
+          <span class="hint keys-hint">Keys: 1–5 toggle · Enter confirm</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= RESULTS ================= -->
+  <section class="wrap fc-results" hidden data-stage="results">
+    <div class="res-hero">
+      <div class="res-seal" data-res-seal>入</div>
+      <div>
+        <p class="eyebrow">Trial complete · 戦果 · <span data-res-mode></span></p>
+        <h1><span data-res-score>0</span>%</h1>
+        <p class="res-rank" data-res-rank>Entered the Gate · 入門</p>
+        <p class="lede" data-res-blurb></p>
+        <div class="fc-cta">
+          <button class="btn btn--seal" type="button" data-restart>Same trial, new bouts</button>
+          <button class="btn" type="button" data-change-mode>Choose another trial</button>
+          <button class="btn" type="button" data-copy-result>Copy my result</button>
+          <a class="btn" href={u('/ask/')}>Ask Musashi about a real duel</a>
+        </div>
+      </div>
+    </div>
+    <div class="res-stats" data-res-stats></div>
+    <h2 class="res-h">Your bouts</h2>
+    <ol class="res-list" data-res-list></ol>
+  </section>
+</Base>
+
+<script src="../scripts/challenge.js"></script>
+
+<style>
+  .fc-intro { padding: 130px 0 80px; }
+  .fc-intro-grid { display: grid; grid-template-columns: 1.3fr 0.7fr; gap: clamp(28px, 6vw, 80px); align-items: center; }
+  .fc-intro h1 em { font-style: italic; color: var(--paper-2); font-weight: 500; }
+  .fc-rules { list-style: none; padding: 0; margin: 0 0 28px; display: grid; gap: 10px; font: 400 0.95rem/1.5 var(--f-ui); color: var(--paper-2); }
+  .fc-rules li { padding-left: 26px; position: relative; }
+  .fc-rules li::before { content: ''; position: absolute; left: 0; top: 0.5em; width: 12px; height: 12px; border-radius: 3px; background: var(--seal); transform: rotate(-6deg); }
+  .fc-rules b { color: var(--paper); }
+  .modes { display: grid; gap: 10px; margin: 0 0 24px; }
+  .mode { display: grid; grid-template-columns: 74px 1fr; gap: 14px; align-items: center; padding: 14px 16px; border: 1px solid var(--line-2); border-radius: 14px; background: rgba(23, 20, 15, 0.8); cursor: pointer; transition: border-color 0.25s, background 0.25s, transform 0.25s var(--ease); }
+  .mode:hover { border-color: var(--paper-3); transform: translateX(3px); }
+  .mode input { position: absolute; opacity: 0; pointer-events: none; }
+  .mode:has(input:checked) { border-color: var(--seal-hi); background: rgba(179, 38, 30, 0.1); }
+  .mode:has(input:focus-visible) { outline: 2px solid var(--seal-hi); outline-offset: 2px; }
+  .mode-zh { font-size: 1.9rem; font-weight: 700; color: var(--paper-3); text-align: center; letter-spacing: 0.04em; }
+  .mode:has(input:checked) .mode-zh { color: var(--seal-hi); }
+  .mode-body { display: grid; gap: 2px; font: 400 0.88rem/1.45 var(--f-ui); color: var(--paper-2); }
+  .mode-body strong { font: 600 1.15rem var(--f-display); color: var(--paper); }
+  .mode-body em { font-style: normal; font-size: 0.78rem; color: var(--gold); }
+  .mode-body em:empty { display: none; }
+  .fc-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 14px; }
+  .ladder { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  .ladder-step { display: grid; grid-template-columns: 44px 1fr auto; gap: 14px; align-items: center; padding: 10px 14px; border: 1px solid var(--line); border-radius: 12px; background: rgba(239, 229, 207, 0.03); }
+  .ladder-step:first-child { border-color: rgba(217, 68, 47, 0.5); background: rgba(179, 38, 30, 0.08); }
+  .ladder-seal { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 5px; background: var(--seal); color: var(--paper); font: 700 1.25rem var(--f-brush); transform: rotate(-4deg); filter: url(#ink-rough); }
+  .ladder-name { font: 600 1.05rem var(--f-display); }
+  .ladder-min { font: 500 0.75rem var(--f-ui); color: var(--paper-3); }
+  @media (max-width: 900px) { .fc-intro-grid { grid-template-columns: 1fr; } }
+
+  .fc-quiz { padding: 110px 0 80px; }
+  .fc-top { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 18px; flex-wrap: wrap; }
+  .fc-progress { flex: 1; min-width: 240px; }
+  .pips { list-style: none; display: grid; grid-template-columns: repeat(20, 1fr); gap: 4px; padding: 0; margin: 8px 0 0; }
+  .pips :global(li) { height: 6px; border-radius: 3px; background: var(--ink-4); transition: background 0.4s; }
+  .pips :global(li.now) { background: var(--paper-2); }
+  .pips :global(li.s-perfect) { background: var(--jade); }
+  .pips :global(li.s-part) { background: var(--gold); }
+  .pips :global(li.s-zero) { background: var(--seal); }
+  .fc-running { text-align: right; }
+  .fc-running strong { display: block; font: 600 2rem/1 var(--f-display); }
+  .fc-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+  @media (max-width: 900px) { .fc-grid { grid-template-columns: 1fr; } }
+  .scenario { position: sticky; top: 88px; }
+  @media (max-width: 900px) { .scenario { position: static; } }
+  .scn-head { display: flex; gap: 14px; align-items: center; margin-bottom: 14px; }
+  .scn-head .eyebrow { margin-bottom: 6px; }
+  .scn-seal { width: 56px; height: 56px; flex: none; display: grid; place-items: center; border-radius: 6px; background: var(--scroll, var(--seal)); color: var(--paper); font: 700 1.05rem/1.05 var(--f-brush); writing-mode: vertical-rl; letter-spacing: 0.05em; transform: rotate(-4deg); filter: url(#ink-rough); }
+  .scn-title { font-size: clamp(1.8rem, 2vw + 1rem, 2.6rem); margin: 0 0 12px; }
+  .scn-text { font-family: var(--f-display); font-size: clamp(1.15rem, 0.6vw + 1rem, 1.35rem); line-height: 1.5; color: var(--paper); }
+  .scn-ask { font: 500 0.88rem var(--f-ui); color: var(--gold); margin: 0; }
+  .outcome { margin-top: 20px; padding-top: 18px; border-top: 1px solid var(--line); display: grid; gap: 14px; }
+  .outcome :global(.oc-score) { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .outcome :global(.oc-score strong) { font: 600 2.6rem/1 var(--f-display); }
+  .outcome :global(.oc-score span) { font: 500 0.85rem var(--f-ui); color: var(--paper-2); }
+  .outcome :global(.oc-lesson) { font-family: var(--f-display); font-size: 1.2rem; font-style: italic; margin: 0; }
+  .outcome :global(.oc-verse) { padding: 14px 16px; border-left: 2px solid var(--seal); background: rgba(239, 229, 207, 0.03); border-radius: 0 10px 10px 0; }
+  .outcome :global(.oc-verse p) { margin: 0 0 6px; font-size: 0.98rem; }
+  .outcome :global(.oc-verse .ja) { color: var(--paper-2); letter-spacing: 0.05em; }
+  .outcome :global(.oc-verse a) { font: 600 0.72rem var(--f-ui); color: var(--seal-hi); text-decoration: none; letter-spacing: 0.08em; }
+  .outcome :global(.oc-links) { display: flex; gap: 8px; flex-wrap: wrap; }
+
+  .moves-set { border: 0; padding: 0; margin: 0; display: grid; gap: 10px; }
+  .moves-set legend { margin-bottom: 10px; padding: 0; }
+  .moves-set :global(.move-opt) { position: relative; display: grid; grid-template-columns: 34px 1fr; gap: 12px; align-items: start; padding: 16px 18px; border: 1px solid var(--line-2); border-radius: 14px; background: rgba(23, 20, 15, 0.8); cursor: pointer; transition: border-color 0.25s, background 0.25s, transform 0.25s var(--ease); }
+  .moves-set :global(.move-opt:hover) { border-color: var(--paper-3); transform: translateX(3px); }
+  .moves-set :global(.move-opt input) { position: absolute; opacity: 0; pointer-events: none; }
+  .moves-set :global(.move-key) { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 8px; border: 1px solid var(--line-2); font: 600 0.8rem var(--f-ui); color: var(--paper-2); transition: all 0.25s; }
+  .moves-set :global(.move-text) { font-size: 1.02rem; line-height: 1.45; }
+  .moves-set :global(.move-why) { grid-column: 2; margin: 6px 0 0; font: 400 0.85rem/1.5 var(--f-ui); color: var(--paper-2); }
+  .moves-set :global(.move-tag) { grid-column: 2; font: 600 0.66rem var(--f-ui); letter-spacing: 0.14em; text-transform: uppercase; }
+  .moves-set :global(.move-opt.is-on) { border-color: var(--paper); background: rgba(239, 229, 207, 0.07); }
+  .moves-set :global(.move-opt.is-on .move-key) { background: var(--paper); color: var(--ink-1); border-color: var(--paper); }
+  .moves-set :global(.move-opt:focus-within) { outline: 2px solid var(--seal-hi); outline-offset: 2px; }
+  .moves-set.is-locked :global(.move-opt) { cursor: default; transform: none; }
+  .moves-set :global(.move-opt.r-hit) { border-color: var(--jade); background: rgba(127, 160, 138, 0.1); }
+  .moves-set :global(.move-opt.r-hit .move-key) { background: var(--jade); border-color: var(--jade); color: var(--ink-1); }
+  .moves-set :global(.move-opt.r-hit .move-tag) { color: #b9d6c2; }
+  .moves-set :global(.move-opt.r-miss) { border-color: var(--gold); border-style: dashed; }
+  .moves-set :global(.move-opt.r-miss .move-tag) { color: #e3c98f; }
+  .moves-set :global(.move-opt.r-wrong) { border-color: var(--seal-hi); background: rgba(179, 38, 30, 0.1); }
+  .moves-set :global(.move-opt.r-wrong .move-key) { background: var(--seal); border-color: var(--seal); color: var(--paper); }
+  .moves-set :global(.move-opt.r-wrong .move-tag) { color: #f6c4b8; }
+  .moves-set :global(.move-opt.r-ok) { opacity: 0.7; }
+  .moves-set :global(.move-opt.r-ok .move-tag) { color: var(--paper-3); }
+  .fc-actions { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-top: 16px; }
+  .keys-hint { margin-left: auto; }
+  @media (max-width: 700px) { .keys-hint { display: none; } }
+
+  .fc-results { padding: 120px 0 100px; }
+  .res-hero { display: grid; grid-template-columns: auto 1fr; gap: clamp(20px, 5vw, 56px); align-items: center; margin-bottom: 40px; }
+  .res-seal { width: clamp(120px, 18vw, 190px); aspect-ratio: 1; display: grid; place-items: center; border-radius: 12px; background: var(--seal); color: var(--paper); font: 700 clamp(4rem, 9vw, 6.5rem)/1 var(--f-brush); box-shadow: inset 0 0 0 6px var(--seal), inset 0 0 0 9px rgba(243, 233, 210, 0.85), 0 30px 60px -25px var(--seal-glow); transform: rotate(-5deg); filter: url(#ink-rough); }
+  .res-hero h1 { margin: 6px 0 0; font-size: clamp(4rem, 10vw, 7.5rem); line-height: 1; }
+  .res-rank { font: 600 clamp(1.4rem, 2vw + 1rem, 2.2rem) var(--f-display); color: var(--gold); margin: 6px 0 10px; }
+  @media (max-width: 640px) { .res-hero { grid-template-columns: 1fr; } }
+  .res-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-bottom: 40px; }
+  .res-stats :global(div) { padding: 16px 18px; border: 1px solid var(--line); border-radius: 12px; background: rgba(239, 229, 207, 0.03); }
+  .res-stats :global(strong) { display: block; font: 600 2rem/1.1 var(--f-display); }
+  .res-stats :global(span) { font: 500 0.72rem var(--f-ui); letter-spacing: 0.12em; text-transform: uppercase; color: var(--paper-3); }
+  .res-h { font-size: 1.8rem; }
+  .res-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  .res-list :global(li) { display: grid; grid-template-columns: 64px 1fr auto; gap: 14px; align-items: center; padding: 12px 16px; border: 1px solid var(--line); border-radius: 12px; }
+  .res-list :global(.rl-pct) { font: 600 1.3rem var(--f-display); }
+  .res-list :global(.rl-pct.p100) { color: var(--jade); }
+  .res-list :global(.rl-pct.p0) { color: var(--seal-hi); }
+  .res-list :global(.rl-title) { font: 600 1.05rem var(--f-display); }
+  .res-list :global(.rl-meta) { display: block; font: 500 0.75rem var(--f-ui); color: var(--paper-3); }
+  .res-list :global(a) { font: 600 0.72rem var(--f-ui); letter-spacing: 0.08em; text-transform: uppercase; color: var(--paper-2); text-decoration: none; white-space: nowrap; }
+</style>

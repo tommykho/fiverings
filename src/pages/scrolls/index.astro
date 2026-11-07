@@ -1,0 +1,58 @@
+---
+import Base from '../../layouts/Base.astro';
+import VerseQuote from '../../components/VerseQuote.astro';
+import { chapters, scrollHref, verseCount, tactics } from '../../lib/content.js';
+const ROMAN = ['', 'I', 'II', 'III', 'IV', 'V'];
+---
+<Base title="The Five Scrolls" description="Ground, Water, Fire, Wind and Void: the five scrolls of Musashi's 五輪書, in the original Japanese with a new English rendering, section by section.">
+  <header class="wrap ov-head">
+    <p class="eyebrow" data-reveal>五輪書 · Go Rin no Sho</p>
+    <h1 data-reveal>Five scrolls. <em>One way of seeing.</em></h1>
+    <p class="lede" data-reveal>
+      Musashi named his scrolls after the five elements of Buddhist cosmology. The Ground lays the foundation, Water trains the body and mind, Fire is the contest itself,
+      Wind studies other schools, and the Void is where practice ends in clear sight. {verseCount} sections, {tactics.length} tactics.
+    </p>
+  </header>
+
+  <ol class="wrap rings">
+    {chapters.map((c) => (
+      <li data-el={c.key} data-reveal>
+        <a class="ring-card" href={scrollHref(c.n)}>
+          <span class="ring-kanji brush el-kanji" aria-hidden="true">{c.el.kanji}</span>
+          <span class="ring-body">
+            <span class="eyebrow">Scroll {ROMAN[c.n]} · <span class="ja">{c.title_ja}</span> · {c.el.romaji}</span>
+            <span class="ring-title">{c.title_en}</span>
+            <span class="ring-essence">{c.essence}</span>
+            <span class="ring-meta">{c.verses.length} section{c.verses.length === 1 ? "" : "s"} · {c.tactics.length} tactics · {c.el.blurb}</span>
+          </span>
+          <span class="ring-go" aria-hidden="true">→</span>
+        </a>
+      </li>
+    ))}
+  </ol>
+
+  <section class="narrow ov-quote">
+    <VerseQuote id="5.1" max={240} />
+  </section>
+</Base>
+
+<style>
+  .ov-head { padding: 120px 0 40px; }
+  .ov-head h1 em { color: var(--paper-2); font-weight: 500; }
+  .rings { list-style: none; margin: 0 auto; padding: 0 0 40px; display: grid; gap: 14px; }
+  .ring-card { display: grid; grid-template-columns: 120px 1fr 40px; gap: 24px; align-items: center; padding: 24px 28px; border-radius: var(--radius); border: 1px solid var(--line); text-decoration: none; background: linear-gradient(90deg, var(--el-soft), transparent 55%); transition: border-color 0.4s, transform 0.5s var(--ease); }
+  .ring-card:hover { border-color: var(--el-line); transform: translateX(6px); color: inherit; }
+  .ring-kanji { font-size: 5.4rem; text-align: center; filter: url(#ink-bleed); }
+  .ring-body { display: grid; gap: 6px; }
+  .ring-body .eyebrow::before { background: var(--el); }
+  .ring-title { font: 600 clamp(1.6rem, 2vw + 1rem, 2.4rem)/1.1 var(--f-display); }
+  .ring-essence { color: var(--paper-2); font-size: 1.05rem; }
+  .ring-meta { font: 500 0.75rem var(--f-ui); color: var(--paper-3); letter-spacing: 0.04em; }
+  .ring-go { font: 500 1.4rem var(--f-ui); color: var(--el); }
+  @media (max-width: 640px) {
+    .ring-card { grid-template-columns: 64px 1fr; padding: 18px; gap: 14px; }
+    .ring-kanji { font-size: 3.2rem; }
+    .ring-go { display: none; }
+  }
+  .ov-quote { padding: 40px 0 100px; }
+</style>

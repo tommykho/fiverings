@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fiverings.pages.dev/sitemap-index.xml

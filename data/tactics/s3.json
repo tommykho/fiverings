@@ -1,0 +1,458 @@
+[
+ {
+  "slug": "choose-your-opening",
+  "title": "Choose Your Opening",
+  "situation": "A project needs a decision, and you cannot tell whether to propose a plan, wait for a signal, or meet the team halfway.",
+  "domain": "work",
+  "tags": ["initiative", "planning", "meetings", "ownership"],
+  "chapter": 3,
+  "principle": "Choose the opening on purpose",
+  "verses": ["3.3"],
+  "scene": "You sit in the planning meeting with six weeks to launch, and nobody has claimed the timeline. You could take the first move by sending a plan before anyone else speaks. You could wait, let the director propose something, then answer with a sharper version of your own. Or you could meet the two other leads halfway, calling each one before the meeting to build a shared draft. These are three ways to start, and the skill is choosing one on purpose. Pick the opening that fits the room, then commit to it fully.",
+  "moves": [
+   {
+    "title": "Name the decision",
+    "detail": "Write one sentence that states the decision on the table, such as who owns the launch timeline. Vague problems invite vague responses. A clear decision tells you which opening will land."
+   },
+   {
+    "title": "Pick your opening",
+    "detail": "Move first when the gap is obvious and nobody else is moving. Wait when the director has more information and a reply costs little. Meet halfway when two people each hold part of the answer. Write your choice on paper before the meeting."
+   },
+   {
+    "title": "Make the first move small and firm",
+    "detail": "Send a short plan with one recommendation and one question. Keep the tone steady, not urgent. Give it a full week before you revise it, so the team sees a stable position rather than a moving target."
+   },
+   {
+    "title": "Watch whether the opening holds",
+    "detail": "After the first response, notice whether the room moved your way. If the director changes direction, switch from leading to responding without defending your original draft. An opening is a starting point, not a script."
+   }
+  ],
+  "script": {
+   "label": "Pre-meeting message",
+   "text": "Hi [Name], before Thursday's launch review I'd like to propose a simple split: I take the timeline draft, you own the vendor contract, and [Name] confirms the staffing plan. I'll share the draft by Tuesday noon with the dates I'm assuming. If any of those assumptions are wrong, tell me before the meeting so we can adjust. Does this split work for you, or is there a piece you'd rather hold?"
+  },
+  "backfire": "Do not move first when the room already has a clear owner who is acting; you will look like you are grabbing credit. Waiting is wrong when the deadline is close and silence will be read as a no. Never use a waiting move to make a colleague look unprepared. If your opening is a trap for someone else, drop it.",
+  "signals": "People in the room start answering your question instead of only reacting to it, and the decision is written down before the meeting ends.",
+  "effort": "hours",
+  "difficulty": 1,
+  "featured": false
+ },
+ {
+  "slug": "pin-the-pillow",
+  "title": "Pin the Pillow",
+  "situation": "A teammate keeps proposing new features mid-sprint that quietly pull the team off the agreed plan.",
+  "domain": "work",
+  "tags": ["roadmap", "scope", "colleague", "focus", "prioritization"],
+  "chapter": 3,
+  "principle": "Stop the move before it starts",
+  "verses": ["3.4"],
+  "scene": "Every Monday a teammate posts a new idea in the team channel. Each one sounds useful, and each one slips a little work into your sprint. Two weeks in, the roadmap has three half-built side projects, and nobody can say why the release is late. Musashi's point is that you stop a move at its first sign, not after it has gathered force. So before the next idea gets built, you catch it at the start: a short question, a clear priority, and a decision about what leaves the plan. Hold the beginning, and the rest never gets going.",
+  "moves": [
+   {
+    "title": "Answer new ideas within a day",
+    "detail": "Reply to every new proposal with a question: what does this replace on the roadmap? Ask for the goal and the rough cost before anyone opens a branch. The question alone often stops the work from starting."
+   },
+   {
+    "title": "Post the priority list in writing",
+    "detail": "Put the current top three roadmap items where everyone can see them. Refer to that list whenever a new idea appears, so the discussion begins from the agreed order rather than from memory or mood."
+   },
+   {
+    "title": "Offer a backlog, not a flat no",
+    "detail": "Create a backlog section for good ideas. Add the new proposal there with the teammate's name and a review date. This keeps their energy alive and removes the disruption from the current sprint."
+   },
+   {
+    "title": "Talk one-to-one before the group",
+    "detail": "Meet the teammate privately before raising it in front of others. Say what you value in their ideas, then state the constraint: the sprint is fixed until the date. Agree together on where future proposals should go."
+   }
+  ],
+  "script": {
+   "label": "Direct message",
+   "text": "Hi [Name], I like the thinking behind the [idea] proposal and want it to get a fair review. Right now the sprint is locked on [top priority] until [date], and I don't want new work pulling people off it mid-cycle. Could you write a short note with the goal, the expected cost and what it would replace? I'll add it to the backlog review on [day] so it gets a real decision. Does that work for you?"
+  },
+  "backfire": "Do not use this to shut down every new idea or to hide weak work behind process. If the proposal is good, say so and change the roadmap in the open. Never go around the teammate to your manager without telling them first, and never frame the conversation as a trap. If the pattern continues after a clear talk, escalate with specific examples, not with comments about their character.",
+  "signals": "New proposals arrive with a goal and a cost attached, the team refers to the priority list without prompting, and the sprint closes with its committed scope intact.",
+  "effort": "days",
+  "difficulty": 2,
+  "featured": true
+ },
+ {
+  "slug": "cross-at-the-ford",
+  "title": "Cross at the Ford",
+  "situation": "You want to switch into a new role, but the timing, the market and your own readiness are not yet clear.",
+  "domain": "career",
+  "tags": ["career change", "timing", "risk", "decision", "offer"],
+  "chapter": 3,
+  "principle": "Read the water, then choose the moment",
+  "verses": ["3.5"],
+  "scene": "A strong offer to lead a new product area lands in your inbox on a Friday. It would stretch you, and the team you would leave is in the middle of a hard quarter. Musashi's ford is a crossing you cannot skip, but you can prepare for it. You read the water first, know your boat, and then choose the moment. You list what the new role needs, what your current job looks like, and which of your skills are proven rather than hoped for. Then you pick a crossing window and accept that the wind may shift halfway over. The move is not courage alone. It is a clear reading of the sea.",
+  "moves": [
+   {
+    "title": "Read the water",
+    "detail": "Write down what the new role needs in its first six months and where your current experience matches. Mark the gaps honestly. Ask two people who have held the job how they spent their first half year."
+   },
+   {
+    "title": "Check both shores",
+    "detail": "Note the state of your current team, your savings runway and the hiring market for your role. Set a decision window of two to four weeks, so you cross when conditions line up rather than when anxiety peaks."
+   },
+   {
+    "title": "Plan a clean handover",
+    "detail": "Before you commit, describe how your current work would transfer: open items, the people who depend on you, and the dates that matter. A clean handover makes the crossing easier and protects the relationships you still need."
+   },
+   {
+    "title": "Set the turn-back point",
+    "detail": "Decide in advance what would make you pause, such as the new role changing scope or the offer terms falling. Put that checkpoint in your calendar. If the wind turns, head for the nearest harbor rather than pushing on blindly."
+   }
+  ],
+  "script": {
+   "label": "Note to your manager",
+   "text": "Hi [Manager], I've received an offer for a [role] on [team]. I want to be open with you before I decide, because I care about the work we're finishing this quarter. Here is what I would need to hand over: [items and dates]. Could we spend 30 minutes this week on how we would cover those, and whether there is a version of my current work that keeps me engaged? I'm available on [day]."
+  },
+  "backfire": "Do not cross based on one bad week or a grudge against your current team; the water looks worse from the shore on a rough day. Never use an offer you do not hold as leverage, because a bluff gets found out and managers remember. If the new role depends on promises nobody has written down, get them in writing first or wait.",
+  "signals": "You can explain the decision in three sentences to someone you trust, your handover list is shared, and you feel steady rather than rushed when the decision day arrives.",
+  "effort": "days",
+  "difficulty": 2,
+  "featured": false
+ },
+ {
+  "slug": "rats-head-oxs-neck",
+  "title": "Rat's Head, Ox's Neck",
+  "situation": "Your team is stuck debating small details of a report, and nobody is checking whether it answers the real question.",
+  "domain": "work",
+  "tags": ["focus", "meetings", "detail", "priorities", "review"],
+  "chapter": 3,
+  "principle": "Hold the small and the large together",
+  "verses": ["3.25"],
+  "scene": "The review meeting has become a fight over fonts, chart colors and the wording of one footnote. Forty minutes in, nobody has asked whether the report answers the question the client actually posed. You feel the pull to join the detail debate and win it. Musashi's image of the rat's head and the ox's neck asks you to hold both sizes at once: the small point in front of you and the whole shape of the thing. So you name the switch out loud: 'Let's zoom out for one minute.' Then you return to the small point with a clearer sense of what it is for.",
+  "moves": [
+   {
+    "title": "Name the two levels",
+    "detail": "Tell the group you are changing altitude. Ask one question at the top level, such as what decision the report must support. Keep the question short and specific so people can answer it in a sentence."
+   },
+   {
+    "title": "Write the purpose in one line",
+    "detail": "Put the purpose on the shared screen. Check every open detail against it: keep what serves the decision, mark what does not, and park the rest on a list for later."
+   },
+   {
+    "title": "Zoom in on one item at a time",
+    "detail": "Take the most important detail and settle it in five minutes or less. Then return to the purpose line. Repeat the switch as needed, rather than staying at one altitude for the whole meeting."
+   },
+   {
+    "title": "Practice the switch outside meetings",
+    "detail": "When you are stuck on a personal task, such as a household budget or a home project, spend two minutes on the big picture before you return to the detail. Build the habit when the stakes are low."
+   }
+  ],
+  "script": {
+   "label": "Meeting opener",
+   "text": "Before we go further on the footnotes, let's take one minute to check the big picture. The question this report has to answer is [question]. Based on that, can we agree which three sections matter most? I'll put the open detail items on a parking list, and we'll come back to each one once the priorities are agreed. Does that sound right?"
+  },
+  "backfire": "Do not use the zoom-out to dodge a detail that is actually wrong. If a footnote contains a factual error, fix it now. Do not overuse the switch, because a meeting that is all big picture finishes nothing. Avoid cutting off a colleague who cares about a detail for a good reason; ask what the detail protects.",
+  "signals": "The group agrees on the purpose line during the meeting, parked items get a named next step, and detail debates end after a few minutes rather than dragging on.",
+  "effort": "minutes",
+  "difficulty": 1,
+  "featured": false
+ },
+ {
+  "slug": "know-the-troops",
+  "title": "Know the Troops",
+  "situation": "You have just been given a team, and you don't yet know what each person does well or what they need from you.",
+  "domain": "work",
+  "tags": ["leadership", "new team", "one-to-one", "delegation", "trust"],
+  "chapter": 3,
+  "principle": "Learn the people before you place them",
+  "verses": ["3.26"],
+  "scene": "On Monday you inherit a team of seven. You know their job titles, but not their habits. One engineer goes quiet when stress rises. Another comes alive with clear deadlines and writes the best documentation you have seen. The commander's task, in Musashi's terms, is to know the whole group well enough to place each person where their strengths travel furthest. You do not guess. You learn. By the end of the week you have a map: who is steady under pressure, who needs a quieter start, and what each person wants to be trusted with.",
+  "moves": [
+   {
+    "title": "Hold one-to-ones in the first two weeks",
+    "detail": "Schedule thirty-minute conversations with each person. Ask what they are proud of, where they get stuck and how they like feedback. Write three notes after each meeting: strengths, friction and what they asked you for."
+   },
+   {
+    "title": "Watch the work, not only the reports",
+    "detail": "Read recent tickets, pull requests or client notes. Notice where each person's effort goes and where delays begin. Compare what you saw with what they told you, and look for the gaps between them."
+   },
+   {
+    "title": "Assign with clear edges",
+    "detail": "For each person, match a task to a strength and set its boundaries: which decisions they own and what they escalate, and by when. Tell them why you chose the assignment so your reasoning is visible and open to challenge."
+   },
+   {
+    "title": "Update the map every month",
+    "detail": "Revise your notes monthly, because people change as projects change. Ask one question at each check-in: what would help you do your best work this month?"
+   }
+  ],
+  "script": {
+   "label": "Team check-in",
+   "text": "Hi [Name], I'm meeting everyone this month to learn how I can support your work. I've noticed you do strong work when deadlines are clear, and I want to build on that. Could we talk for 30 minutes this week? I'd like to hear what's working, what gets in your way, and what you'd want from me next quarter. Nothing is decided yet; I want your view first."
+  },
+  "backfire": "Do not treat people as pieces to be placed without their knowledge. Private notes that you use to steer people against their own interests break trust fast and are unfair. Share the reasoning behind assignments and let people correct your map. Do not use this to build leverage over peers in a team you do not lead.",
+  "signals": "People bring problems to you earlier than before, assignments are accepted without surprise, and each team member can explain why their work suits their strengths.",
+  "effort": "days",
+  "difficulty": 2,
+  "featured": false
+ },
+ {
+  "slug": "stand-in-their-place",
+  "title": "Stand in Their Place",
+  "situation": "A key client keeps pushing back on price, and you cannot yet see what is driving their determination.",
+  "domain": "business",
+  "tags": ["negotiation", "client", "pricing", "empathy", "proposal"],
+  "chapter": 3,
+  "principle": "Assume a capable counterpart and find their real constraint",
+  "verses": ["3.9"],
+  "scene": "The procurement lead has rejected your proposal twice, and her emails are getting shorter. You have been rehearsing rebuttals instead of listening. Musashi's rule is to stand in the other person's place and assume the opponent is capable and determined. So you ask: what does she answer to? Her budget is frozen until March, her director wants a second supplier, and she was burned by a launch that slipped. Your price is not the whole problem; her risk is. You rewrite the proposal around that risk, and the next meeting begins with her worries instead of yours.",
+  "moves": [
+   {
+    "title": "List their constraints, not their words",
+    "detail": "Write down what the other side must deliver to their own boss: budget, timing, approval rules and reputation. Mark which items you know and which you are guessing. Guesses are fine as long as they are labeled."
+   },
+   {
+    "title": "Assume they are well prepared",
+    "detail": "Plan as if the buyer has done careful homework and knows your alternatives. Write the strongest version of their objection, then write your honest answer to it before you speak to them."
+   },
+   {
+    "title": "Test your reading before you pitch",
+    "detail": "On the next call, ask one open question: what would a good outcome look like on your side? Listen for the constraint behind the price objection and adjust the proposal to fit it."
+   },
+   {
+    "title": "Offer options that fit their risk",
+    "detail": "Prepare two or three packages, such as a phased start, a shorter pilot or a price tied to delivery milestones. Make each option one they could defend in their own review."
+   }
+  ],
+  "script": {
+   "label": "Follow-up email",
+   "text": "Hi [Name], thank you for the detail on your review timeline. I've been thinking about the risk you described around [concern], and I'd like to propose two options that address it directly: a 90-day pilot at [price], or the full contract with payments tied to [milestones]. Which is closer to what your review board can approve? If neither fits, tell me the constraint and I'll rework the proposal before Friday."
+  },
+  "backfire": "Do not use this to push a counterpart into a deal they would regret, such as inventing urgency or exploiting a weakness you noticed in their position. Do not promise what you cannot deliver just to win the signature. If their real need is something your product cannot do, say so and point them elsewhere. Trust is the asset you keep after the deal.",
+  "signals": "The counterpart names the constraint they had been holding back, the conversation moves from price to terms, and their next step comes with a date.",
+  "effort": "days",
+  "difficulty": 2,
+  "featured": false
+ },
+ {
+  "slug": "read-the-momentum",
+  "title": "Read the Momentum",
+  "situation": "A competitor has just launched a similar feature, and you are deciding whether to respond now or wait.",
+  "domain": "business",
+  "tags": ["competitors", "timing", "market", "messaging", "launch"],
+  "chapter": 3,
+  "principle": "Respond to the real current, not the loudest noise",
+  "verses": ["3.6"],
+  "scene": "A rival's launch video drops on a Tuesday, and your sales channel fills with questions. Your instinct says to announce something bigger this week. Musashi's reading of momentum asks a different question: what is actually moving? You check the signals: whether customers are switching, which accounts are asking, and whether the press is interested or only noticing. The rhythm suggests the attention will last about a week before it goes quiet. So you prepare a calm, accurate comparison and publish it on the day your customers are asking. It lands because you read the current before you swam into it.",
+  "moves": [
+   {
+    "title": "Gather three kinds of signal",
+    "detail": "Check customer questions in support tickets, win-loss notes from the last two months and industry coverage. Count how many of each arrive per day. You are looking for the direction and speed of change, not for one loud message."
+   },
+   {
+    "title": "Separate noise from movement",
+    "detail": "Mark each signal as one-off, repeated or accelerating. Only repeated or accelerating signals should change your plan. Write the reasoning down so the team can see why you chose a response."
+   },
+   {
+    "title": "Choose the response window",
+    "detail": "Pick a date based on when your customers are paying attention. If interest peaks within a week, have your response ready inside that week. Do not respond simply because a response feels expected."
+   },
+   {
+    "title": "Answer with checked facts",
+    "detail": "Write a plain comparison: what the rival offers, what you offer, where each is stronger and what you will do next. Have a colleague verify every claim before it goes out."
+   }
+  ],
+  "script": {
+   "label": "Customer email",
+   "text": "Hi [Name], you may have seen [competitor]'s announcement about [feature] this week. Here is how we approach the same need: [your approach], which gives you [specific benefit] and keeps [another benefit] under your control. Where they are stronger today: [honest point]. If it helps, I'd be glad to walk you through both options on a 20-minute call. Would [day] work?"
+  },
+  "backfire": "Do not answer every rival move; reacting to noise drains the team and signals fear. Never make claims about a competitor that you cannot verify, and never spread rumors about their product or staff. A late but accurate response beats a fast, wrong one. If the change is real and threatens your core business, stop and rethink strategy rather than only answering the headline.",
+  "signals": "Sales conversations cite your comparison without prompting, customer questions become more specific, and you can explain the decision without repeating the rival's wording.",
+  "effort": "days",
+  "difficulty": 2,
+  "featured": false
+ },
+ {
+  "slug": "mountain-then-sea",
+  "title": "Mountain, Then Sea",
+  "situation": "Your standard sales pitch has failed with three prospects in a row, and you keep running the same script.",
+  "domain": "business",
+  "tags": ["sales", "pitch", "prospects", "conversion", "process"],
+  "chapter": 3,
+  "principle": "Never repeat a failing approach a third time",
+  "verses": ["3.22"],
+  "scene": "Three demos in a row end the same way: a polite thank-you, then silence. Your opening slide is the one you used last year, with the same discount and the same closing question. You can see the pattern, but you keep running it because it is familiar. Musashi's mountain and sea warns against a third try of a move that has already failed. So you stop, look at the last three calls, and choose a completely different shape. You lead with the prospect's problem instead of your product, and you ask them to walk you through their current process. Where the mountain was, you now offer the sea.",
+  "moves": [
+   {
+    "title": "Stop after two misses",
+    "detail": "Write down the opening, the offer and the close from your last two or three calls. Mark what stayed the same each time. Do not run that structure a third time without changing it."
+   },
+   {
+    "title": "Choose the opposite shape",
+    "detail": "If you usually open with a product walkthrough, open with a question about their current process and what the problem costs them. If you usually send long proposals, send a one-page summary and ask for their edits."
+   },
+   {
+    "title": "Test the new shape on five calls",
+    "detail": "Run the new approach for five calls and record what each prospect said in the first few minutes. Note the moment the conversation changed, not only the final outcome."
+   },
+   {
+    "title": "Keep the old tool in reserve",
+    "detail": "Do not discard what worked elsewhere. Return to the familiar pitch when a prospect asks directly for a product tour. The goal is to match the shape to the person, not to find a new script to repeat."
+   }
+  ],
+  "script": {
+   "label": "Follow-up message",
+   "text": "Hi [Name], I've been thinking about what you said about [problem] on our call. Instead of another product walkthrough, could I ask a few questions about how your team handles [process] today? Ten minutes is enough. Then I'll tell you honestly whether we're a fit, and if we're not, I'll say so and point you to a better option."
+  },
+  "backfire": "Do not switch approaches so often that prospects cannot tell what you offer. Do not use a new pitch to hide a weak product or an uncompetitive price; the shape of a pitch cannot rescue a bad offer. Never invent a problem to get a prospect to agree. If they do not have the problem, say so and stop.",
+  "signals": "Prospects describe their own problem in their own words before you name a solution, and calls that use the new shape end with a concrete next step more often than before.",
+  "effort": "days",
+  "difficulty": 2,
+  "featured": false
+ },
+ {
+  "slug": "choose-the-ground",
+  "title": "Choose the Ground",
+  "situation": "You need a hard conversation with a teenager about their grades, and every attempt at home turns into a fight.",
+  "domain": "family",
+  "tags": ["family", "difficult talk", "teenager", "calm", "conversation"],
+  "chapter": 3,
+  "principle": "Pick a setting where both of you can speak plainly",
+  "verses": ["3.2"],
+  "scene": "The kitchen table is where every conversation ends in an argument. Your daughter is on her phone, the dishes are still in the sink, and you have raised her grades before saying hello. Musashi's advice on ground begins with a simple question: where do you stand, and what does the place do to the other person? You choose a quieter spot: a walk around the block, a Saturday morning coffee, or the front seat of a parked car, where neither of you has to hold a stare. You make sure the light is on her face, not in her eyes. You are not winning a position. You are making the space easy for both of you to speak honestly.",
+  "moves": [
+   {
+    "title": "Pick a neutral, calm place",
+    "detail": "Choose somewhere that is not the site of past fights, such as a walk, a drive or a quiet cafe. Avoid the minutes before a deadline or a meal. Let the other person know ahead of time that you want to talk and roughly when."
+   },
+   {
+    "title": "Arrange the space for clarity",
+    "detail": "Sit at an angle rather than face to face, with a clear view of each other and no screen between you. Keep the light even and the door unlocked. The aim is comfort and visibility, not a dominant seat."
+   },
+   {
+    "title": "Open with the shared goal",
+    "detail": "Say what you both want before naming the problem: 'I want you to get the grades you are capable of and still have time for your friends.' Then describe the specific issue in one sentence, without a list of past mistakes."
+   },
+   {
+    "title": "Leave a way to continue",
+    "detail": "End with one small choice and a time to revisit it: 'Let's pick one change this week and check in on Sunday.' A conversation that can continue later is easier to face than one that must be finished now."
+   }
+  ],
+  "script": {
+   "label": "Text before the talk",
+   "text": "Hey [Name], I'd like to talk with you about school this week. It's not a big deal, just a chance to figure out how I can help. Could we take a walk after dinner on [day]? No phones, just us for about 20 minutes. If another time is better, tell me and we'll pick one."
+  },
+  "backfire": "Do not use a calm setting to ambush someone or to corner them. If they refuse or leave, honor that and try again later. In a relationship where someone is afraid of you, skip this and reach out to a counselor or support service first. Never record or track someone to build a case.",
+  "signals": "The other person stays in the conversation longer than usual, names one thing they will try, and agrees on a time to check in again.",
+  "effort": "minutes",
+  "difficulty": 1,
+  "featured": false
+ },
+ {
+  "slug": "let-calm-travel",
+  "title": "Let Calm Travel",
+  "situation": "Your partner comes home agitated after a bad day, and tension fills the house within minutes.",
+  "domain": "family",
+  "tags": ["emotions", "partner", "calm", "listening", "household"],
+  "chapter": 3,
+  "principle": "Your steadiness sets the room's rhythm",
+  "verses": ["3.13"],
+  "scene": "The door bangs, your partner drops the bag and starts listing everything that went wrong at work. Within two minutes your shoulders are tight, the kids have gone quiet and dinner is becoming a silent standoff. Musashi observed that moods pass from one person to another, the way a yawn spreads across a room. You know this from the inside. Here you can choose what you send out. You slow your breathing, lower your voice, and say, 'That sounds exhausting. Tell me the worst part.' Your calm does not fix the day, but it gives the room a steadier rhythm to follow.",
+  "moves": [
+   {
+    "title": "Notice the spread",
+    "detail": "Name the mood in your own body first: a tight jaw, faster speech, a rising voice. Once you notice it, you can adjust it. Take three slow breaths before answering anything charged."
+   },
+   {
+    "title": "Slow your pace on purpose",
+    "detail": "Speak a little more slowly than the other person, pause before you answer and lower your volume a notch. People tend to match a steady pace without noticing. Keep it genuine; do not use it to win the argument."
+   },
+   {
+    "title": "Reflect before advising",
+    "detail": "Repeat back the main point in your own words: 'So the client changed the scope again and you got blamed.' Wait for a nod before offering any suggestion. Feeling heard lowers the temperature faster than solutions do."
+   },
+   {
+    "title": "Choose the next step together",
+    "detail": "When the mood has softened, ask what the other person needs now: a break, a plan, or just to vent. Do not raise the hard topic until both of you can hear it clearly."
+   }
+  ],
+  "script": {
+   "label": "Spoken at the table",
+   "text": "That sounds like a long, frustrating day. I'm not going to fix it tonight, but I'm listening. What was the hardest part? Okay. Would you like to eat first and talk about the plan tomorrow, or do you need to unwind a bit more before we decide anything?"
+  },
+  "backfire": "Do not fake calm to lower someone's guard and then raise an issue they are not ready for. Calm used as a trap breaks trust quickly. If the anger is a pattern that feels unsafe, your calm is not the answer: step away and get help from a counselor or support service. Do not use this to shut down a legitimate complaint that needs airing.",
+  "signals": "The voices in the room get quieter over several minutes, the other person starts to explain rather than accuse, and you agree on a next step without a second argument.",
+  "effort": "minutes",
+  "difficulty": 2,
+  "featured": false
+ },
+ {
+  "slug": "see-collapse-early",
+  "title": "See the Collapse Early",
+  "situation": "Your sleep, training and spending have each slipped a little, and the routine is quietly falling apart.",
+  "domain": "self",
+  "tags": ["habits", "routine", "sleep", "money", "early warning"],
+  "chapter": 3,
+  "principle": "Catch the break while it is small",
+  "verses": ["3.8"],
+  "scene": "Week one, you skip a workout for a deadline. Week two, you sleep five hours and tell yourself it is temporary. By week four you are ordering takeout every night, and the budget has a hole you have not wanted to open. Musashi says collapse shows itself at the moment the rhythm breaks, and a good practitioner does not look away at that point. You have looked away every time. Today you open your notes, read the last month in one pass and mark the first break: the short night on the 3rd. You restore one habit that same evening, before the rest follows.",
+  "moves": [
+   {
+    "title": "Track three rhythms for a month",
+    "detail": "Pick sleep, training and spending, and log each one daily in a single short line. Simple tracking is enough. Note the first day each number drifts from your normal range."
+   },
+   {
+    "title": "Set a break-point rule",
+    "detail": "Decide in advance what counts as the start of collapse: three short nights in a row, two skipped sessions, or one budget category over its limit. Put a weekly review on your calendar to check against that rule."
+   },
+   {
+    "title": "Restore one habit, not everything",
+    "detail": "At the first sign of breakdown, bring back the smallest version of the habit the same day: a 20-minute walk, a fixed bedtime alarm, a standing look at the card balance. A small fix at the start beats an overhaul in week six."
+   },
+   {
+    "title": "Find the trigger, not only the symptom",
+    "detail": "Ask what changed in the week the drift began: a heavier work load, a strained relationship, a longer commute. Address that trigger, or the habit will slip again at the next busy patch."
+   }
+  ],
+  "script": {
+   "label": "Weekly note to self",
+   "text": "Weekly check, [date]. Sleep averaged [hours]. Training done [sessions] of [planned]. Spending [over or under] in [category]. First break point: [date and what happened]. Fix for this week: [one small habit], starting tonight. Trigger I noticed: [cause]. Review again on Sunday."
+  },
+  "backfire": "Do not use this to punish yourself for every off day. Tracking turns harmful when it becomes a score you hide from. If poor sleep or low mood continues for weeks, see a doctor or a mental health professional rather than tuning the routine alone. A single off week is not collapse; a rhythm has to break several times before it is a pattern.",
+  "signals": "You notice a drift within days rather than weeks, the fix you chose takes under an hour to start, and your routine stays inside its normal range through the next busy period.",
+  "effort": "days",
+  "difficulty": 1,
+  "featured": false
+ },
+ {
+  "slug": "boulder-body",
+  "title": "The Boulder Body",
+  "situation": "A run of setbacks in one week has you answering every message as if it were an emergency.",
+  "domain": "self",
+  "tags": ["stress", "steadiness", "overwhelm", "priorities", "breathing"],
+  "chapter": 3,
+  "principle": "Steadiness is practiced, not owned",
+  "verses": ["3.28"],
+  "scene": "Monday the car needs a repair. Tuesday your manager moves a deadline up. Wednesday a friend cancels dinner and a bill arrives twice. By Thursday you answer every notification at once, half-finished, and your chest is tight before you even open email. Musashi's boulder body describes a state that nothing strikes and nothing moves. He notes that its secret is passed on in person, and that it is something you work at. In plain terms, you practice it. You turn the phone face-down, take two slow breaths, and sort the pile into three columns: what must happen today, what can wait, and what is noise. Only then do you pick up the first item.",
+  "moves": [
+   {
+    "title": "Pause before the next reply",
+    "detail": "When pressure spikes, stop for one minute before answering anything. Put the device face-down, breathe out slowly twice and notice what your shoulders and jaw are doing. That pause is the first move of steadiness."
+   },
+   {
+    "title": "Sort the pile into three columns",
+    "detail": "Write the open items under must-do today, can wait, and noise. Keep it on paper. Watching the list shrink usually lowers the sense of threat more than reassurance would."
+   },
+   {
+    "title": "Pick one anchor task for the hour",
+    "detail": "Choose a fixed task, such as the proposal section or the errand list, and do only that for 45 minutes. A steady task gives your body a rhythm to hold while the rest of the week moves around it."
+   },
+   {
+    "title": "Practice when things are calm",
+    "detail": "Each evening, spend five minutes on the same breathing and sorting routine, even when nothing is wrong. Steadiness under pressure is a skill built in quiet weeks."
+   }
+  ],
+  "script": {
+   "label": "Message to a friend",
+   "text": "Hey [Name], I'm having a rough week and I've lost my footing a bit. I'm not in crisis, just overloaded. Could we move dinner to next Thursday? I really want to see you, and I'll confirm by Sunday. Thanks for being flexible."
+  },
+  "backfire": "Do not use steadiness to avoid real problems or to ignore a message that needs urgent action. Calm is not detachment: if someone is hurt, or a deadline carries legal consequences, you act now. If you feel overwhelmed most days, or panic symptoms persist, speak with a doctor or counselor rather than relying on a pause alone.",
+  "signals": "You reply to messages later than you used to but with fewer mistakes, you can name the one task that matters today, and your body settles within a few minutes of a pause.",
+  "effort": "minutes",
+  "difficulty": 1,
+  "featured": false
+ }
+]

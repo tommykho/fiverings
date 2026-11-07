@@ -1,0 +1,33 @@
+{
+  "n": 2,
+  "essence": "Stay calm and open, move with the water, and press steadily rather than harder.",
+  "modern_lens": "The Water Book is about turning principles into habits: posture, grip, timing and a wide view that work under pressure as well as on an ordinary Tuesday. Its central image is water, which takes the shape of what it meets and keeps its weight. For modern work and life, that means steady routines, honest tests of your position, and a flexible plan with a fixed aim.",
+  "key_verse": "2.2",
+  "principles": [
+    {
+      "name": "Everyday Mind",
+      "verses": ["2.2", "2.3"],
+      "gloss": "Carry the same calm, upright bearing into ordinary days that you would bring to a high-stakes moment. The daily habits are the preparation."
+    },
+    {
+      "name": "Two Ways of Seeing",
+      "verses": ["2.4"],
+      "gloss": "Hold the whole picture firmly and the details lightly. Fixating on one worry blinds you to the rest of the room."
+    },
+    {
+      "name": "Stance Without Stance",
+      "verses": ["2.7", "2.14"],
+      "gloss": "Keep the aim fixed and change the shape of your approach as the situation moves. A position is a tool, not an identity."
+    },
+    {
+      "name": "Steady Pressure",
+      "verses": ["2.18", "2.25", "2.27"],
+      "gloss": "Press with calm, continuous weight and stay attached to the problem without clutching. Sudden force tends to open gaps."
+    },
+    {
+      "name": "Practice Until It Is Yours",
+      "verses": ["2.37", "2.38"],
+      "gloss": "Take the core method and train it until the body knows it. Measure progress against your own past, one day at a time."
+    }
+  ]
+}

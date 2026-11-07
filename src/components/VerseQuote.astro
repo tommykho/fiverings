@@ -1,0 +1,23 @@
+---
+// A cited passage: the project's English (excerpt) + the original Japanese (excerpt), linked to its section.
+import { getVerse, verseHref, chapterOf, excerpt } from '../lib/content.js';
+const { id, compact = false, max = 260 } = Astro.props;
+const v = getVerse(id);
+const ch = v ? chapterOf(v.ch) : null;
+const firstJa = v ? v.paragraphs[0].ja : '';
+---
+{v && (
+  <figure class="quote" data-reveal data-el={ch.key}>
+    <blockquote>
+      <p class="quote-en">{excerpt(v.paragraphs[0].en, max)}</p>
+      {!compact && <p class="quote-ja ja" lang="ja">{firstJa.length > 90 ? firstJa.slice(0, 88) + '…' : firstJa}</p>}
+    </blockquote>
+    <cite>Musashi · <a href={verseHref(id)}>{ch.title_ja} {v.label} · {v.title_en}</a></cite>
+  </figure>
+)}
+
+<style>
+  .quote-ja { color: var(--paper-2); letter-spacing: 0.06em; margin: 0 0 14px; line-height: 1.9; }
+  .quote cite a { color: var(--el); }
+  .quote::before { color: var(--el); }
+</style>

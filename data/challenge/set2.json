@@ -1,0 +1,610 @@
+[
+  {
+    "id": "c-fire-three-openings",
+    "chapter": 3,
+    "domain": "work",
+    "difficulty": 2,
+    "title": "Three Openings, One Decision",
+    "scenario": "You lead a six-person analytics team, and your director has asked whether to move the reporting stack to a new platform before quarter end. She has said nothing more since Monday, but two engineers are already arguing about it in the hallway and in chat. The decision meeting is in three days. Three paths are open to you: frame the question yourself before the arguments harden, wait for her signal, or meet her concerns halfway in a joint working session. Your own view is still forming.",
+    "options": [
+      {
+        "text": "Send your director a one-page proposal before Thursday that frames the decision and suggests a concrete first step.",
+        "correct": true,
+        "why": "Taking the first move means setting the terms of the debate. A clear proposal gives the decision its shape before hallway opinions do."
+      },
+      {
+        "text": "Wait for your director to raise it, then answer whatever question she asks in the meeting.",
+        "correct": false,
+        "why": "Waiting only works when the other side's move gives you a real opening. Here it hands the framing to the loudest voices and gives up the first move."
+      },
+      {
+        "text": "Set a short working session with your director and both engineers to test the costs together before anyone decides.",
+        "correct": true,
+        "why": "Meeting the question in the middle means engaging the real concerns with the people who hold them, so you see the actual weak points instead of arguing from assumptions."
+      },
+      {
+        "text": "Start the migration quietly this week, so the decision is already made when the meeting arrives.",
+        "correct": false,
+        "why": "Acting without consent turns a strategic question into a surprise. Spending resources before reading the conditions creates a fight you did not need."
+      },
+      {
+        "text": "Let the deadline decide by itself, and say nothing until the platform choice is forced on everyone.",
+        "correct": false,
+        "why": "Letting the calendar choose is passivity. The initiative belongs to whoever reads the moment and picks the opening on purpose."
+      }
+    ],
+    "verses": ["3.3", "3.6"],
+    "tactic": "choose-your-opening",
+    "lesson": "Before a decision lands, choose your opening: frame it or meet the concerns yourself, and never let the calendar set the terms."
+  },
+  {
+    "id": "c-fire-pin-the-scope",
+    "chapter": 3,
+    "domain": "work",
+    "difficulty": 2,
+    "title": "The Scope Creep Standup",
+    "scenario": "Your product team is halfway through a two-week sprint. Your teammate Priya has begun sketching a new dashboard feature, and in standup she says she will mention it to the leads when it is ready. You can already see that it would take a week and pull two engineers off the committed checkout work. Sprint planning is tomorrow, and the leads like Priya's energy. You want the idea to stop before it becomes a commitment, without making her feel shut down.",
+    "options": [
+      {
+        "text": "Before standup ends, ask Priya to write the idea down with its cost, and name the committed item it would displace.",
+        "correct": true,
+        "why": "Stopping a move at its first sign means naming its cost while it is still an idea. Making the displacement visible blocks the commitment before it takes shape."
+      },
+      {
+        "text": "Argue against the dashboard in front of the whole team, then insist the sprint plan stays exactly as it is.",
+        "correct": false,
+        "why": "A public fight turns a planning question into a contest of pride. Forcing the plan without reading her intent produces resistance, not a stopped move."
+      },
+      {
+        "text": "Say nothing today, finish your own tasks, and handle the dashboard only if it ever reaches the leads.",
+        "correct": false,
+        "why": "Waiting until a move reaches full strength gives it the initiative. By the time the leads see it, its momentum is hard to stop."
+      },
+      {
+        "text": "Let Priya pitch the dashboard at planning tomorrow, then ask the room to vote on it immediately.",
+        "correct": false,
+        "why": "Letting the idea grow in the open gives it room before anyone checks its cost. A quick vote moves on feeling rather than on the facts that matter here."
+      },
+      {
+        "text": "Mention the dashboard to the leads yourself today, framed as a risk, so they hear your version first.",
+        "correct": false,
+        "why": "Carrying the matter over Priya's head before talking to her breaks trust and shifts the contest to a new front. You stop the move by reading it, not by going around it."
+      }
+    ],
+    "verses": ["3.4"],
+    "tactic": "pin-the-pillow",
+    "lesson": "Stop a scope creep at its first sign by asking for the idea in writing, with its cost and the commitment it would displace."
+  },
+  {
+    "id": "c-fire-cross-into-product",
+    "chapter": 3,
+    "domain": "career",
+    "difficulty": 2,
+    "title": "Crossing Into Product",
+    "scenario": "You want to move from backend engineering into a product manager role. A posting has appeared at your company, but the team is mid-reorganization, the budget for the new role is not confirmed, and you have led only two small projects. A friend in product says transfers are tight this year. The posting closes in ten days, and you need to decide whether to apply now, after building more proof, or to wait for a clearer window.",
+    "options": [
+      {
+        "text": "Map the reorg timeline and the budget signals, then apply when the hiring manager has room to take a bet on you.",
+        "correct": true,
+        "why": "Crossing a ford means reading the water first: timing, conditions and your own strength. Once the crossing point is clear, the move carries far less risk."
+      },
+      {
+        "text": "Lead one small product experiment with your current team this month, so your readiness is shown before you apply.",
+        "correct": true,
+        "why": "Testing your own strength before the crossing is part of reading the conditions. A small proof of readiness keeps the decision honest and gives you a real record to point to."
+      },
+      {
+        "text": "Apply this week while the opening exists, then adjust your skills once you are inside the new role.",
+        "correct": false,
+        "why": "Crossing without reading the water means being swept off course. Hoping to learn the way mid-stream confuses speed with readiness."
+      },
+      {
+        "text": "Wait until the reorg, the budget and the market are all certain, since any crossing made without total calm is reckless.",
+        "correct": false,
+        "why": "Waiting for perfect certainty means never crossing, because conditions never fully settle. Calm does not require certainty; it requires a clear reading of the water."
+      },
+      {
+        "text": "Resign now and commit to product work full-time, so the pressure forces you to become ready.",
+        "correct": false,
+        "why": "Burning the bridge before reading the crossing is rashness. The commitment does not supply the readiness, and the conditions you ignored will still be there."
+      }
+    ],
+    "verses": ["3.5"],
+    "tactic": "cross-at-the-ford",
+    "lesson": "Read the water before a big crossing: the timing, the conditions and your own readiness. Then cross once the reading is clear."
+  },
+  {
+    "id": "c-fire-rats-head-report",
+    "chapter": 3,
+    "domain": "work",
+    "difficulty": 2,
+    "title": "Forty Slides, One Question",
+    "scenario": "Your team's quarterly vendor review is due Friday, and the working draft has forty slides. For two days the group has argued about fonts, chart colors and whether consistent or stable is the right word on slide twelve. Nobody has checked whether the deck answers the question leadership actually asked: should we renew the vendor for three years? You own the document. The room is booked for Thursday afternoon, and the people debating the details are the ones who will present it.",
+    "options": [
+      {
+        "text": "Restate the one decision the deck must support, then check each slide against it, moving between the big story and key numbers.",
+        "correct": true,
+        "why": "Moving between the whole and the detail is how you see the real question. Keep the overview in view, then check the small points the decision depends on."
+      },
+      {
+        "text": "Set a fifteen-minute limit on the wording debate, then zoom out to confirm the storyline answers the renewal question.",
+        "correct": true,
+        "why": "Breaking a loop in the details means switching deliberately to the big picture. A time limit stops the argument, and the overview shows whether the parts add up."
+      },
+      {
+        "text": "Refine every chart and word until the deck is flawless, since a polished document will win the argument by itself.",
+        "correct": false,
+        "why": "Staring at small details while the purpose sits off-screen means perfect slides can still answer the wrong question. Detail without the overview narrows the mind."
+      },
+      {
+        "text": "Ask a colleague to tidy the formatting, and let the team keep debating the wording while you handle the rest.",
+        "correct": false,
+        "why": "Delegating the cosmetic work while the argument continues leaves the team stuck in the same small focus. Nobody is watching the whole."
+      },
+      {
+        "text": "Send the summary slide to leadership with no detail at all, since the big picture is the only thing that matters.",
+        "correct": false,
+        "why": "Looking only at the large view ignores the specific numbers that give the big picture its weight. A decision resting on a thin overview is a different kind of error."
+      }
+    ],
+    "verses": ["3.25"],
+    "tactic": "rats-head-oxs-neck",
+    "lesson": "When a team is lost in details, hold the decision and the detail together: step up to the whole, then drop back to what matters."
+  },
+  {
+    "id": "c-fire-collapse-routine",
+    "chapter": 3,
+    "domain": "self",
+    "difficulty": 3,
+    "title": "Five Weeks of Small Slips",
+    "scenario": "Over the last five weeks your running plan has slipped. You missed three sessions, you have been sleeping later than planned, and weekend takeout has crept into most nights. Each slip looked minor on its own. You are three weeks from a race you signed up for. Your training partner says you seem fine, and you have not decided how much to change. You can still reset the plan, but the next two weeks will decide whether it holds.",
+    "options": [
+      {
+        "text": "Name the habit that loosened first, and restore only that one with a small, specific fix this week.",
+        "correct": true,
+        "why": "Catching a break while it is small means finding its first crack. One precise repair holds the whole structure better than a sweeping overhaul."
+      },
+      {
+        "text": "Track all three slipping habits on one page for a few days, so the decline becomes visible before you reset.",
+        "correct": true,
+        "why": "Seeing a collapse early depends on watching its rhythm, not only its result. A simple written record shows the trend that feelings smooth over."
+      },
+      {
+        "text": "Note the pattern now, and reset the routine at the next missed session, before a slip hardens into habit.",
+        "correct": true,
+        "why": "Acting at the first sign is the discipline here. Responding while a slip is still small keeps the collapse from setting in and spreading to the other habits."
+      },
+      {
+        "text": "Make up the missed sessions in one burst of hard training, so the plan looks intact before the race.",
+        "correct": false,
+        "why": "Trying to win back lost ground in one surge chases speed over rhythm. The body and the schedule break under that load, and the collapse comes sooner."
+      },
+      {
+        "text": "Wait until the decline is obvious to everyone around you, since small slips are not worth a change of plan.",
+        "correct": false,
+        "why": "Waiting for a collapse to show itself means responding after its rhythm has broken. The earliest moment to act is the one that looks too minor to bother with."
+      }
+    ],
+    "verses": ["3.8"],
+    "tactic": "see-collapse-early",
+    "lesson": "A routine rarely collapses in one day. Catch the first loosened habit, fix that one precisely, and watch the trend before it sets."
+  },
+  {
+    "id": "c-fire-stir-the-shadow",
+    "chapter": 3,
+    "domain": "family",
+    "difficulty": 2,
+    "title": "The Silent Teen at Dinner",
+    "scenario": "Your sixteen-year-old has gone quiet for three weeks. Dinners are short, the door stays shut, and last Sunday they snapped when you asked about school. You do not know whether the cause is grades, a friendship or something bigger. Your partner wants to sit them down tonight and get answers. You want to understand what is happening without making your teen feel cornered.",
+    "options": [
+      {
+        "text": "Make one light, specific comment, such as asking about a single class, and watch how they respond before going further.",
+        "correct": true,
+        "why": "A small, calm probe shows where the concern sits without pushing into a fight. Their reaction tells you what to ask next."
+      },
+      {
+        "text": "Sit them down tonight with your partner and demand a full account before anyone leaves the table.",
+        "correct": false,
+        "why": "Strong pressure before you have read the situation makes a closed person close further. A demand turns a quiet signal into a standoff."
+      },
+      {
+        "text": "Pretend you have noticed nothing, and steer every conversation toward cheerful topics until the mood passes.",
+        "correct": false,
+        "why": "Pretending not to see the problem is ignorance dressed up as calm. The signal stays hidden, and your teen learns the topic is off limits."
+      },
+      {
+        "text": "Leave them alone completely and wait for them to come to you, since any question will only make things worse.",
+        "correct": false,
+        "why": "Staying passive hands the initiative to the silence. Waiting with no move leaves you unable to read anything at all."
+      },
+      {
+        "text": "Let your partner take charge completely, and step out of it so your teen is not watched by two people.",
+        "correct": false,
+        "why": "Stepping back entirely gives up the view you need. Being present and reading the signals is part of the role, and disengaging loses that reading."
+      }
+    ],
+    "verses": ["3.11"],
+    "tactic": "",
+    "lesson": "When a person goes quiet, probe with one calm, specific move and read the reaction. Pressure before reading only hardens the silence."
+  },
+  {
+    "id": "c-fire-press-the-rival",
+    "chapter": 3,
+    "domain": "business",
+    "difficulty": 3,
+    "title": "The Rival's Monday Price Cut",
+    "scenario": "A rival software company announced a steep price cut on Monday morning, and within a day two of your largest accounts have asked for a call. Your sales lead wants to wait until the rival's full package is public before saying anything. Meanwhile your pricing team has drafted a response. Your accounts are reading the announcement right now, and what you say to them will be decided today.",
+    "options": [
+      {
+        "text": "Contact the wavering accounts today with an offer and terms you can keep, before they talk to the rival again.",
+        "correct": true,
+        "why": "Pressing at the moment of a rival's opening keeps them from setting the terms. Acting on the same day the signal arrives stops their second move from landing first."
+      },
+      {
+        "text": "Hold a team review by noon to test your margins against the cut, then decide which accounts to protect first.",
+        "correct": true,
+        "why": "Pressing an advantage still needs a clear view of your own strength. A fast check of margins turns a reaction into a deliberate press rather than a panic."
+      },
+      {
+        "text": "Wait for the rival's full terms and any second announcement, then decide which way to move.",
+        "correct": false,
+        "why": "Waiting for the second wave gives the rival a free opening. A move that could have been met at once becomes a defense on their timetable."
+      },
+      {
+        "text": "Match the price cut across your whole catalog immediately, without checking what each product costs you.",
+        "correct": false,
+        "why": "Matching blindly chases speed without rhythm. Cutting everywhere at once gives away the margin that would let you hold the position over the long run."
+      },
+      {
+        "text": "Launch a brand campaign next quarter that ignores the price cut and keeps your messaging exactly as planned.",
+        "correct": false,
+        "why": "Ignoring a visible move lets your rival set the stage while you prepare your own. A plan that does not answer what is happening now is no plan at all."
+      }
+    ],
+    "verses": ["3.7"],
+    "tactic": "",
+    "lesson": "When a rival makes its move, answer on the same day, with a check of your own margins, so their opening cannot settle into their advantage."
+  },
+  {
+    "id": "c-fire-locked-hands-salary",
+    "chapter": 3,
+    "domain": "career",
+    "difficulty": 2,
+    "title": "The Locked Salary Loop",
+    "scenario": "You have an offer letter in hand, and the salary is below your target. You have stated your number twice to your manager, and twice they have said it is the top of the band. Neither of you is budging, and the conversation has become a loop. The offer expires in four days. You like the team, and you suspect your manager cannot approve more money without a senior sign-off.",
+    "options": [
+      {
+        "text": "Stop repeating your number, and propose a different trade such as a title, a six-month pay review, or extra equity.",
+        "correct": true,
+        "why": "When a locked struggle stops moving, the same push will not win it. Changing the terms you offer breaks the deadlock and opens an advantage neither side was staring at."
+      },
+      {
+        "text": "Ask what limits your manager faces in approving pay, then offer a package that solves that particular constraint.",
+        "correct": true,
+        "why": "Assuming a capable counterpart means finding their real constraint. Once you see what blocks them, you can offer a path that works inside their limits."
+      },
+      {
+        "text": "Keep restating your number with more emphasis until your manager gives way out of exhaustion.",
+        "correct": false,
+        "why": "Pushing harder into the same locked position makes the deadlock worse. Force that does not change its approach only hardens both sides."
+      },
+      {
+        "text": "Accept the lower offer to end the loop, then ask for a raise after your first year.",
+        "correct": false,
+        "why": "Accepting the first number ends the stalemate by giving up leverage you have not yet used. Stopping a locked contest by surrendering is not the same as winning it another way."
+      },
+      {
+        "text": "Send your manager a formal ultimatum by email, copy HR, and set a one-hour deadline for a yes.",
+        "correct": false,
+        "why": "Escalating into a threat shifts the contest into a fight about pride. Sudden deadlines and anger narrow the options and make the outcome worse for everyone."
+      }
+    ],
+    "verses": ["3.10", "3.9"],
+    "tactic": "stand-in-their-place",
+    "lesson": "When a negotiation locks, stop pushing the same number. Find the manager's real constraint and offer a path that fits inside it."
+  },
+  {
+    "id": "c-wind-long-sword-reach",
+    "chapter": 4,
+    "domain": "work",
+    "difficulty": 3,
+    "title": "The Enterprise Platform Pitch",
+    "scenario": "Your support team of fifteen agents handles about 2,000 tickets a month, mostly billing questions. A vendor pitches an enterprise platform with two hundred features, a long contract and an implementation team. The sales deck is impressive, and your VP likes the idea of a platform that will never outgrow you. Most agents would use only a handful of screens each day. You have six weeks to choose before the current tool's renewal lapses.",
+    "options": [
+      {
+        "text": "Test the billing workflow your agents use every day in a two-week trial, and judge the tool on that work.",
+        "correct": true,
+        "why": "Close-range work is decided by the moves you actually make. A tool that wins on what your team does every hour is worth more than one that wins on a brochure."
+      },
+      {
+        "text": "Size the commitment to the problems you have this quarter, not to features that will sit unused.",
+        "correct": true,
+        "why": "A long reach helps only at the distance where you fight. Matching the size of the commitment to the fight you are in keeps resources where the real contest happens."
+      },
+      {
+        "text": "Pick the smaller tool whose core screens your agents already know, and skip the features you will never touch.",
+        "correct": true,
+        "why": "Mastering the basics you use every day beats carrying a reach you cannot use in close quarters. Simplicity that fits the fight is a strength, not a compromise."
+      },
+      {
+        "text": "Buy the biggest platform, since it will not need replacing and nobody gets blamed for choosing the market leader.",
+        "correct": false,
+        "why": "Choosing for size and safety bets on reach you may never use. Worshipping the biggest tool confuses a large budget with a sound method."
+      },
+      {
+        "text": "Keep the old tool and wait until a single system promises to cover every possible case in your business.",
+        "correct": false,
+        "why": "Waiting for an all-in-one answer to every future case is a passive habit. The problem in front of you can be solved now, and waiting costs the time to act."
+      }
+    ],
+    "verses": ["4.2", "4.11"],
+    "tactic": "the-longer-sword-trap",
+    "lesson": "Match the size of a commitment to the fight you are actually in. Test the tool on the daily work before you buy the brochure."
+  },
+  {
+    "id": "c-wind-stalled-vendor",
+    "chapter": 4,
+    "domain": "business",
+    "difficulty": 2,
+    "title": "Stalled Vendor, Sharper Emails",
+    "scenario": "A logistics vendor has held your renewal for six weeks. Each of your emails has been sharper than the last, and they now answer with one-line replies. Your procurement lead wants to send a final warning. The current draft includes a data retention clause your legal team has not yet reviewed, and it may conflict with your obligations. You know the vendor is not acting in bad faith, but the deal is going nowhere.",
+    "options": [
+      {
+        "text": "Send one neutral message that restates your requirements and the reason behind each one, then ask for a call.",
+        "correct": true,
+        "why": "Force met with force breaks the blade. Clear principles stated calmly give the other side something real to answer, which moves the contest from pressure to reasons."
+      },
+      {
+        "text": "Bring a senior person from each side into a call to review the retention clause, with a shared agenda.",
+        "correct": true,
+        "why": "When a contest is locked, a new angle helps. A focused review of the one clause that stalls the deal gives both sides a way to move."
+      },
+      {
+        "text": "Send a sharper final warning with a deadline, and copy the vendor's senior executive on the email.",
+        "correct": false,
+        "why": "Escalating pressure hardens the stalemate and pulls in people who have no stake in the detail. Sharper pressure does not change the terms."
+      },
+      {
+        "text": "Sign the current draft to end the stalemate, even though the retention clause may conflict with your obligations.",
+        "correct": false,
+        "why": "Settling a deal that may break your own obligations trades a stall for a bigger problem. Aiming with principle means not signing terms you cannot honor."
+      },
+      {
+        "text": "Threaten to walk away from the whole contract and move your volume to a competitor by Friday.",
+        "correct": false,
+        "why": "A threat you may not carry out is easy to see through and easy to parry. Pressure without principle only bends your own position."
+      }
+    ],
+    "verses": ["4.3"],
+    "tactic": "force-breaks-the-blade",
+    "lesson": "When a deal stalls, stop escalating. Restate your reasons calmly and review the one clause that blocks the deal."
+  },
+  {
+    "id": "c-wind-keeping-up-partner",
+    "chapter": 4,
+    "domain": "self",
+    "difficulty": 1,
+    "title": "Keeping Up With the Fast Partner",
+    "scenario": "You have joined a weekly strength class where most people have trained for years. Your drill partner moves quickly and takes the lead in each round. On Tuesday you try to keep pace, and your squat form falls apart by the third set. The instructor saw it and said nothing. Your legs ache, and you feel behind every time the group speeds up. You want to belong without getting hurt.",
+    "options": [
+      {
+        "text": "Hold your own tempo, and add speed only in sets where your form stays clean from the first rep to the last.",
+        "correct": true,
+        "why": "Hurry is not speed. Speed that breaks form is a fall in disguise. Set the pace you can hold cleanly, then add speed once the basics are solid."
+      },
+      {
+        "text": "Slow each rep until you can feel every part of the movement, then build tempo gradually over the next few weeks.",
+        "correct": true,
+        "why": "A steady rhythm is built by slowing down enough to see it. Tempo that grows from a clear base keeps you on the beat instead of lagging or rushing."
+      },
+      {
+        "text": "Track your own progress in a log, and stop treating your partner's pace as the measure of how you are doing.",
+        "correct": true,
+        "why": "A practitioner keeps his own rhythm rather than being swept along by someone else's. Measuring yourself against your past self keeps the pace honest."
+      },
+      {
+        "text": "Sprint through each set to match your partner, and fix your squat form in a later session.",
+        "correct": false,
+        "why": "Racing ahead of your form means practicing mistakes at speed. The rush looks like progress but builds the very habit that breaks the form."
+      },
+      {
+        "text": "Train at maximum pace all week, reasoning that intensity will cover up whatever form problems remain.",
+        "correct": false,
+        "why": "Speed used to hide sloppy form repeats the same rushed motion again and again. Busyness that looks like effort is not the same as a steady rhythm."
+      }
+    ],
+    "verses": ["4.9"],
+    "tactic": "hurry-is-not-speed",
+    "lesson": "Hurry looks like progress but breaks form. Hold a tempo you can keep clean, and add speed only when the form holds."
+  },
+  {
+    "id": "c-wind-few-cuts-team",
+    "chapter": 4,
+    "domain": "work",
+    "difficulty": 2,
+    "title": "Fourteen Frameworks, Too Many",
+    "scenario": "Your product operations group runs fourteen frameworks: three planning templates, four review checklists, a launch playbook with nine stages and more. New hires say they cannot remember which one fits a given task, and two projects this quarter skipped review because nobody was sure it applied. Your director wants to add a fifteenth framework for the new partner program. You meet on Thursday to decide what to do with the whole stack.",
+    "options": [
+      {
+        "text": "Reduce the playbook to five essential moves that everyone can name, and apply them the same way across projects.",
+        "correct": true,
+        "why": "Cutting is direct, and a few essential moves done well beat a crowded set. When everyone knows the same few moves, they apply them without hesitation."
+      },
+      {
+        "text": "Ask each project lead for the one step that matters most, then drop the rest until the core is tested.",
+        "correct": true,
+        "why": "Getting to the heart of a method means finding what actually decides the outcome. Stripping away the rest tests whether the essentials hold on their own."
+      },
+      {
+        "text": "Add the partner program as a fifteenth framework, so every new situation has a named template to follow.",
+        "correct": false,
+        "why": "Adding techniques to a confused set makes the confusion larger. More forms do not make a method more direct; they make it harder to remember."
+      },
+      {
+        "text": "Hire a consultant to teach all fourteen frameworks in detail, so everyone learns the full system properly.",
+        "correct": false,
+        "why": "Teaching a crowd of techniques turns the discipline into merchandise, and newcomers drown in the count. Depth in many forms is not the same as clarity."
+      },
+      {
+        "text": "Let each project choose its own mix of templates, since flexibility keeps the team creative and motivated.",
+        "correct": false,
+        "why": "A set of unrelated choices produces no shared rhythm. Each project works from its own habits, and the team cannot see the same thing when it needs to."
+      }
+    ],
+    "verses": ["4.5"],
+    "tactic": "few-cuts-done-well",
+    "lesson": "A crowded playbook confuses a team. Keep a few essential moves that everyone can name, and apply them the same way every time."
+  },
+  {
+    "id": "c-wind-annual-only-policy",
+    "chapter": 4,
+    "domain": "business",
+    "difficulty": 2,
+    "title": "The Annual-Only Policy",
+    "scenario": "Your small software company has sold annual subscriptions only for six years. Three of your last ten prospects asked about monthly plans, and two said they chose a competitor because of it. Your founders are split. One says monthly billing would look like weakness. Another says it is a passing fashion. The pricing decision goes to the leadership meeting in two weeks, and nobody has tested anything yet.",
+    "options": [
+      {
+        "text": "Keep profitable growth as the fixed aim, and test a monthly plan with a small group of customers before deciding.",
+        "correct": true,
+        "why": "Hold the aim and change the shape. Keeping the goal steady while testing the form lets you respond to what the market does instead of defending a habit."
+      },
+      {
+        "text": "Defend the annual-only policy as part of the company's identity, since changing it would look like weakness to customers.",
+        "correct": false,
+        "why": "A fixed posture chosen to avoid looking weak is a stance that waits for the other side to act. Clinging to the form, not the goal, leaves you exposed."
+      },
+      {
+        "text": "Copy the competitor's monthly plan immediately, without a test or any check on how it affects your margins.",
+        "correct": false,
+        "why": "Copying the other side's move without reading the conditions means fighting on their terms. Speed without understanding gives no real advantage."
+      },
+      {
+        "text": "Say nothing about the pricing question until the board's next annual review, since the current policy has worked so far.",
+        "correct": false,
+        "why": "Waiting for a scheduled review while prospects leave means the market moves while you stand still. Not looking at a problem is not the same as having a settled mind."
+      },
+      {
+        "text": "Drop the pricing question entirely and focus on product features, since pricing debates are only a distraction.",
+        "correct": false,
+        "why": "Turning away from the question does not remove the pressure that caused it. The customers asking for monthly plans are still signaling what they need."
+      }
+    ],
+    "verses": ["4.6"],
+    "tactic": "",
+    "lesson": "Keep the goal fixed and let the form change. Test the new shape with a few customers instead of defending a habit or copying a rival."
+  },
+  {
+    "id": "c-void-not-knowing-move",
+    "chapter": 5,
+    "domain": "personal",
+    "difficulty": 2,
+    "title": "Moving Cities, Missing Facts",
+    "scenario": "You are deciding whether to move to another city for a job you have been offered. You know the salary and the commute, but you have no idea what rent looks like in the three neighborhoods you are considering, how the schools work, or whether your partner's work can move with you. Friends keep saying you cannot decide without that information, and you are tempted to treat each gap as a sign the move is wrong.",
+    "options": [
+      {
+        "text": "Write down what you know, what you do not know, and which unknowns could change the decision, before you choose.",
+        "correct": true,
+        "why": "Not knowing is not emptiness. Mapping the blanks honestly shows which gaps decide the outcome and which are only noise."
+      },
+      {
+        "text": "Set a two-week window to research the missing pieces, and decide only on the parts you have verified.",
+        "correct": true,
+        "why": "Clarity comes from disciplined study of what is absent. Gathering facts within a set window and deciding on what is confirmed keeps open questions honest."
+      },
+      {
+        "text": "Treat the missing rent figures as proof the move is a mistake, and turn the offer down this week.",
+        "correct": false,
+        "why": "Reading an unknown as a bad sign confuses ignorance with knowledge. A gap in your information is not evidence against the choice."
+      },
+      {
+        "text": "Fill the gaps with the most optimistic guesses you can make, then plan the move as though those guesses were confirmed.",
+        "correct": false,
+        "why": "Filling the blanks with hopeful guesses is a confused mind at work. Guesses presented as facts make every later choice rest on sand."
+      },
+      {
+        "text": "Trust your gut about the neighborhoods and skip the research, since you have a good feeling about the city.",
+        "correct": false,
+        "why": "A gut feeling is not a map. Moving on instinct while the facts stay unknown treats a blank as if it were settled."
+      }
+    ],
+    "verses": ["5.1"],
+    "tactic": "not-knowing-is-not-void",
+    "lesson": "An unknown is not a dead end. Map the blanks honestly, research the ones that decide the outcome, and choose on what is verified."
+  },
+  {
+    "id": "c-void-clear-the-clouds",
+    "chapter": 5,
+    "domain": "work",
+    "difficulty": 3,
+    "title": "Friday Interview Notes",
+    "scenario": "It is six o'clock on Friday. You have forty pages of interview notes for a senior role, and a candidate who needs an answer before the weekend. You are tired, and the notes have started to blur together. Your gut keeps pointing toward the candidate who impressed you in the first hour, and you cannot tell whether that is judgment or simply the memory that stands out. The recruiter is waiting for your decision.",
+    "options": [
+      {
+        "text": "Score each candidate against the same three criteria from the notes, and write down the evidence behind each score.",
+        "correct": true,
+        "why": "A clouded mind mistakes the most vivid impression for the truth. Holding every candidate to the same plain standard shows what the evidence really says."
+      },
+      {
+        "text": "Take a short break to clear your head, then re-read the notes with the criteria in front of you.",
+        "correct": true,
+        "why": "A clear mind is part of sound judgment, so clearing the noise is real work. A short break lets first impressions settle before you judge."
+      },
+      {
+        "text": "Ask a second interviewer to read the same notes cold, and compare their scores with yours before you decide.",
+        "correct": true,
+        "why": "Checking your own bias means testing your view against a standard outside it. A cold read by someone else shows where your partiality bent the picture."
+      },
+      {
+        "text": "Trust your first impression of the candidate from the opening hour, since an initial reading is usually the sharpest.",
+        "correct": false,
+        "why": "The first impression is often the loudest, not the most accurate. Treating it as the verdict ignores the rest of the evidence."
+      },
+      {
+        "text": "Make the call quickly before the weekend, since a fast decision shows confidence and the notes are good enough.",
+        "correct": false,
+        "why": "Speed bought at the price of clear judgment is a rash choice. Hurrying a tired decision chases speed when the right move is a steady, clear reading."
+      }
+    ],
+    "verses": ["5.1", "4.7"],
+    "tactic": "clear-the-clouds",
+    "lesson": "Tired judgment mistakes the vivid for the true. Score everyone on one standard, clear your head, and check with a second reader."
+  },
+  {
+    "id": "c-void-act-then-release",
+    "chapter": 5,
+    "domain": "family",
+    "difficulty": 2,
+    "title": "The Holiday Hosting Talk",
+    "scenario": "Your sister-in-law has hosted the holiday dinner for years, and this year you want to ask to share the hosting. You have rehearsed the conversation for days in your head: the opening, her possible replies, your counter-replies. Each time you run through it, the imagined argument grows longer. The talk is tomorrow over coffee. You want to say what matters, listen, and not carry the replay into the rest of the week.",
+    "options": [
+      {
+        "text": "State your two main points calmly in the conversation, then listen to her reply and respond to what she actually says.",
+        "correct": true,
+        "why": "Prepare, commit fully in the moment, and then let the reply be what it is. Responding to what is actually said keeps you present instead of stuck in the rehearsal."
+      },
+      {
+        "text": "Write down your key points once, say them out loud, and stop rehearsing when the coffee is over.",
+        "correct": true,
+        "why": "Preparation is worth doing; endless replay is not. One clear preparation lets you commit fully, and ending the rehearsal lets the outcome arrive without pressure."
+      },
+      {
+        "text": "Name the reason you are asking, accept whatever answer she gives, and leave the outcome with her.",
+        "correct": true,
+        "why": "Commit to the act and release the result. Accepting her answer without rewriting the scene keeps the talk honest and frees your mind for the rest of the week."
+      },
+      {
+        "text": "Keep rehearsing until you have a reply for every possible objection, so nothing she says can surprise you.",
+        "correct": false,
+        "why": "Trying to script every reply produces a mind that cannot move. A plan built on every possible reply breaks the moment the other person does something unexpected."
+      },
+      {
+        "text": "Post your side of the story in the family group chat first, so everyone has heard your case before the talk.",
+        "correct": false,
+        "why": "Going around the person to the whole family turns a private conversation into a public contest. It wins nothing a calm talk could not win."
+      }
+    ],
+    "verses": ["5.1"],
+    "tactic": "act-fully-then-let-go",
+    "lesson": "Prepare once, commit fully when you speak, then let go of the outcome. Endless replay weakens the act it was meant to support."
+  }
+]

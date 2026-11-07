@@ -1,0 +1,1615 @@
+{
+ "note": "Original English rendering of 五輪書, written for this project from the public-domain Japanese. Paragraph k of \"en\" renders Japanese paragraph k.",
+ "sections": [
+  {
+   "id": "0.1",
+   "title_en": "Preface: Why I Write This Book",
+   "en": [
+    "I have called my art of strategy the Niten Ichi school, and after several years of training in it, I now intend to set it down in writing for the first time.",
+    "It is now early in the tenth month of the twentieth year of Kan’ei (1643). I climbed Iwato Mountain in Higo province in Kyushu, faced the heavens and offered my prayers, paid honor to Kannon, and before the image of the Buddha I declared myself: I am Shinmen Musashi Fujiwara no Genshin, a warrior from Harima province, now about sixty years old. From my youth my heart has been set on the path of strategy. At thirteen I fought my first duel, defeating the strategist Arima Kihei of the Shintō school. At sixteen I defeated Akiyama, a powerful strategist from Tajima province. At twenty-one I made my way to the capital, where I met strategists from across the realm and decided several contests, never failing to win any of them. After that I traveled from province to province, meeting strategists of many schools, and fought more than sixty contests without once losing an advantage. All of this took place from my thirteenth year into my late twenties.",
+    "When I passed thirty and looked back, I saw that my victories had not come from fully mastering strategy. Perhaps it was a natural aptitude that never strayed from heaven’s principle, or perhaps the other schools were simply weak. Still, I wanted to reach deeper principles, so I trained morning and evening, and around the age of fifty I came to grasp the true principle of strategy. From then on I had no further road to search, and I have simply passed my days since.",
+    "Applying the benefits of strategy to the paths of all the arts and skills, I have no master in any matter. In writing this book I have not drawn on the sayings of Buddhism or Confucianism, nor on old war chronicles or military manuals. I set down the real spirit of this single school, using heaven’s principle and Kannon as my mirror. I took up my brush on the tenth night of the tenth month, in the early part of the hour of the tiger, and began to write."
+   ],
+   "gist": "Musashi, now about sixty, recounts his duels from age thirteen and says he is writing down his school’s principles for the first time.",
+   "lesson": "Early wins can hide what you have not really learned. Look back honestly at how you succeeded, and separate skill from luck before you pass your methods on to others.",
+   "terms": [
+    {
+     "ja": "兵法",
+     "romaji": "heihō",
+     "en": "strategy, the martial art and its law"
+    },
+    {
+     "ja": "二天一流",
+     "romaji": "Niten Ichi-ryū",
+     "en": "the Niten Ichi school"
+    },
+    {
+     "ja": "巌殿山",
+     "romaji": "Iwatoyama",
+     "en": "Mount Iwato in Higo, where Musashi prayed"
+    }
+   ]
+  },
+  {
+   "id": "1.1",
+   "title_en": "Strategy as the Warrior’s Law",
+   "en": [
+    "Strategy is the law of the warrior. Commanders in particular must practice this law, and even ordinary soldiers must understand its Way. Today there is no samurai in the world who truly grasps the path of strategy. Consider the ways people do follow: the Buddhist Way of saving others, the Confucian study of letters, the physician’s art of curing every illness, the poet’s study of waka, the tea masters, archers, connoisseurs, and all the other arts and accomplishments. Each person practices whatever appeals to him, according to his own heart. Very few people take up the path of strategy.",
+    "Warriors speak of the twofold path of letters and arms, and they should cultivate both. Even if a man is clumsy in this Way, every warrior should practice strategy to the degree his station allows. If I measure what most warriors think, they seem to cultivate nothing more than the way of dying. Yet readiness to die is not limited to warriors: monks, women, farmers and people of lower rank can know duty, feel shame and resolve to die when it is needed, and in that there is no difference. What distinguishes the warrior’s practice of strategy is that in everything he aims for the highest excellence. He wins a duel with one man or a battle against many, serving his lord and his own name and raising himself in the world. Such is the merit that strategy brings.",
+    "Still, some people think that even if they study strategy it will be of no use in a real moment. For them, the answer is to practice so that it can be used at any time, and to teach everything so that it is useful in every matter. That is the real path of strategy."
+   ],
+   "gist": "Musashi says few people truly understand strategy, the warrior’s law, and that most people choose arts for taste, so few take up the martial path seriously.",
+   "lesson": "Many people dabble in several pursuits without depth. Choose the work that matters for your role and train in it seriously, instead of collecting interests that only look impressive.",
+   "terms": [
+    {
+     "ja": "兵法",
+     "romaji": "heihō",
+     "en": "strategy"
+    },
+    {
+     "ja": "武家",
+     "romaji": "buke",
+     "en": "the warrior house, the samurai class"
+    },
+    {
+     "ja": "文武二道",
+     "romaji": "bunbu nidō",
+     "en": "the twofold path of letters and arms"
+    }
+   ]
+  },
+  {
+   "id": "1.2",
+   "title_en": "What Strategy Really Means",
+   "en": [
+    "Even in China and in our own land, those who practiced this path were handed down as masters of strategy. There should be no warrior who does not study this law.",
+    "In recent times, people who make a living as ‘strategists’ are really just swordsmen. The attendants of the Kashima and Kantori shrines in Hitachi province claimed to have received the teaching from the gods; they founded schools and traveled from land to land teaching people. That is the recent use of the word. In older times the martial craft was counted among the ten abilities and seven accomplishments, valued for practical use. It is indeed an art, but once it is treated as a practical benefit, it cannot be limited to sword technique alone. If you understand only one slice of swordsmanship, you will not even know the sword well, and it certainly will not meet the law of war.",
+    "Looking at the world, people turn every art into merchandise. They make themselves into goods for sale and dress up their tools to sell as well. Flower and fruit are two aspects of the same thing, and there is less fruit than blossom. Above all, in the art of strategy people add color and try to make it bloom, showing off their techniques. Some open one dojo, some two, and teach the art, hoping to profit from it. Who would not call this a flashy, hollow display? It is surely the root of great harm. Someone once said that immature strategy is the root of great calamity, and it was a true saying.",
+    "People make their way through life along four paths: those of the farmer, the merchant, the warrior and the craftsman. The farmer keeps many kinds of tools and, watching the turning seasons, spends spring and autumn without a moment to rest. That is the farmer’s path. The merchant, such as a brewer, gathers the materials he needs, judges their quality and uses them, and makes his living from his own labor and profit. Every trade works this way, and that is the merchant’s path. The warrior should prepare many kinds of weapons and understand each one’s strengths. A warrior who does not practice with his weapons or know their uses is a shallow sort of warrior. The craftsman uses a range of tools, skillfully makes and uses each one, keeps his ink line and measures, and gets through life working with his hands. These are the four paths.",
+    "I describe the art of strategy by comparing it to carpentry. The comparison works through the idea of the house: the houses of court nobles and warriors, the rise or fall of a family house, the style and traditions of a house, its name. That is why I borrow from carpentry. The character for carpenter, 大工, can also be read as ‘great craft’, and strategy is a great craft, so I write about it through the image of the carpenter.",
+    "If you want to learn this art, study this book. The teacher is like the needle and the student like the thread: each must be bound to the other, and you must keep practicing without pause."
+   ],
+   "gist": "Strategy is more than swordsmanship. Sword technique alone does not reach the law of war, and showy display for profit corrupts the art.",
+   "lesson": "Be wary of looking skilled through showmanship or branding. Real competence is what helps when it counts, and advertising yourself as an expert does not replace it.",
+   "terms": [
+    {
+     "ja": "十能七芸",
+     "romaji": "jūnō shichigei",
+     "en": "the ten abilities and seven accomplishments"
+    },
+    {
+     "ja": "剣術",
+     "romaji": "kenjutsu",
+     "en": "sword technique"
+    },
+    {
+     "ja": "利方",
+     "romaji": "rihō",
+     "en": "practical benefit, a useful art"
+    }
+   ]
+  },
+  {
+   "id": "1.3",
+   "title_en": "Strategy Compared to Carpentry",
+   "en": [
+    "The commander is like the head carpenter. He must know the standards of the realm, measure the standards of his province, and understand the standards of his own house; this is the head’s way. The head carpenter must know the design of temples, halls, pagodas and mansions, direct his people, and raise up houses. A head carpenter and a warrior commander are the same in this. In building a house, the timber is chosen with care. Straight, knot-free wood of good appearance goes into the visible pillars, and straight wood with a few knots but good strength goes into the inner pillars. Fine-looking timber, though slightly weak, serves for sills, crossbeams, doors and sliding screens if it has no knots. Strong timber that is gnarled or warped can be used with judgment, and a house built with careful choices will not easily fall apart for a long time. Timber that is weak and full of knots should be used for scaffolding, or in the end for firewood.",
+    "When the commander assigns carpenters, he must know their grade: upper, middle or lower. Some are sent to the corners and the joinery, others to sliding doors, sills, lintels, ceilings and the rest, each according to his skill. The weaker ones are made to lay the floor joists, and the weakest are made to carve wedges. If he judges his people well and assigns them accordingly, the work progresses quickly and the results are skillful. What is praised is an effective, capable job, and one should allow no shortcoming in anything. Knowing the spirit of upper, middle and lower men is how a commander encourages them, and knowing what is unreasonable is how he restrains them. These matters all lie in the commander’s mind.",
+    "Such are the benefits of strategy."
+   ],
+   "gist": "A commander, like a head carpenter, must know his materials and his people, matching each person and each piece of timber to the task that suits its strength.",
+   "lesson": "When you lead a team, assign work by each person’s real strengths and limits. Put flawed or weak resources to uses they can handle, rather than forcing them into critical roles.",
+   "terms": [
+    {
+     "ja": "大工",
+     "romaji": "daiku",
+     "en": "carpenter, read as great craft"
+    },
+    {
+     "ja": "統領",
+     "romaji": "tōryō",
+     "en": "head, leader; the foreman or commander"
+    },
+    {
+     "ja": "木配り",
+     "romaji": "kikubari",
+     "en": "choosing and placing timber"
+    }
+   ]
+  },
+  {
+   "id": "1.4",
+   "title_en": "Troopers Work Like Apprentice Carpenters",
+   "en": [
+    "A trooper must be like a carpenter, grinding his own blades by his own hands and making all kinds of assault implements. He keeps them in a carpenter’s box and takes on the work the commander assigns. He cuts columns and beams with an adze, planes floorboards and shelves smooth, cuts and carves tight joinery and decoration, and polishes the surfaces, finishing every corner and every detail with skill. This is the carpenter’s craft. Once a man has practiced this work and learned it well, and understands the standards thoroughly, he can become the commander. A carpenter’s discipline is to keep his tools well sharpened and in good condition. From tall cabinets, bookshelves, desks and tables to lamp stands, cutting boards and pot lids, he makes everything with mastery. The trooper should be like this, and he should examine it carefully.",
+    "The carpenter’s discipline is this: do not let the wood warp, keep the joints aligned, plane well, do not over-polish, and do not let the work split later. These are essential.",
+    "Anyone who wishes to learn this art should give full attention to each matter written in this book and weigh it carefully."
+   ],
+   "gist": "Ordinary troopers must master their tools and craft from the bottom up, learning by doing, so that they can later be trusted to lead.",
+   "lesson": "Keep your tools sharp and learn the basics of your job thoroughly. Competence built through hands-on work is what earns responsibility later.",
+   "terms": [
+    {
+     "ja": "士卒",
+     "romaji": "shisotsu",
+     "en": "officers and troopers"
+    },
+    {
+     "ja": "道具",
+     "romaji": "dōgu",
+     "en": "tools, equipment"
+    },
+    {
+     "ja": "目利",
+     "romaji": "megiki",
+     "en": "judging by eye, discernment"
+    }
+   ]
+  },
+  {
+   "id": "1.5",
+   "title_en": "Why the Book Has Five Scrolls",
+   "en": [
+    "I divide the Way into five parts and write each in its own scroll so that its benefit can be known: Earth, Water, Fire, Wind and Void.",
+    "The Earth scroll sets out the overall structure of the Way of strategy as seen in my school. Mere sword technique cannot reach the true Way. One must know the smallest and the largest matters, the shallowest and the deepest, and go from the simple to the profound, like laying out a straight road over level ground. That is why the first scroll is called Earth: it levels the ground.",
+    "The Water scroll: the mind takes on the nature of water. Water takes the shape of whatever holds it, becoming a single drop in a small vessel or a vast sea in a large one, and it can show a clear blue depth. The clear part is what I use to show the principles of my school in this scroll.",
+    "When you clearly understand the principle of sword technique and can freely defeat a single opponent, you are in effect defeating everyone. The mind that defeats one enemy is the same as the mind that defeats a thousand. A commander’s strategy is to make the small into the large, as one builds a full-size Buddha statue from a model only one foot tall. The details cannot be fully written here. Mastering one thing lets you know thousands, which is the benefit of strategy. This principle is written out in the Water scroll.",
+    "The Fire scroll is about fighting. Fire is fierce whether it is small or great, and battles are the same. The principle of combat is the same for a duel between two men and a battle of ten thousand a side. Understand that the spirit can be large or small. Large things are easy to see; small things are hard to see. A large body of men is slow to shift position, so its movements can be predicted; an individual can change his mind in an instant, so his movements are hard to predict. You must understand this. The core of this scroll lies in drilling without pause, so that decisions come quickly. In strategy, training must be part of ordinary life, with the spirit unchanged. That is why the fighting of war is set out in this scroll.",
+    "Because matters of fire happen in the blink of an eye, you must become so familiar with them that you practice them daily as routine, with an unchanged mind; this is the essence of strategy. For that reason, I set out the matters of victory and defeat in battle in the Fire scroll.",
+    "The Wind scroll is not about my own school. It describes the strategies of other schools and their practices. ‘Wind’ refers to the old traditions and the present-day ones, and to the traditions of each family and each school. Understanding others is necessary before one can understand oneself. Every Way has side paths. If you practice a Way daily but your spirit wanders, you may believe you are on a good path while, viewed objectively, it is not the true one. When one walks the genuine path and strays only slightly, the error grows large later. Keep this in mind.",
+    "People naturally assume strategy is only sword fighting, and that is understandable. My strategy, however, has its own separate principle beyond the sword. So that people can understand the strategy of the world, I describe other schools in the Wind scroll.",
+    "The Void scroll: the Void has neither a fixed start nor a fixed end. Once one begins to talk about it, one cannot say what is inside or outside, what is deep or shallow. When you grasp the principle, you step beyond principles. In the art of strategy you find freedom within yourself and a remarkable power of your own, and at the right moment you read the rhythm and strike the enemy and yourself naturally. All of this is the Void. The Void scroll records how one enters the true path naturally."
+   ],
+   "gist": "The book has five scrolls, moving from the basic structure of Musashi’s school to fighting, to rival schools, and finally to the formless Void.",
+   "lesson": "Structure a hard subject as a progression, from fundamentals to application to context, so learners can build understanding step by step.",
+   "terms": [
+    {
+     "ja": "地水火風空",
+     "romaji": "chi sui ka fū kū",
+     "en": "Earth, Water, Fire, Wind and Void: the five scrolls"
+    },
+    {
+     "ja": "空の巻",
+     "romaji": "kū no maki",
+     "en": "the Void scroll"
+    },
+    {
+     "ja": "風の巻",
+     "romaji": "fū no maki",
+     "en": "the Wind scroll, on other schools"
+    }
+   ]
+  },
+  {
+   "id": "1.6",
+   "title_en": "Why Two Swords: The Niten Ichi School",
+   "en": [
+    "Now the matter of the two swords. Warriors, whether commanders or troopers, carry two blades at the belt. Long ago they went by the names tachi and katana; today we say sword and short sword. Enough said: in our country, for whatever reason, samurai wear two blades at the waist. That is the warrior’s Way. This school is named Niten Ichi-ryū to show the benefits of using both swords. Spears and halberds are carried outdoors and belong to a different category of weapon, so they are counted among the battle equipment.",
+    "In this school, a beginner should first train with the long sword and the sword, one in each hand. This is the real method. When you give up your life, use every tool you have; it is not what you want, to die with your weapons still unused at your waist. Yet holding something in each hand does not allow free movement to either side. So the purpose of training with a sword in each hand is to learn to take up the long sword in one hand.",
+    "Spears, long halberds and other large weapons are in a separate class. A short sword and a sword can each be held in one hand. Holding the long sword with both hands is a fault: on horseback, on rough roads, on swampy ground, in muddy paddies, on rocky ground and in a crowd, it is awkward. Holding a bow, spear or other weapon in the left hand leaves only the right hand free for the long sword. Since nearly every weapon is used with one hand, using both hands for the long sword is not the true practice. If you cannot cut down an enemy with one hand, use both, which takes no extra effort.",
+    "First, to learn to swing a sword with one hand, this school trains with two. When a sword is first picked up, it feels heavy and hard to swing; a bow is hard to draw and a halberd hard to wield. But with use, the bow’s pull grows stronger, and once the sword is swung often, you gain the power of the Way and it swings well. The principle of the long sword is not to swing fast; it is explained in the Water scroll. The long sword is swung in open space, the short sword in narrow space: this is the basic meaning of the practice.",
+    "In this school you can win with a long blade and you can win with a short one, so the length of the sword is not fixed. Long or short, this school wins with whichever blade is used. The heart that can win with whatever is at hand is the Way of this school. Carrying two swords is better than carrying one when you must fight many men alone, or when you need to dislodge someone barricaded inside a building.",
+    "Such matters need not be spelled out here. Grasp one principle and its variations will be plain to you; practice the Way and nothing will seem hidden. Think carefully about this."
+   ],
+   "gist": "Warriors carry two swords. Training with one in each hand builds one-handed control and flexibility, and the sword must be usable in every situation.",
+   "lesson": "Deliberately practice your weaker side or a less natural method. Limiting yourself to one way of working leaves you unprepared when conditions change.",
+   "terms": [
+    {
+     "ja": "二刀",
+     "romaji": "nitō",
+     "en": "two swords"
+    },
+    {
+     "ja": "太刀",
+     "romaji": "tachi",
+     "en": "long sword"
+    },
+    {
+     "ja": "脇差",
+     "romaji": "wakizashi",
+     "en": "short sword"
+    }
+   ]
+  },
+  {
+   "id": "1.7",
+   "title_en": "Understanding the Two Characters of Strategy",
+   "en": [
+    "Those who have mastered the sword in this art are called strategists in the world. In the other martial arts, one who masters the bow is called an archer, one who masters the gun is a gunner, one who masters the spear is a spearman, and one who masters the halberd is a halberd man. But one who masters the sword is not called a long-swordsman or a companion-swordsman. The bow, the gun, the spear and the halberd are all warriors’ equipment, so they are also part of strategy. Still, it is reasonable to name the whole art after the sword.",
+    "Because the sword is the core of the Way, one who gains the sword’s virtue can govern the world and himself, and so the long sword is the foundation of strategy. Its principle is ‘strategy through the long sword’. Someone who gains the virtue of the sword can overcome ten. A hundred can then overcome a thousand, and a thousand can overcome ten thousand. In my strategy, one and ten thousand are treated alike, so this is the complete craft of the warrior.",
+    "Confucian scholars, Buddhist monks, tea connoisseurs, etiquette teachers and dancers are not part of the warrior’s Way. Even though those paths lie outside the warrior’s Way, if one knows the Way widely one meets it everywhere. Each person should polish his own Way with care."
+   ],
+   "gist": "One who masters the sword is known as a strategist, since the sword underlies the martial arts, and a truly trained man can in principle face many opponents.",
+   "lesson": "Identify the core skill that makes everything else work and develop it deeply. Mastering the foundation gives you leverage across related tasks.",
+   "terms": [
+    {
+     "ja": "太刀遣",
+     "romaji": "tachi-zukai",
+     "en": "a master of the long sword"
+    },
+    {
+     "ja": "道理",
+     "romaji": "dōri",
+     "en": "reason, principle"
+    },
+    {
+     "ja": "兵法",
+     "romaji": "heihō",
+     "en": "strategy"
+    }
+   ]
+  },
+  {
+   "id": "1.8",
+   "title_en": "Knowing the Benefit of Each Weapon",
+   "en": [
+    "Learn the usefulness of each weapon. Whichever one you carry will come up depending on the occasion. The short sword is best in a cramped spot, close to the enemy’s body. The long sword is useful almost anywhere, since it fits many situations. On the battlefield the halberd falls behind the spear: the spear takes the lead while the halberd follows. Among men of equal training the spear has a slight edge, and in tight spaces the spear and halberd both lose much of their use. Neither works well against a man barricaded in a building, so they are mainly weapons for the field. Still, battlefield weapons are essential in war. But if you cling to the advantages of indoor practice and forget the authentic path, you will find yourself unprepared in a real encounter.",
+    "In field battles the bow is useful for maneuvering and for drawing the enemy out, and it works well when spears and other arms engage at close range. For storming a castle, or when the enemy is twenty ken away, roughly forty paces, it is inadequate. For this reason, few archery schools are kept alive today, and the skill sees little use. In the present age, arts that are rich in show but poor in substance do not serve in critical moments. The gun is unmatched inside a fortress. Before the lines clash on open ground it has its uses, but once the fighting begins it is inadequate. The virtue of the bow is that the arrow in flight can be seen, while a bullet cannot be. This must be carefully considered.",
+    "A horse must be sturdy, responsive and free of vices. This is essential.",
+    "For all weapons: the horse should be large and strong, the sword and short sword should cut broadly, the spear and long halberd should thrust through, and bows and guns should be sturdy and not easily damaged. Do not favor any small detail in your equipment, for excess is no better than lack. Do not merely imitate others; fit your weapons to your own body so that they suit your hand.",
+    "Commanders and troopers alike who favor some things and dislike others are in error. Cultivating even-handed judgment is essential."
+   ],
+   "gist": "Each weapon suits different settings: swords for tight spaces, spears and halberds for open fields, bows and guns for set ranges. Choose tools that fit you.",
+   "lesson": "Choose tools and methods by context, and make sure your equipment fits your own body and habits instead of copying what others use. Do not train only for artificial settings.",
+   "terms": [
+    {
+     "ja": "武道具",
+     "romaji": "bu dōgu",
+     "en": "martial weapons and equipment"
+    },
+    {
+     "ja": "座敷",
+     "romaji": "zashiki",
+     "en": "indoor space, room-based practice"
+    },
+    {
+     "ja": "合戦",
+     "romaji": "kassen",
+     "en": "battle"
+    }
+   ]
+  },
+  {
+   "id": "1.9",
+   "title_en": "Rhythm and Timing in Strategy",
+   "en": [
+    "Everything has its rhythm, but the rhythm of strategy is hard to reach without training. The rhythm of the world shows itself in the arts: dance, ceremonial performance, pipes and strings, all of which keep a good and steady pace. Across the martial arts, including archery, gunnery, horsemanship and every other skill, rhythm is present, and you must never go against it. Even in empty matters there is rhythm. A warrior’s life has rhythms for rising in service, rhythms for falling back, rhythms that fit and rhythms that clash. A merchant’s fortune likewise has rhythms of gain and loss, and each path has its own. Look carefully at the rhythms of growth and decline in things.",
+    "Strategy involves many rhythms. First, know the rhythms that meet and the rhythms that clash. Within the rhythms, know the large and the small, the fast and the slow; know the rhythm that strikes, the rhythm of the interval, and the rhythm that works against you. This knowledge is the core of strategy. If you do not learn to recognize the rhythm that works against you, your strategy will be unreliable. In battle, study the rhythm of each enemy and strike with a timing he does not anticipate; draw the rhythm of the Void from the rhythm of wisdom, and win. Every scroll is chiefly concerned with rhythm, so study the principles written in them and train diligently.",
+    "By practicing this one school of strategy morning after morning and evening after evening, the heart naturally broadens. So I now write down, for the first time, what I have passed on to the world as one portion of strategy: these five scrolls of Earth, Water, Fire, Wind and Void.",
+    "Those who want to learn my strategy should follow these principles: first, harbor no crooked thoughts; second, drill in the Way itself; third, become acquainted with the other arts; fourth, know the Way of each trade; fifth, discern gain and loss in every matter; sixth, learn to judge things with a keen eye; seventh, perceive what cannot be seen and understand it; eighth, pay attention even to small things; ninth, do nothing that serves no purpose. Hold these broad principles in your mind and train in the Way of strategy accordingly. Whoever looks at matters only narrowly will find it hard to master strategy. A practitioner who learns this method need not fear twenty or thirty opponents. First keep up your strategy without pause and follow the straight Way: with your hands you will win, and with your eyes you will beat others. Through training you gain complete freedom, so your body can overcome others; and with familiarity in the Way, your mind can overcome others. Once you reach this point, how could you be defeated? In the broader strategy of a leader, good people serve better than great numbers; he directs troops well, corrects his own conduct, governs the land, nourishes the people and follows the laws of the age. In every Way, knowing where you cannot be defeated helps you and preserves your name. This is the Way of strategy. Shōhō 2 (1645), fifth month, twelfth day: Shinmen Musashi, to Terao Magonojō. Kanbun 7 (1667), second month, fifth day: Terao Musei Katsunobu, with his monogram, to Yamamoto Gensuke."
+   ],
+   "gist": "Every skill has a rhythm. Strategy means reading both sides’ rhythm and striking when the enemy does not expect it; the five scrolls are about timing.",
+   "lesson": "In meetings or negotiations, watch the rhythm of the room and time your moves when others are not ready. Good timing often matters more than force.",
+   "terms": [
+    {
+     "ja": "拍子",
+     "romaji": "hyōshi",
+     "en": "rhythm, timing"
+    },
+    {
+     "ja": "空の拍子",
+     "romaji": "kū no hyōshi",
+     "en": "the rhythm of the Void"
+    },
+    {
+     "ja": "智恵の拍子",
+     "romaji": "chie no hyōshi",
+     "en": "the rhythm of wisdom"
+    }
+   ]
+  },
+  {
+   "id": "2.1",
+   "title_en": "Preface: The Water Book",
+   "en": [
+    "Because the Niten Ichi school builds on the spirit of water and teaches the principles of gaining advantage, this is the Water Book, in which I write out the sword lines of our school. This Way cannot be spelled out in full detail, and however carefully I put it into words, the words will fall short; still, the advantage will make itself heard. Take every point written here one character at a time and think it through. If you read it in broad strokes you will often go astray. Even when a passage speaks of a duel between one man and another, understand it as applying to a battle of ten thousand against ten thousand, and weigh that well. In this Way above all, if you mistake the path even slightly, you become confused and fall onto the bad road. Do not read these notes as if they were about someone else, do not think of them as rote lessons to memorize, and do not treat them as imitations. Instead, find the advantage from your own heart and keep working at it, placing yourself fully inside the situation."
+   ],
+   "gist": "Musashi introduces the Water Book: the principles of advantage must be understood deeply and drawn from one's own heart, not learned from written words alone.",
+   "lesson": "Read a principle, then test it against your own work and situation rather than memorizing it. Ask what the lesson means for the decision you face today.",
+   "terms": [
+    {
+     "ja": "兵法",
+     "romaji": "heihō",
+     "en": "strategy, the martial art"
+    },
+    {
+     "ja": "二天一流",
+     "romaji": "Niten Ichi-ryū",
+     "en": "the Niten Ichi school"
+    },
+    {
+     "ja": "利",
+     "romaji": "ri",
+     "en": "advantage, benefit"
+    }
+   ]
+  },
+  {
+   "id": "2.2",
+   "title_en": "Mental Attitude in Strategy",
+   "en": [
+    "In the principles of strategy, your state of mind must not be different from your everyday mind. Keep the mind open and direct, neither stiffly drawn tight nor slack in the least, and not leaning to any side. Set it in the center, calm yet never stagnant, and examine closely that it never wavers, even for an instant. A still moment does not mean the mind is still, and a hurried moment does not mean the mind is hurried. The mind should not follow the body, and the body should not follow the mind. Be watchful with your mind while your body does not look as if it is on guard. Leave no lapse in the mind and let nothing slip even a little. Even if the outer mind seems weak, keep the inner mind firm and do not let others see into it. A person of small stature must know the great matters fully in the mind, and a person of large stature must know the small matters well. Whether large or small, keep the mind straight and do not play favorites with your own body. Keep the inner mind clear and wide, and place your wisdom in that open space. Polish mind and wisdom together until both are sharp. Know right and wrong in the world, know good and evil in all things, and pass through the many arts, each by its own path, so that no one can fool you. Then that wisdom becomes the wisdom of strategy. In the wisdom of strategy there is one common mistake to avoid. Even on the battlefield, when everything is hurried, keep working at the principles of strategy until your mind is unshaken."
+   ],
+   "gist": "Keep the mind calm, open and unbiased, neither tense nor slack, in both daily life and combat, and polish wisdom by learning across many arts.",
+   "lesson": "Before a high-stakes meeting or deadline, steady your breathing, stay open to other views, and avoid tunnel vision. A calm, wide attention lets you see the next move clearly.",
+   "terms": [
+    {
+     "ja": "心",
+     "romaji": "kokoro",
+     "en": "mind, heart, spirit"
+    }
+   ]
+  },
+  {
+   "id": "2.3",
+   "title_en": "Bearing and Posture in Strategy",
+   "en": [
+    "Hold your bearing like this: do not droop the head, do not tilt it up, do not lean it to one side, and do not let it twist. Keep the brow smooth and the space between the eyebrows free of creases. Let the eyeballs stay still and do not blink; narrow the eyes slightly so that the face looks calm and composed. Keep the line of the nose straight with a slight sense of the chin pushed forward. Keep the back of the neck straight and put a little strength into the nape, so that the whole body feels even from the shoulders down. Drop both shoulders, straighten the back, and do not stick out the buttocks. Put strength into the legs, down to the toes, and keep the waist from bending. It is taught to wedge the belly: press the belly against the short sword in its scabbard so that the sash does not loosen, as if setting a wedge. In general, in strategy, make your everyday body your fighting body, and make your fighting body your everyday body. Study this carefully."
+   ],
+   "gist": "Set the body upright and relaxed: level head, steady eyes, dropped shoulders, strong legs and a braced belly, so everyday and fighting posture match.",
+   "lesson": "Carry the same composed bearing into ordinary work that you would use under pressure. A steady posture signals calm to colleagues and keeps you alert in routine meetings.",
+   "terms": [
+    {
+     "ja": "身なり",
+     "romaji": "minari",
+     "en": "bearing, posture"
+    }
+   ]
+  },
+  {
+   "id": "2.4",
+   "title_en": "Where and How You Look",
+   "en": [
+    "Keep your eyes wide and open in how you look. There are two ways of seeing, kan and ken: kan is perceiving the whole, and ken is seeing the particulars. The kan should be firm; the ken should be light. Perceive far things as though they were at hand, and near things as though they were distant. Strategy demands that you recognize the enemy's blade while barely glancing at it. This is the great secret of strategy; work it out for yourself.",
+    "This way of placing the eyes is the same whether the martial art is small or large. Keep the eyeballs still while you take in both sides; this is essential. In a hurry you will not grasp it at once. Memorize these notes, keep this way of looking at all times, and study carefully so that your eye placement never changes, no matter what happens."
+   ],
+   "gist": "Look broadly: take in the whole with a firm perception while watching details lightly, and know the enemy's sword without fixating on its movement.",
+   "lesson": "In meetings, keep the big picture and the room in view while still catching the one detail that matters. Fixating on a single worry blinds you to everything else.",
+   "terms": [
+    {
+     "ja": "目付",
+     "romaji": "metsuke",
+     "en": "where and how you look"
+    },
+    {
+     "ja": "観見",
+     "romaji": "kanken",
+     "en": "perceiving the whole and seeing the detail"
+    }
+   ]
+  },
+  {
+   "id": "2.5",
+   "title_en": "Holding the Sword Correctly",
+   "en": [
+    "Hold the long sword with the thumb and forefinger as if they float, the middle finger neither clenched nor limp, and the last two fingers held snugly shut. It is bad to have any slack in the hands. When you take up the sword, feel that you are going to cut the enemy. Do not change your grip as you cut, and do not let your hands cringe. When you bat aside the enemy's blade, ward it off, press it down, or receive it, change the feel of the thumb and forefinger only slightly; above all, be resolved to cut the enemy with the way you hold the sword. The grip for a practice cut on test targets and the grip for cutting a man are the same.",
+    "In general, with the sword or with the hands, dislike being fixed in place. A stuck hand is a dead hand; a hand that stays free is a living hand. Understand this well."
+   ],
+   "gist": "Hold the sword with a relaxed but firm grip, never letting the hands stiffen or go slack, and always intend to cut through on contact.",
+   "lesson": "Hold your tools, plans and commitments firmly but without rigidity. Keep your grip loose enough to adjust when conditions change.",
+   "terms": [
+    {
+     "ja": "手の内",
+     "romaji": "te no uchi",
+     "en": "the grip, the hands on the sword"
+    }
+   ]
+  },
+  {
+   "id": "2.6",
+   "title_en": "Footwork and Yin-Yang Stepping",
+   "en": [
+    "Let the toes float a little and press down firmly with the heels. Move quickly or slowly, in long or short steps; your feet should always travel as they do in ordinary walking. Three kinds of footwork are disliked in this Way: the jumping foot, the floating foot, and the stuck foot that stamps and stops. The great principle of this Way is called yin-yang footing, and it is essential. Yin-yang footing means never moving just one foot. Whether you are cutting, pulling back, or receiving a blow, step right and left in turn. Never let one foot do all the stepping. Examine this again and again."
+   ],
+   "gist": "Keep the feet moving as in normal walking, heels pressing, and alternate both feet; never let one foot carry the movement alone.",
+   "lesson": "Keep steady, balanced progress across your projects rather than relying on one big push. Spread the load so no single part of your work carries everything.",
+   "terms": [
+    {
+     "ja": "陰陽の足",
+     "romaji": "in-yō no ashi",
+     "en": "yin-yang footing"
+    }
+   ]
+  },
+  {
+   "id": "2.7",
+   "title_en": "The Five Stances",
+   "en": [
+    "The five stances are these: upper, middle, lower, a right-side stance and a left-side stance. Although I divide the stances into five, all of them are for cutting the enemy, and there are no stances beyond these five. Whichever stance you assume, do not think that you are making a stance; think only of cutting. Make the stance large or small according to what advantage requires. Upper, middle and lower are the stances of the body itself; the two side stances are the flexible ones. The right and left side stances are used where the space above or to one side is blocked, and which one to choose depends on the place. The great principle of this Way says that the ultimate of stance is the middle; understand that the middle stance is the true intent of stance. Look at strategy on a grand scale: the middle stance is the position of the general, and the other four are the subordinate formation that follows him. Study this carefully."
+   ],
+   "gist": "There are five stances, all serving to cut; the middle stance is the commander's base from which the other four take their place.",
+   "lesson": "Choose your approach from several options, but keep the central goal as the anchor. Adapt the method to the situation without losing sight of the purpose.",
+   "terms": [
+    {
+     "ja": "五方の構",
+     "romaji": "gohō no kamae",
+     "en": "the five stances"
+    }
+   ]
+  },
+  {
+   "id": "2.8",
+   "title_en": "The Path of the Blade",
+   "en": [
+    "To know the path of the blade means this: even when you swing a sword you carry yourself, if you know its path well, you can swing it freely. When you try to swing a sword quickly, the path goes wrong and it becomes hard to swing. A sword should be swung at the speed at which it swings well. A fan or a short knife is swung fast, and when you apply that same haste to a sword, the path is lost; this is called chopping with a short blade, and it will not cut a person with a real sword. When you lower the blade, lift it along a path that lifts easily; when you swing it sideways, bring it back along a path that returns easily. Stretch your elbows wide and swing with force. This is the path of the blade. When you learn and practice the five forms of my school, the path of the blade becomes settled and the sword swings well. Train diligently."
+   ],
+   "gist": "Swing the sword at a speed that keeps its path true; haste breaks the path, while a calm, full swing lifts and returns with control.",
+   "lesson": "Do not push a task faster than its natural rhythm. A steady, full effort done well beats frantic speed that breaks the work apart.",
+   "terms": [
+    {
+     "ja": "太刀の道",
+     "romaji": "tachi no michi",
+     "en": "the path of the blade"
+    }
+   ]
+  },
+  {
+   "id": "2.9",
+   "title_en": "The First Form",
+   "en": [
+    "First form: the middle stance, with the sword point set against the enemy's face. When you meet the enemy and he strikes at you, slide your blade off to the right and ride over it. When he strikes again, knock his blade down with a turn of the point and leave your sword where it is. When he strikes once more, parry his hands from underneath. This is the first form. Written descriptions alone cannot make the five forms clear; you must take up the sword and practice the path of the blade through these five sword lines. Through them you will know your own path with the blade and be able to read any strike the enemy makes. This teaches that the sword stances are nothing beyond these five. Train in it."
+   ],
+   "gist": "The first form: middle stance with the point at the enemy's face, riding his blade aside, turning the point back and parrying his hands from below.",
+   "lesson": "When a rival pushes back, redirect their force instead of meeting it head-on, and keep your own momentum. Use their own move to open a path for you.",
+   "terms": [
+    {
+     "ja": "五つのおもて",
+     "romaji": "itsutsu no omote",
+     "en": "the five forms"
+    }
+   ]
+  },
+  {
+   "id": "2.10",
+   "title_en": "The Second Form",
+   "en": [
+    "Second form: set the sword in the upper stance, and strike in one blow at the moment the enemy attacks. If the enemy avoids your blow, leave your sword where it is, scoop up from below, and strike the place where he has just attacked. The next blow is the same. Within this form lie many kinds of mind and many rhythms. If you train thoroughly in the whole of this form of our school, you will know the five sword paths in detail and find an opening in any situation. Practice it."
+   ],
+   "gist": "The second form: strike from the upper stance as the enemy attacks; if he evades, scoop up from below and strike again, with many minds and rhythms within.",
+   "lesson": "When a first attempt misses, follow up at once with a second approach that builds on the opening it left. Persistence with varied timing tends to win.",
+   "terms": [
+    {
+     "ja": "上段",
+     "romaji": "jōdan",
+     "en": "upper stance"
+    }
+   ]
+  },
+  {
+   "id": "2.11",
+   "title_en": "The Third Form",
+   "en": [
+    "Third form: hold the sword in the lower stance, low and hanging as if carried in the hand. When the enemy strikes, parry his blade from below with your hands. At the moment you parry his hands, when he tries to knock your sword down, pass over his rhythm with a rhythm that overtakes him, and after his strike has landed, cut horizontally across both of his arms. In the lower stance, strike and finish him in one blow at the point where he attacks. Whether you carry the lower stance forward quickly or slowly, you meet him either way. Take up the sword and train."
+   ],
+   "gist": "The third form: lower stance; parry the enemy's hands from below, then cut across his arms once his strike has landed, finishing him in one blow.",
+   "lesson": "Anticipate the other side's moves and act at the moment they commit. Answer their first step with a precise counter rather than chasing them.",
+   "terms": [
+    {
+     "ja": "下段",
+     "romaji": "gedan",
+     "en": "lower stance"
+    }
+   ]
+  },
+  {
+   "id": "2.12",
+   "title_en": "The Fourth Form",
+   "en": [
+    "Fourth form: hold the sword horizontally in the left side stance. When the enemy strikes, parry his hand from below. With the intent of parrying his hand while he tries to knock your blade down, take his sword's path as it comes, and cut diagonally from above your own shoulder. This is the path of the sword. When the enemy strikes, to receive the path of his blade and win is the principle. Think it over carefully."
+   ],
+   "gist": "The fourth form: left-side stance; parry his hand from below, then cut diagonally down from above your shoulder along the line of his blade.",
+   "lesson": "Absorb pressure coming from one direction, then answer with a decisive move from the side they did not expect. Reading the flow of a situation often beats direct force.",
+   "terms": [
+    {
+     "ja": "脇",
+     "romaji": "waki",
+     "en": "side stance"
+    }
+   ]
+  },
+  {
+   "id": "2.13",
+   "title_en": "The Fifth Form",
+   "en": [
+    "Fifth form: hold the sword horizontally in the right side stance. Read the rhythm of the enemy's attack, and from below the horizontal line on my side, turn the blade diagonally and raise it into the upper stance; then cut straight down from above. This too is to know the path of the blade. Once these forms are trained, a heavy sword can be swung freely. The five forms are not described in full detail here. Through the outline of my school you come to know the path of the blade and the general rhythms. First, these five forms teach you to see the enemy's blade and never leave the hands idle. Even in combat, keep this sword path unbroken: receive the enemy's intent and win with varied rhythms in any way. Consider carefully."
+   ],
+   "gist": "The fifth form: right-side stance; lift the blade from below into the upper stance and cut straight down, which makes even a heavy sword free to swing.",
+   "lesson": "Build your fundamentals until heavy tasks feel light. Practice the basics until a difficult challenge can be handled with ease.",
+   "terms": [
+    {
+     "ja": "右の脇",
+     "romaji": "migi no waki",
+     "en": "right side stance"
+    }
+   ]
+  },
+  {
+   "id": "2.14",
+   "title_en": "Stance and No-Stance",
+   "en": [
+    "Having a stance and having no stance: holding the sword does not mean you must necessarily assume a fixed stance, but if you place the blade in one of the five positions, a stance results. The sword should be set wherever the enemy's opening and the place require; whichever position it takes, the aim is to cut the enemy cleanly. An upper stance, when adjusted to the moment, drops a little and becomes middle; a middle stance raised slightly for advantage becomes upper. The lower stance is the same: lifted a little as the position requires, it becomes middle. If the side stances move a little toward the center to suit the position, they become middle or lower. Therefore a stance exists, yet there is no fixed stance; this is the principle.",
+    "First: once you take up the sword, in every case you must intend to cut the enemy. When the enemy's blade comes and you think of receiving it, parrying it, meeting it, binding it, or touching it, every one of these is a means of cutting him. If you think only 'I receive', 'I parry', 'I meet', 'I bind', or 'I touch', your cut will fall short. In all things it is essential to regard each movement as a means of cutting. Study well.",
+    "In strategy on a large scale, even the arrangement of troops is a stance, and all of it serves to win battles. To fix yourself in one place is bad. Study this well."
+   ],
+   "gist": "Stances are fluid: each position shifts into another with small adjustments, and every stance, and every contact, is a means of cutting the enemy.",
+   "lesson": "Make your plans flexible: move between approaches as needed without losing your central aim. Tie every action back to the goal of winning.",
+   "terms": [
+    {
+     "ja": "有構無構",
+     "romaji": "u-kamae mu-kamae",
+     "en": "stance and no-stance"
+    }
+   ]
+  },
+  {
+   "id": "2.15",
+   "title_en": "The Single-Beat Strike (ippyōshi)",
+   "en": [
+    "Striking with a single beat: the single beat means this. When you reach a position where you and the enemy are close enough to strike, and you seize the moment while the enemy has not yet noticed, you do not move your body and you do not show your intention; you strike immediately, quickly and straight. This is the single-beat strike. It is the rhythm of striking before the enemy has any thought of drawing back, evading, or striking himself. Master this single beat first, then train to strike quickly in the spaces between beats."
+   ],
+   "gist": "The single-beat strike: when you are close and the enemy is unaware, strike at once without moving the body or showing intent.",
+   "lesson": "When the moment is right and the other party is unprepared, act at once with a clear, direct decision. Hesitation hands over the opening.",
+   "terms": [
+    {
+     "ja": "一拍子",
+     "romaji": "ippyōshi",
+     "en": "single-beat strike"
+    }
+   ]
+  },
+  {
+   "id": "2.16",
+   "title_en": "The Two-Remaining Rhythm (ni no koshi)",
+   "en": [
+    "The two-remaining rhythm (ni no koshi): when I am about to strike and the enemy pulls back quickly, springing back like a drawn bow, make it appear that I am striking. Then strike at the point where his tensed body goes slack. Strike as he pulls back and relaxes. This is the two-remaining strike. Written notes alone can hardly teach it; once taught in person, it is understood at once."
+   ],
+   "gist": "The two-remaining strike: feint an attack as the enemy springs back, then strike at the moment his tension slackens.",
+   "lesson": "Use a small test or signal to make the other side reveal a weakness, then act once they relax. A feint can draw out what a direct push cannot.",
+   "terms": [
+    {
+     "ja": "二のこし",
+     "romaji": "ni no koshi",
+     "en": "two-remaining (a feint, then the true strike)"
+    }
+   ]
+  },
+  {
+   "id": "2.17",
+   "title_en": "The No-Thought, No-Mind Strike",
+   "en": [
+    "The no-thought, no-mind strike: when the enemy is about to strike and I too am about to strike, my body becomes a striking body and my mind becomes a striking mind, and my hands strike, almost without my knowing when, from the void behind, strongly. This is the no-thought, no-mind strike, a great matter in strategy. Such strikes come up again and again in meetings of blades. Learn it well and train in it."
+   ],
+   "gist": "The no-thought, no-mind strike: when both sides are about to strike, body, mind and hands act together without deliberate calculation.",
+   "lesson": "When both sides are fully committed, rely on trained instincts. Practice until decisive action comes without overthinking.",
+   "terms": [
+    {
+     "ja": "無念無想",
+     "romaji": "munen musō",
+     "en": "no-thought, no-mind"
+    }
+   ]
+  },
+  {
+   "id": "2.18",
+   "title_en": "The Flowing-Water Strike",
+   "en": [
+    "The flowing-water strike: when you and the enemy are locked in a contest of blades, and the enemy tries quickly to withdraw, quickly to slip away, or quickly to knock your blade aside, open both body and mind, and strike from behind your own body with the sword, slowly and with a sense of lingering, like still water, large and strong. If you learn this strike, you will surely strike well. Understanding the enemy's position is essential."
+   ],
+   "gist": "The flowing-water strike: when the enemy tries to break free, open body and mind and strike slowly, large and strong, like still water.",
+   "lesson": "When a rival is slipping away or pushing back hard, stay calm and expansive and press with steady force. Read their position before you commit.",
+   "terms": [
+    {
+     "ja": "流水の打",
+     "romaji": "ryūsui no uchi",
+     "en": "the flowing-water strike"
+    }
+   ]
+  },
+  {
+   "id": "2.19",
+   "title_en": "The Strike of Connection (en)",
+   "en": [
+    "When I strike out and the enemy tries to block my strike or push my blade away, I make my strike a single line: at the head and at the legs both, with one path of the sword, wherever I can reach. This is the strike of connection. Learn this strike thoroughly, and be able to use it at every meeting of blades. Consider the fine details of each contact carefully."
+   ],
+   "gist": "The strike of connection: when the enemy blocks or pushes aside your blade, strike head and legs in one continuous line on the same sword path.",
+   "lesson": "Link your moves so that one action sets up the next, covering several needs in one decisive sequence. Think through each contact point in advance.",
+   "terms": [
+    {
+     "ja": "縁の打",
+     "romaji": "en no uchi",
+     "en": "the strike of connection"
+    }
+   ]
+  },
+  {
+   "id": "2.20",
+   "title_en": "The flint-spark strike",
+   "en": [
+    "The flint-spark strike happens when your sword and the enemy's sword meet at the same moment. You do not lift your own sword at all, but strike with full force. Your legs are strong, your body is strong and your hands are strong; you strike quickly with all three together. Practice this strike again and again, because without practice it is hard to land. Train it thoroughly and it will land with power."
+   ],
+   "gist": "A quick, all-in strike delivered the instant blades meet, driven by legs, body and hands together, and made forceful through repeated training.",
+   "lesson": "When a decisive moment arrives, commit your whole effort at once instead of hesitating, and build that readiness through repetition before you need it.",
+   "terms": [
+    {
+     "ja": "石火の当たり",
+     "romaji": "sekka no atari",
+     "en": "flint-spark strike"
+    }
+   ]
+  },
+  {
+   "id": "2.21",
+   "title_en": "The red-leaf strike",
+   "en": [
+    "The red-leaf strike knocks down the enemy's sword so that you can recover your own. Suppose you hold your sword facing the enemy, intending either to strike or to parry. The strike then comes from a mind of no-thought and no-intent (munen musō), or it is a flint-spark strike. Hit the enemy's sword hard and keep your blade on it, pressing so that the point drops. When you do this, the enemy's sword will certainly fall. This strike becomes easy with practice, so train it thoroughly."
+   ],
+   "gist": "Strike the enemy's blade hard and stay pressed on it with the point lowered, so his sword falls; the technique becomes easy with practice.",
+   "lesson": "When an obstacle is pressing on you, lean firmly on its core and stay with it until it gives way, rather than making many weak attempts that let it recover.",
+   "terms": [
+    {
+     "ja": "紅葉の打",
+     "romaji": "kōyō no uchi",
+     "en": "red-leaf strike"
+    }
+   ]
+  },
+  {
+   "id": "2.22",
+   "title_en": "The sword that takes the body's place",
+   "en": [
+    "This may be called the sword that takes the place of the body. In general, when you strike an enemy, sword and body do not both move at once. Depending on how the enemy attacks, you send the body in first and the sword follows, paying no attention to the body but going where it needs to. If the body does not move, you can strike with the sword alone, but in most cases you send the body ahead and let the sword come after. Study this carefully and practice the strike."
+   ],
+   "gist": "When striking, send the body forward first and let the sword follow; choose the order according to how the enemy attacks.",
+   "lesson": "In a demanding task, move your presence and commitment first and let the tools and details follow, adjusting the order to what the situation requires.",
+   "terms": [
+    {
+     "ja": "身にかはる太刀",
+     "romaji": "mi ni kawaru tachi",
+     "en": "sword that replaces the body"
+    }
+   ]
+  },
+  {
+   "id": "2.23",
+   "title_en": "Striking versus hitting",
+   "en": [
+    "There are two things here, striking and hitting. To strike means that, whatever the blow, you commit to it with certainty, having fixed your intention on it. Hitting means arriving at the target with force, to the degree that the enemy may die at once; that too is called hitting. To strike is to strike with awareness, knowing what you are doing. Consider this carefully.",
+    "When the enemy's hand or foot is hit, there is first contact. After contact, you strike hard so as to follow through. Contact is a feeling like brushing against something. Once both are mastered they are quite separate matters. Work this out for yourself."
+   ],
+   "gist": "Striking is a committed, deliberate blow, while hitting is arrival with force; contact with a limb is first a light touch, followed by a hard follow-through.",
+   "lesson": "Separate the act of making contact from the decisive follow-through, so you know whether you have truly reached the goal or only brushed against it.",
+   "terms": [
+    {
+     "ja": "打",
+     "romaji": "uchi",
+     "en": "deliberate strike"
+    },
+    {
+     "ja": "当たる",
+     "romaji": "ataru",
+     "en": "to hit, to arrive"
+    }
+   ]
+  },
+  {
+   "id": "2.24",
+   "title_en": "The short-armed monkey body",
+   "en": [
+    "The short-armed monkey body means a mind that does not extend the hands. When you enter against the enemy, you do not put out your hands at all; as the enemy strikes, you quickly bring your whole forward body in. When you think of reaching out with a hand, the body always pulls away, so you move the entire body in quickly. At the distance where you can parry hand to hand, the body enters with ease. Study this carefully."
+   ],
+   "gist": "Enter against the enemy by moving the whole body in quickly rather than reaching out with the hands, since extending the arms makes the body draw back.",
+   "lesson": "When you want to reach someone or something, commit your whole self rather than sending only a hand, since a partial reach tends to pull you back.",
+   "terms": [
+    {
+     "ja": "秋猴の身",
+     "romaji": "shūkō no mi",
+     "en": "short-armed monkey body"
+    }
+   ]
+  },
+  {
+   "id": "2.25",
+   "title_en": "The sticky-lacquer body",
+   "en": [
+    "The sticky-lacquer body means to adhere when you enter close, and not to separate. As you press in on the enemy, attach your head, your body and your legs firmly to the point where you bind. Most people push their face and feet in quickly, but their body pulls back. Fasten your body fully onto the enemy's, leaving not the slightest gap between the two bodies. Study this carefully."
+   ],
+   "gist": "Once inside an opponent's guard, attach the head, body and legs to him with no gap, so the body does not lag behind the limbs.",
+   "lesson": "Once you engage, close the distance fully so your whole effort moves together, rather than having your hands and attention advance while your body holds back.",
+   "terms": [
+    {
+     "ja": "漆膠の身",
+     "romaji": "shikkō no mi",
+     "en": "sticky-lacquer body"
+    }
+   ]
+  },
+  {
+   "id": "2.26",
+   "title_en": "The height contest",
+   "en": [
+    "In any entry against an enemy, do not let your body shrink. Lengthen your legs, extend your hips, reach your neck upward, and press in strongly. Set your face level with the enemy's face and compare your height against his. When you rise high enough to feel you have won, press in hard. This is the crucial point. Consider it well."
+   ],
+   "gist": "On closing with an enemy, keep the body fully extended, rise to face level, and press in forcefully once you feel you hold the higher position.",
+   "lesson": "In a face-off, do not shrink from the confrontation; stand tall, hold your ground, and press forward once you feel you have the upper position.",
+   "terms": [
+    {
+     "ja": "丈くらべ",
+     "romaji": "take-kurabe",
+     "en": "height contest"
+    }
+   ]
+  },
+  {
+   "id": "2.27",
+   "title_en": "Holding stickiness",
+   "en": [
+    "When the enemy strikes and you also strike, and he receives your sword, your blade sticks to his as you enter. Stickiness means the blades are hard to part, and it should not be forceful. Stick to the enemy's sword as you enter; you may enter as calmly as you like without harm. Stickiness and entanglement are two different things: stickiness is firm, entanglement is weak. Keep this distinction in mind."
+   ],
+   "gist": "Keep your blade adhering to the opponent's as you enter, firm but not forceful; this firm stickiness differs from weak entanglement.",
+   "lesson": "Hold a point of contact firmly and calmly so you are not easily shaken off, but do not clutch so tightly that you become tangled and weak.",
+   "terms": [
+    {
+     "ja": "ねばり",
+     "romaji": "nebari",
+     "en": "stickiness"
+    }
+   ]
+  },
+  {
+   "id": "2.28",
+   "title_en": "The body strike",
+   "en": [
+    "The body strike means entering close to the enemy and hitting him with your body. Turn your face slightly aside, thrust your left shoulder out, and strike the enemy's chest. Strengthen your body as much as you can, and make the strike in the rhythm of the breath, with a springing spirit, so that you bounce off together. Once you have mastered this entry, the enemy will spring back several ken (a ken is about 1.8 meters). The strike is strong enough to nearly kill him. Train thoroughly."
+   ],
+   "gist": "Enter close and strike with the body and left shoulder, timed to the breath; a well-trained entry throws the opponent back several meters.",
+   "lesson": "Some confrontations are won by timing a committed push to the moment of contact, not by pushing harder for longer.",
+   "terms": [
+    {
+     "ja": "身のあたり",
+     "romaji": "mi no atari",
+     "en": "body strike"
+    }
+   ]
+  },
+  {
+   "id": "2.29",
+   "title_en": "The three parries",
+   "en": [
+    "The three parries: when you have entered against the enemy and he strikes out with his sword, meet it with your sword in a way that threatens his eyes, and draw the enemy's blade sideways over your right shoulder. Second is the thrust-parry: as the enemy's sword comes, thrust toward his right eye, with the intent of clamping his neck, and receive the blow there. Third, when the enemy strikes with a short blade, enter and receive it without worrying much about your own sword; use your left hand to strike the enemy's face. Form the left hand into a fist and punch at his face. Train thoroughly in these."
+   ],
+   "gist": "Three ways to defend while entering: draw the blade across the shoulder, a thrust-parry aimed at the eye and neck, or punch the face with a clenched left fist.",
+   "lesson": "When pressed, have several defences ready and fall back on the one that fits the moment, including the simplest direct action.",
+   "terms": [
+    {
+     "ja": "三つの受け",
+     "romaji": "mittsu no uke",
+     "en": "three parries"
+    }
+   ]
+  },
+  {
+   "id": "2.30",
+   "title_en": "Stabbing at the face",
+   "en": [
+    "Stabbing at the face means that, when the blades are crossed and the space between the enemy's sword and yours is close, you thrust your sword point at his face. Keep this always in mind, as it is essential. If you hold the intention of piercing his face, his face and body will be drawn forward. If you draw the enemy into leaning forward, there are many ways to gain the advantage. Study this carefully.",
+    "In battle, if the enemy's body is drawn forward by over-commitment, that is a quick path to victory. Therefore do not forget the face-stab. Practice this advantage in your regular training."
+   ],
+   "gist": "When blades cross, thrust the point at the opponent's face; the threat draws his body forward and opens him to a quick win.",
+   "lesson": "Make a direct, visible threat to draw out a reaction; when someone leans into it, that over-commitment exposes the openings you need.",
+   "terms": [
+    {
+     "ja": "面をさす",
+     "romaji": "men o sasu",
+     "en": "stab at the face"
+    }
+   ]
+  },
+  {
+   "id": "2.31",
+   "title_en": "Stabbing at the heart",
+   "en": [
+    "Stabbing at the heart means that, in battle, when there are obstructions above or on the sides so that cutting is impossible, you thrust at the enemy. Show him the spine of your blade directly, pull the sword back so the point does not wobble, and thrust at his chest. This is also the mind of deflecting the enemy's cut. It is especially useful when you are tired, or when your sword will not cut well. Consider it carefully."
+   ],
+   "gist": "When overhead or side obstacles block cutting, thrust straight at the chest with the blade spine shown; this also works when tired or when the blade is dull.",
+   "lesson": "When the usual approach is blocked, switch to a simpler, straighter action that still gets the result, instead of forcing the blocked route.",
+   "terms": [
+    {
+     "ja": "心をさす",
+     "romaji": "kokoro o sasu",
+     "en": "stab at the heart"
+    }
+   ]
+  },
+  {
+   "id": "2.32",
+   "title_en": "Katsu-totsu, the two-beat strike",
+   "en": [
+    "Katsu-totsu: whenever you launch a strike to bring the enemy down, and it looks as if he will strike back, thrust upward from below as if piercing him, and return with a strike. Both are done in a quick rhythm. The raised point carries the intent of thrusting, so intending to thrust and lifting make two beats of one strike. This rhythm always comes up in an exchange of blows. Practice it well and examine it."
+   ],
+   "gist": "In a quick katsu-totsu exchange, when the enemy is about to counter, thrust up from below and strike back in a two-beat rhythm that appears in every exchange.",
+   "lesson": "When someone pushes back, answer with a quick two-part move, a short thrust then a follow-up, rather than waiting to absorb the full force of the reply.",
+   "terms": [
+    {
+     "ja": "喝咄",
+     "romaji": "katsutotsu",
+     "en": "katsu-totsu, two-beat strike"
+    }
+   ]
+  },
+  {
+   "id": "2.33",
+   "title_en": "The smacking parry",
+   "en": [
+    "The smacking parry is used when the two swords clash and make a tan-tan beat. Meet the enemy's cut on your sword and strike his blade. The mind of meeting is not to grip tightly, nor merely to receive. Answer the enemy's cut by smacking his sword, and strike him faster than the smack itself. Taking the lead through the smack and then through the strike is essential. If you master the smacking rhythm, however hard the enemy strikes, your blade tip will not drop even a little. Study and practice this."
+   ],
+   "gist": "Meet the enemy's cut with a quick smacking contact on his blade, followed by a faster strike, so your blade stays firm even against heavy blows.",
+   "lesson": "When hit hard, meet the force with a crisp, well-timed response rather than resisting stiffly or yielding, and keep your own momentum.",
+   "terms": [
+    {
+     "ja": "張り受け",
+     "romaji": "hari uke",
+     "en": "smacking parry"
+    }
+   ]
+  },
+  {
+   "id": "2.34",
+   "title_en": "Position against many enemies",
+   "en": [
+    "Position against many is for fighting many people at once. Draw your long and short swords, open them wide to the left and right, and hold them level. Even if enemies come from every direction, drive them toward one side. When they come, look at their order, front and rear, and quickly meet first the one who advances first. Keep your eyes wide and take the moment of the enemy's strike to cut with both swords together: the sword that goes forward cuts the enemy in front, and the sword that returns cuts the enemy coming at your side. Waiting with the swords idle is bad. Quickly settle into the two flank positions, and when enemies come in, cut hard and break them in the direction they come from, then turn back at once toward the direction they came. Always set the enemies up so they press in like fish strung on one line; when you see them piling up, strike hard into them with no gap for them to slip through.",
+    "Also, if you think of the enemy only as coming from where he seems to come, and wait expecting that, you cannot move. Read the enemy's rhythm, know the point where his formation collapses, and win. When you often draw many enemies close and drive them into one another, and grasp this mind, then one or ten or twenty enemies are no trouble. Practice well and study."
+   ],
+   "gist": "Against several opponents, hold both swords wide and level, meet the first attacker, cut with both blades in turn, and keep the enemies bunched together.",
+   "lesson": "When many demands arrive at once, stay composed with a wide view, deal with the first thing that reaches you, and keep the crowd in front of you rather than letting it surround you.",
+   "terms": [
+    {
+     "ja": "多敵の位",
+     "romaji": "tateki no kurai",
+     "en": "position against many"
+    }
+   ]
+  },
+  {
+   "id": "2.35",
+   "title_en": "The advantage in exchanging blows",
+   "en": [
+    "The advantage in an exchange of blows is the place where one learns to recognize the winning point in swordsmanship. It is not written out in detail here; through diligent practice you will come to know the points of victory. In general, this is the sword that reveals the true path of the sword art.",
+    "Oral transmission (kuden)."
+   ],
+   "gist": "Mastering the exchange of blows lets you recognize the decisive points of victory; it cannot be fully written down and must be learned through practice.",
+   "lesson": "Some skills can only be learned by doing; read the principles, but test them against real situations until you can recognize the winning moment yourself.",
+   "terms": [
+    {
+     "ja": "打ち合い",
+     "romaji": "uchiai",
+     "en": "exchange of blows"
+    }
+   ]
+  },
+  {
+   "id": "2.36",
+   "title_en": "The one strike",
+   "en": [
+    "Through this idea of one strike you surely attain victory. Without studying the sword art well, it is hard to grasp. If you train this principle diligently, strategy becomes a matter of the mind itself, and you win in the way you wish. Practice thoroughly."
+   ],
+   "gist": "Through the single-strike principle, a diligent practitioner gains reliable victories and can win as the mind directs.",
+   "lesson": "Focus on one decisive action at a time and execute it well; a single clear move, practiced until automatic, often beats a scattered effort.",
+   "terms": [
+    {
+     "ja": "一つの打ち",
+     "romaji": "hitotsu no uchi",
+     "en": "one strike"
+    }
+   ]
+  },
+  {
+   "id": "2.37",
+   "title_en": "The direct-transmission position",
+   "en": [
+    "The mind of direct transmission is what is received and passed on from the true path of the Two-Sword One School. Train it thoroughly; making this method part of your own body is essential.",
+    "Oral transmission (kuden)."
+   ],
+   "gist": "The direct-transmission stance is the inherited core of the school's true path; mastery requires training until the method becomes part of the body.",
+   "lesson": "Valuable methods are learned from a teacher and made your own through repetition; receive the core of what works and practice it until it feels natural.",
+   "terms": [
+    {
+     "ja": "直通の位",
+     "romaji": "jikitsū no kurai",
+     "en": "direct-transmission position"
+    }
+   ]
+  },
+  {
+   "id": "2.38",
+   "title_en": "Afterword and colophon",
+   "en": [
+    "What is written in this scroll is, in broad outline, the sword art of the single school. Those who take up a sword and learn to win over people must first know the five forms, and through them the five stances, and learn the path of the sword. Then the whole body becomes free, the mind becomes alert, the rhythm of the Way appears, and the hands, sword, body and legs move in accord with the mind. At that stage you can win over one person, then two, and begin to know what is good and bad in strategy. Practice each article of this book one by one, and in fighting the enemy gain the advantage step by step. Take your time, keep the method in mind, and understand that this is the duty of the warrior. Today defeat yesterday's self; tomorrow defeat lesser opponents; afterward defeat the more skilled, following this book without letting your heart wander onto side paths. However many enemies you defeat, if it goes against what was taught, it is not the true path. When this advantage arises in your mind, one body can prevail over dozens, and with the wisdom of the sword you will grasp some portion of the art. A thousand days of practice is the forging; ten thousand days is the refining. Study this carefully. Written on the 13th day of the fifth month of Shōhō 2 (1645) by Shinmen Musashi for Terao Magonojō; dated the 5th day of the second month of Kanbun 7 (1667) by Terao Musei Katsunobu (seal) for Yamamoto Gensuke."
+   ],
+   "gist": "Closing advice: learn the five forms and stances, free the body, work through each article in turn, and beat yesterday's self, not just the enemy.",
+   "lesson": "Improve steadily by mastering one principle at a time and measuring yourself against your past performance, not only against others, so discipline lasts for years.",
+   "terms": [
+    {
+     "ja": "五つの表",
+     "romaji": "itsutsu no omote",
+     "en": "five forms"
+    }
+   ]
+  },
+  {
+   "id": "3.1",
+   "title_en": "Preface to the Fire Scroll (hi no maki)",
+   "en": [
+    "This is the Two-Sword, One-Stream strategy. I take the matter of fighting and treat it as fire, and I set down the matter of contests in this scroll, which I call the Fire Scroll. Most people think of the advantages of strategy as small. Some know the gain of a wrist motion of five or three sun with the fingertips. Some take up a folding fan and learn the first and second moves from the elbow. Others pick up a sliver of quickness from stance and footwork, training the hands and feet and concentrating on whichever small gain comes first. In my strategy, I stake my life on many contests fought in earnest, and I separate the two principles of life and death. I learn the way of the sword, measure the strength of an enemy's cut, understand the use of the blade's edge and back, and temper myself to kill. To think that small and weak things count for little, or to recall minor advantages while fully armored, is not the point at all. In a fight where each exchange may cost my life, one against five or ten, the surest path to victory is the Way of my strategy. Is there really any difference between one man beating ten and a thousand beating ten thousand? Examine this carefully.",
+    "Yet in ordinary daily practice one cannot gather a thousand or ten thousand people to learn this Way. Even taking up a single sword alone, one can weigh the enemy's stratagems, judge his strength and his methods, and use the wisdom and virtue of strategy to reach the point of defeating a crowd. Become skilled in this Way, and hold firmly to the conviction that my direct Way is one whose equal no one in the world could claim, and which no one could finally master more completely. Forge it in the morning and temper it in the evening, refine it until it is complete, and afterwards you gain freedom of self alone. Within you appear extraordinary power and a kind of wondrous strength. This is the living breath by which soldiering is carried on."
+   ],
+   "gist": "Musashi says strategy must be tested in real, life-and-death contests rather than shown off in small skills, and it is mastered through serious daily training.",
+   "lesson": "Don't judge a skill by how impressive it looks in practice. Test it against real stakes and drill it daily until it holds up under pressure.",
+   "terms": [
+    {
+     "ja": "火の巻",
+     "romaji": "hi no maki",
+     "en": "the Fire Scroll"
+    },
+    {
+     "ja": "兵法",
+     "romaji": "heihō",
+     "en": "strategy; the Way of the warrior"
+    }
+   ]
+  },
+  {
+   "id": "3.2",
+   "title_en": "Reading the Ground (ba no shidai)",
+   "en": [
+    "Reading the place means assessing your position on the ground. In any place there is the matter of keeping the sun at your back, so stand with the sun behind you. If the lay of the land does not allow that, put the sun on your right side. The same holds indoors, where you set the light behind you or on the right. So that your rear is not cramped, open the space on the left and draw in the space on the right as you set your stance. At night, when the enemy is visible, put the fire behind you and the light on your right, and understand this in the same way. Set yourself as if looking down on the enemy, even from a slightly higher spot. Indoors, count the seat of honor as the high place. When the fighting begins and you drive the enemy around, direct him toward your left. Make him stand with his back to rough ground, and drive him toward difficult ground wherever you can.",
+    "Do not let the enemy see the ground. Keep him occupied, do not let him turn his face to look about, and press him without any slack. Indoors it is the same: drive him toward the threshold, the lintel, the sliding door, the edge of the veranda, or a pillar, and never let him see where he stands. In every case the aim is to push the enemy onto poor footing or toward obstacles at his flank, and to use the advantage of the ground to win the place. Study this carefully and train at it in earnest."
+   ],
+   "gist": "Choose your position so that light, terrain and space favor you, and push the opponent toward poor footing and obstacles where he cannot see what is happening.",
+   "lesson": "Before a negotiation or meeting, choose the setting and seating that favor you, and steer the other side toward the points where they are weakest.",
+   "terms": [
+    {
+     "ja": "場",
+     "romaji": "ba",
+     "en": "the ground; the position"
+    },
+    {
+     "ja": "難所",
+     "romaji": "nanjo",
+     "en": "difficult ground"
+    }
+   ]
+  },
+  {
+   "id": "3.3",
+   "title_en": "The Three Initiatives (san tsu no sen)",
+   "en": [
+    "The three initiatives. The first is the initiative of attack (kake no sen), where I strike at the enemy first. The second is the initiative of waiting (matsu no sen), where the enemy attacks me and I seize the moment. The third is the initiative of meeting (tai tai no sen), where the enemy and I attack each other at the same time. These are the three initiatives, and at the start of any fight there is nothing beyond them. Since a victory is decided by who takes the initiative first, initiative is the foremost principle of strategy. It has many fine details, but what counts is choosing the right principle for the moment and reading the enemy's mind with the wisdom of my strategy. These cannot be written out in every particular.",
+    "First, the initiative of attack. When I am about to attack, I stay calm and then go in suddenly and quickly. Or I make the upper body strong and quick while keeping something in reserve at the base. Or I make the heart truly firm, keep the feet at their normal pace but slightly faster, slip quickly alongside the enemy and throw him into disorder. Or I let go of thought and press the enemy with the same force from beginning to end, so that the strength reaches to the very bottom. All of these are the initiative of attack.",
+    "Second, the initiative of waiting. When the enemy comes at me, I pay it no mind and let myself look weak. As he gets close, I suddenly break away with force, as if leaping aside. Then, the moment I see his looseness, I attack at once and win. That is one way. Or, when the enemy attacks, I also grow stronger, and at the instant his rhythm of attack shifts, I receive it and win on the spot. This is the principle of the initiative of waiting.",
+    "Third, the initiative of meeting. When the enemy attacks quickly, I answer with calm, strong force and aim at his weak point as he comes near, then defeat him firmly. If he attacks calmly, I watch how he moves. With my body light and moving a little quicker, I go in. When he comes close, I press once, then follow the change in his expression and press strongly. This is the initiative of meeting.",
+    "These matters resist clear explanation. Use this writing as a rough guide and work out the larger picture. Although one may always attack first from one's own side, depending on the moment and the principle, it is better, when possible, to attack first and turn the enemy around. In each of these three, initiative rests on the strength of strategic judgment, and you will win by it. Drill it thoroughly."
+   ],
+   "gist": "There are three ways to take the initiative: attack first, answer an attack, or meet the attack together. Each is chosen by reading the moment.",
+   "lesson": "Decide whether to move first, wait and respond, or meet the other side halfway based on the situation, and aim to be the one who sets the pace.",
+   "terms": [
+    {
+     "ja": "懸の先",
+     "romaji": "kake no sen",
+     "en": "the initiative of attack"
+    },
+    {
+     "ja": "待の先",
+     "romaji": "matsu no sen",
+     "en": "the initiative of waiting"
+    },
+    {
+     "ja": "体々の先",
+     "romaji": "tai tai no sen",
+     "en": "the initiative of meeting"
+    }
+   ]
+  },
+  {
+   "id": "3.4",
+   "title_en": "Pinning the Pillow (makura o osaeru)",
+   "en": [
+    "Pinning the pillow means not letting the enemy raise his head. In contests of strategy, being steered about and trailing your opponent is a poor position; I want to move the enemy freely in every way. The enemy thinks the same, and I too have that intent, but neither side will accept the other's moves. So in strategy you block the openings the enemy would strike, press down the thrust he would make, and break away his grip when he tries to hold you. Pinning the pillow means this: once I have attained the true Way and meet the enemy in an exchange, I perceive his intention before he can carry it out. Before his action takes shape, I seize the head of his strike, so he cannot follow through. Take the 'u' of uchi (strike) and hold its beginning. Likewise seize the 'ka' of kakaru (to attack), the 'to' of tobu (to leap), and the 'ki' of kiru (to cut). All of these share one mind. Let the enemy's useless motions go, and suppress the ones that would serve him, so that he cannot make them. That is the specialty of strategy. This is also the mind that tries to suppress what the enemy does, and it works from behind. Better is to move first. While I act according to the Way, at the moment the enemy thinks of acting I catch the head of his intention, so that nothing he does is of use, and I subdue him. That is the skill of a master of strategy, earned through long training. Examine pinning the pillow with great care."
+   ],
+   "gist": "Stop the opponent's plan before it becomes action, by reading the first sign of his move and blocking its beginning.",
+   "lesson": "Spot a rival's or colleague's plan at its earliest stage and address it before it develops, rather than reacting after it is already moving.",
+   "terms": [
+    {
+     "ja": "枕をおさふる",
+     "romaji": "makura o osaeru",
+     "en": "pinning the pillow: stopping the enemy's action before it forms"
+    }
+   ]
+  },
+  {
+   "id": "3.5",
+   "title_en": "Crossing the Ford (to o kosu)",
+   "en": [
+    "Taking a ford, for instance, means crossing the sea at a narrow strait, or crossing a long stretch of water forty or fifty ri wide at its crossing point. In a person's life, too, there are many crossings to make in a single lifetime. On a voyage, you learn where the crossing lies, know the state of your vessel and the swells of the day, and then take what the moment gives you, even without a companion ship. Sometimes you rely on a beam wind, sometimes on a following wind. Even if the wind turns against you, you row two or three ri to reach harbor, knowing that you will arrive. Grasping this, you should cross life's sea with the mind of treating every great turning point as a crossing.",
+    "In fighting, too, crossing the ford is essential. Read the enemy's position, recognize your own strengths, and by that understanding cross at the right point, as a skilled navigator crosses a sea route. Once you have made the crossing, you can settle in at ease. To cross the ford is to strike at the enemy's weak point and set yourself on favorable ground. Large victories are won this way. The mind of crossing the ford is needed in both grand strategy and small. Examine it thoroughly."
+   ],
+   "gist": "Like a sailor waiting for the right wind and tide, act at the decisive moment when conditions favor you, and keep adjusting if they change.",
+   "lesson": "Don't launch a big move until you have read the conditions, the timing and your own strength. Once committed, keep adjusting as the winds shift.",
+   "terms": [
+    {
+     "ja": "渡",
+     "romaji": "to",
+     "en": "a ford; a crossing point"
+    }
+   ]
+  },
+  {
+   "id": "3.6",
+   "title_en": "Reading the Momentum (keiki o miru)",
+   "en": [
+    "Reading the momentum is the province of grand strategy. Know the rise and fall of the enemy, understand the mind of his troops, take in the lay of the ground, and read the enemy's momentum. Then decide how to deploy your own forces. By the principle of strategy, see clearly where victory lies, grasp the initiative with that understanding, and only then engage. In one-on-one fighting too, you must understand the opponent's currents and his character, find his strengths and weaknesses, and set up a move that differs from what his face expresses. Know well the give and take of his rhythm, and take the initiative in the interval it leaves. This is essential. The momentum of things, when your wisdom is strong, will necessarily show itself. Once you are free in the Way of strategy, calculating the enemy's mind well opens many paths to victory. Consider this carefully."
+   ],
+   "gist": "Read the opponent's rise and fall and the flow of the contest, and move when the rhythm favors you rather than when you feel impatient.",
+   "lesson": "Watch a market's or team's momentum and timing before committing resources. The signs of a shift are usually visible to a careful observer.",
+   "terms": [
+    {
+     "ja": "景気",
+     "romaji": "keiki",
+     "en": "momentum; the signs of a contest rising or falling"
+    }
+   ]
+  },
+  {
+   "id": "3.7",
+   "title_en": "Pressing Down the Sword (ken o fumu)",
+   "en": [
+    "Pressing down the sword is a principle used exclusively in strategy. First, in grand strategy: when the enemy looses arrows and fires guns at us, and then attacks in the wake of his volleys, it becomes hard for us to get in close if we are busy reloading guns and nocking arrows. The mind is to close quickly while the enemy is still shooting. Once you are near, he cannot nock another arrow or fire another gun. Whatever the enemy does, if you seize the advantage at that very moment and press down on what he is doing, you win.",
+    "In one-on-one fighting too: if I strike only after the enemy's blade has landed, my blow arrives a beat late and gets nowhere. The sword he drives out should be pressed down the instant it leaves him, so that he cannot make a second stroke. This pressing is not limited to the feet. Press with the body, press with the mind, and of course press with the sword, so that the enemy cannot strike again. This is the principle of initiative in all things. It does not mean meeting him head-on in a single collision. It means following directly behind him. Examine this thoroughly."
+   ],
+   "gist": "Strike the instant the opponent begins his attack, so that he has no room to follow up with a second blow.",
+   "lesson": "When a rival makes a move, respond at once so they cannot easily repeat it. Don't give the other side a second chance to regroup.",
+   "terms": [
+    {
+     "ja": "剣を踏む",
+     "romaji": "ken o fumu",
+     "en": "pressing down the sword at its start"
+    }
+   ]
+  },
+  {
+   "id": "3.8",
+   "title_en": "Recognizing Collapse (kuzure o shiru)",
+   "en": [
+    "Collapse is present in all things. A house collapses, a body collapses, and the enemy collapses too, when the rhythm goes awry at the moment of contact and things come apart. In grand strategy, you must catch the enemy's disordered rhythm and pursue him without letting the gap slip by. If you do not follow through when his line breaks, he will rebuild and turn back on you. In one-on-one fighting as well, when the enemy's timing falters and a sign of breaking appears, you must not look away. If you slacken even for a moment, he recovers and becomes fresh again. It is essential to pursue him at the very mark of his collapse, so that he cannot restore his footing or his posture.",
+    "Pursuit calls for a plainly strong mind. Strike him away so that he has no chance to rise and come back, and understand well what it means to strike away. If you stay stuck to him, your mind goes slack. Work on this."
+   ],
+   "gist": "When the opponent's rhythm breaks and he starts to collapse, press on without pause so he cannot regain his footing.",
+   "lesson": "When a competitor stumbles, push the advantage quickly and steadily rather than easing off, or they will regroup and come back stronger.",
+   "terms": [
+    {
+     "ja": "崩れ",
+     "romaji": "kuzure",
+     "en": "collapse; a break in rhythm"
+    }
+   ]
+  },
+  {
+   "id": "3.9",
+   "title_en": "Becoming the Enemy (teki ni naru)",
+   "en": [
+    "Becoming the enemy means thinking with your own body as if you stood in his place. Look at the world: a thief who holes up in a house is seen by people as a formidable foe. Thinking as the enemy, you feel that everyone in the world is against you and that there is no way out. The one who shuts himself inside is the pheasant; the one who goes in to finish him is the hawk. Examine this well. Even in grand strategy, when you regard the foe as a foe, you think of him as strong and handle the matter with great care.",
+    "If you have good troops, understand the principles of strategy well, and know how to win over the enemy, there is no need to worry about the path to victory. In one-on-one fighting too, put yourself in the enemy's place. Against a man who understands strategy well, reasons firmly and is skilled in the Way, you must assume you will lose, and think accordingly. Hold this in mind and consider it deeply."
+   ],
+   "gist": "Put yourself in the opponent's position and assume he is strong and determined, so you never underestimate him.",
+   "lesson": "Imagine how a rival or a difficult client sees the situation before you plan. Assuming they are capable keeps you from careless mistakes.",
+   "terms": [
+    {
+     "ja": "敵になる",
+     "romaji": "teki ni naru",
+     "en": "becoming the enemy in one's mind"
+    }
+   ]
+  },
+  {
+   "id": "3.10",
+   "title_en": "Breaking the Locked Hands (yotsude o hanasu)",
+   "en": [
+    "Releasing the four hands means that when you and the enemy press against each other with the same spirit, and neither side can gain ground, the strategy goes nowhere. If you find yourself locked in such mutual pressure, drop the mind at once and win by another advantage. In grand strategy too, when the situation becomes a deadlocked tangle of forces, nothing advances, and this is what others criticize. Quickly let go of that mind and win through an advantage the enemy does not foresee. In one-on-one fighting too: if you feel yourself sliding into a locked contest, change your mind right then, take up the enemy's position, and through a completely different advantage recognize how to win. Think it through carefully."
+   ],
+   "gist": "When both sides are locked in the same stubborn struggle and neither can advance, drop that approach and win another way.",
+   "lesson": "If a negotiation or argument has stalled into deadlock, abandon the same tactic and find a different angle the other side does not expect.",
+   "terms": [
+    {
+     "ja": "四手",
+     "romaji": "yotsude",
+     "en": "the four hands; a locked deadlock"
+    }
+   ]
+  },
+  {
+   "id": "3.11",
+   "title_en": "Stirring the Shadow (kage o ugokasu)",
+   "en": [
+    "Stirring the shadow is used when the enemy's intention cannot be made out. In grand strategy, if you cannot read the enemy's position at all, show him strong pressure from your side and watch how he responds. Once you have seen his response, win by a different advantage, which is easy then. In one-on-one fighting as well, when the enemy holds his sword behind or off to the side and his intention is hidden from you, make a sudden feint. The enemy's intent will come out in his blade. Once it is revealed, seize the advantage right then and know victory for certain. If you are careless, the rhythm slips away. Examine this well."
+   ],
+   "gist": "When you cannot read the opponent's intention, apply a probing pressure and watch how he responds. His reaction will reveal his plan.",
+   "lesson": "If you cannot tell what a counterpart wants, make a probing move and watch how they react. Their reaction will show you their plan.",
+   "terms": [
+    {
+     "ja": "陰",
+     "romaji": "kage",
+     "en": "the hidden intent; stirring the shadow"
+    }
+   ]
+  },
+  {
+   "id": "3.12",
+   "title_en": "Holding Down the Shadow (kage o osaeru)",
+   "en": [
+    "Holding down the shadow is used when the enemy's intention to press from his side is visible. In grand strategy, when he tries to carry out his action, press down his advantage. If you show him strongly that you will suppress it, the force of your display pushes him and his mind changes. Change your own mind too, and from a mind without fixed thoughts, initiate first and win. In one-on-one fighting: stop the enemy's rising, strong intent with the rhythm of your own advantage. At the moment his rhythm stops, seize the advantage and initiate first. Think about this carefully."
+   ],
+   "gist": "When the opponent's intention is visible, press against his move so he changes course, then take the initiative yourself.",
+   "lesson": "When you can see a rival about to act, put a check on their plan to shift their approach, then move on the opening that results.",
+   "terms": [
+    {
+     "ja": "影をおさふる",
+     "romaji": "kage o osaeru",
+     "en": "holding down the visible intent"
+    }
+   ]
+  },
+  {
+   "id": "3.13",
+   "title_en": "Passing On the Mood (utsurakasu)",
+   "en": [
+    "Passing on the mood is found in all things. Drowsiness passes from one person to another, yawning passes, and time itself can pass on. In grand strategy, when the enemy is agitated and hurries, eager to press, do not mind it at all. Show complete calm and an unhurried air, and the enemy takes this on and relaxes as well. When you see his slackness, attack from a mind without fixed thoughts, quickly and strongly, and win. In one-on-one fighting too: relax your body and mind, wait for the enemy's moment of looseness, and attack first, strongly and quickly. The advantage of initiative is the essence here.",
+    "There is also a related matter, the making of weakness, which resembles this. One is the mind of boredom, one is the mind of carelessness, and one is the mind of softening. Study these well."
+   ],
+   "gist": "Moods and rhythms pass from one person to another. By staying calm yourself, you can make the opponent relax, then strike in the gap.",
+   "lesson": "Stay composed when others are rushed or anxious. Their tension eases, a gap opens, and that is when a decisive action will work.",
+   "terms": [
+    {
+     "ja": "移らかす",
+     "romaji": "utsurakasu",
+     "en": "to pass on a mood or rhythm"
+    }
+   ]
+  },
+  {
+   "id": "3.14",
+   "title_en": "Provoking the Opponent (mukatsukasu)",
+   "en": [
+    "Provoking is present in all things. The first is a mind poised on the knife's edge; the second is a forced, unreasonable mind; the third is a mind of the unexpected. Consider each carefully.",
+    "In grand strategy, provoking is essential. Strike suddenly with force at the place the enemy does not expect, before his mind has settled, and take the initiative with your advantage to win. In one-on-one fighting: begin by showing a relaxed, gentle manner, then press suddenly and hard. While the enemy's mind is catching up and shifting, do not let the opening slip. Seize the advantage and win on the spot. Think it over carefully."
+   ],
+   "gist": "Unsettle the opponent with unexpected, edgy or unreasonable-looking moves, then strike while he is off balance.",
+   "lesson": "Surprise a competitor with a bold but reasoned move they did not anticipate, and act before they can settle their thinking again.",
+   "terms": [
+    {
+     "ja": "むかつかす",
+     "romaji": "mukatsukasu",
+     "en": "to provoke; to unsettle"
+    }
+   ]
+  },
+  {
+   "id": "3.15",
+   "title_en": "Startling the Enemy (obiyakasu)",
+   "en": [
+    "Being startled happens in all things: a mind is frightened by something unforeseen. In grand strategy, to startle the enemy is not just a matter of what lies right before his eyes. It may come from a sound, or from making something small look large, or from a sudden attack from the flank. These startle him. Take advantage of the moment of fright and win through it. In one-on-one fighting too: startle with your body, startle with the sword, startle with your voice, and attack in a way the enemy never imagined. Take the benefit of his startled state and win on the spot. Examine this well."
+   ],
+   "gist": "Frighten the opponent with a sudden noise, apparent size, or an attack from an unexpected side, then win while he is startled.",
+   "lesson": "A sudden, well-timed change in approach can unsettle a rival, but use surprise to make a clear step forward, not just to rattle people.",
+   "terms": [
+    {
+     "ja": "脅かす",
+     "romaji": "obiyakasu",
+     "en": "to startle; to threaten"
+    }
+   ]
+  },
+  {
+   "id": "3.16",
+   "title_en": "Entangling (mabururu)",
+   "en": [
+    "Mabururu means that when you and the enemy are close, you press hard against each other, and if neither side can break through, you stay tangled with him just as you are. Inside that tangle, the key is to win by seizing the advantage. In large-scale strategy as well, when both armies push at each other and neither gains a decisive edge, mix in with the enemy so that neither side can separate. Within that, gain the benefit, recognize the advantage, and press forward firmly; this is essential. Examine it carefully."
+   ],
+   "gist": "When both sides are too close to separate, do not break off. Stay locked in, and win from inside the struggle by seizing whatever advantage appears.",
+   "lesson": "In a deadlocked negotiation or a tight rivalry, stay engaged in the details instead of pulling away, and watch for the small edge that tips the outcome.",
+   "terms": [
+    {
+     "ja": "まぶるる/塗る",
+     "romaji": "mabururu",
+     "en": "entangling; closing in and mixing with the enemy"
+    }
+   ]
+  },
+  {
+   "id": "3.17",
+   "title_en": "Touching the Corner (kado ni sawaru)",
+   "en": [
+    "Touching a corner means that when you push against something strong, you cannot simply force it straight in. In large-scale strategy, read the enemy's formation, press at a strong corner of his line, and you will gain its benefit. As a corner gives way, the whole body tends to give way with it, so among the many corners you must understand each one and seize the victory it offers; this is essential. In small-scale fighting too, if you cause pain at a corner of the enemy's body and his stance grows weaker and begins to crumble, victory comes easily. Examine this carefully and be sure you recognize the place to win."
+   ],
+   "gist": "Strong things cannot be forced straight on. Find the weak corner of the opponent's position, press there, and the rest of his stance will start to collapse.",
+   "lesson": "When a large obstacle or entrenched habit resists head-on pushing, approach its edges or its weakest part instead, where progress is easier and the rest gives way.",
+   "terms": [
+    {
+     "ja": "かど",
+     "romaji": "kado",
+     "en": "corner; edge of the enemy's formation or stance"
+    }
+   ]
+  },
+  {
+   "id": "3.18",
+   "title_en": "Unsettling the Enemy (uromekasu)",
+   "en": [
+    "Uromekasu means keeping the enemy from having a settled mind. In large-scale strategy on the battlefield, read the enemy's state of mind and, using your strategic judgment, make him uncertain: make him wonder whether your attack comes from here or there, whether you are slow or quick. When his mind begins to waver, catch that beat and secure the place of victory. Also, in one-on-one fighting, at the right moment, use many tactics: make a cut appear as a feint, or a thrust appear as a cut, or make him think you intend to close in. When you catch the moment his mind wavers, you can freely take the place of victory. This is the essence of fighting. Examine it carefully."
+   ],
+   "gist": "Keep the opponent unsure of your next move. When his mind wavers in doubt, he loses the balance needed to defend, and you gain the upper hand.",
+   "lesson": "In a negotiation or competition, keep rivals guessing about your next move instead of revealing your full plan, and strike when their confidence starts to slip.",
+   "terms": [
+    {
+     "ja": "うろめかす",
+     "romaji": "uromekasu",
+     "en": "unsettling the enemy's mind"
+    }
+   ]
+  },
+  {
+   "id": "3.19",
+   "title_en": "Three Shouts (mittsu no koe)",
+   "en": [
+    "The three voices are the voice at the beginning, the voice in the middle and the voice at the end, divided into three. Choose the voice to suit the place; this is essential. A voice carries energy, so we raise it against fire, against wind and waves; the voice shows strength. In large-scale strategy, the voice at the start of battle is raised with all the force you can muster. The voice during the fight is pitched low and rises from deep within, and when you prevail, you shout afterward with great strength. These are the three voices.",
+    "In one-on-one fighting too, to draw out the enemy, feign a strike and cry 'Ei!' from above your head; the blade comes down only after the cry has left you. And when you have struck the enemy, cry out afterward: this shout announces that you have won. This is called the voice before and after. Never shout at the same instant the sword swings. If you shout during the fight, shout in rhythm, riding the beat. Examine this carefully."
+   ],
+   "gist": "Shout at three moments: before the clash to unsettle the enemy, low during the fight to keep rhythm, and after the cut to announce victory.",
+   "lesson": "Mark the start, middle and end of a project with a clear signal: state your intent early, keep a steady pace, and celebrate only once the result is earned.",
+   "terms": [
+    {
+     "ja": "先後の声",
+     "romaji": "sengo no koe",
+     "en": "voice before and after the cut"
+    }
+   ]
+  },
+  {
+   "id": "3.20",
+   "title_en": "Weaving Through (magiruru)",
+   "en": [
+    "Magiruru in large-scale battle means that both sides line up their troops against one another. When the enemy is strong, you move in with magiruru: attack one flank, and when you see him start to crumble, leave that flank and attack the next stronger point. The whole movement is like a zigzag path up a mountain. When you bring a large force against many enemies, this same mind is essential: do not attack in only one direction. If they scatter, go after the strong side again, moving in a zigzag, reading the enemy's rhythm and his appearance, and pressing where the position is right. Once you have broken through in that position, press on without hesitation; that is advantageous. When you move in close as well, keep this mind when the enemy is strong. Magiruru means never to step back, not even for a single pace, but to keep moving into the tangle. Consider this well."
+   ],
+   "gist": "Against a strong enemy, do not push into one spot. Hit a weak flank, then shift to the next point, zigzagging through his line, and never retreat a step.",
+   "lesson": "When one approach stalls, move laterally to another opening rather than pushing harder in the same place; keep advancing and do not back off.",
+   "terms": [
+    {
+     "ja": "まぎるる/紛る",
+     "romaji": "magiruru",
+     "en": "weaving through the enemy's line"
+    }
+   ]
+  },
+  {
+   "id": "3.21",
+   "title_en": "Crushing (hishigu)",
+   "en": [
+    "Hishigu means that you view the enemy as weak and, standing in your strength, crush him. This is the core idea. In large-scale strategy, when you judge the enemy's rank of troops, or see that although he is numerous his mind is disordered and weakening at that point, crush him: pour your force down from the head onto him, pressing down. If your crushing is weak, he may turn and push back, so think of crushing as if you grip something in your fist. Examine this carefully.",
+    "In one-on-one fighting too: when your own skill or position is lacking, or when the enemy's timing is off and he has stepped back, do not lose your breath even a little. Keep your eyes steady and press straight in. The first priority is never to let him rise even a little. Examine this carefully."
+   ],
+   "gist": "When the enemy seems weak or his timing is off, press him hard and without pause, so he cannot recover or rise again.",
+   "lesson": "When a rival stumbles or a project loses momentum, press the advantage decisively and keep the pressure on, so they cannot regain their footing.",
+   "terms": [
+    {
+     "ja": "ひしぐ/拉ぐ",
+     "romaji": "hishigu",
+     "en": "crushing; pressing down"
+    }
+   ]
+  },
+  {
+   "id": "3.22",
+   "title_en": "Mountain and Sea (sankai no kawari)",
+   "en": [
+    "The mountain-and-sea mind warns against repeating the same move several times in a fight. Doing something twice cannot always be avoided, but a third try is not advisable. If you have tried a technique and it has not worked, do not use it again; switch at once to a completely different one. If that also fails, then try another entirely different method. So when the enemy expects mountains, strike as the sea; when he expects the sea, strike as mountains. This is the principle of strategy. Examine it carefully."
+   ],
+   "gist": "Do not repeat a technique that has failed twice. Switch to a completely different approach, reversing what the enemy expects: mountain becomes sea.",
+   "lesson": "If a tactic fails twice, stop repeating it. Change the approach entirely, since the other side has learned to expect your usual move.",
+   "terms": [
+    {
+     "ja": "山海の替り",
+     "romaji": "sankai no kawari",
+     "en": "switching between mountain and sea"
+    }
+   ]
+  },
+  {
+   "id": "3.23",
+   "title_en": "Piercing the Bottom (soko o nuku)",
+   "en": [
+    "Piercing the bottom means this: in fighting the enemy, you may seem to win on the surface by using the right technique, yet if the enemy keeps his spirit unbroken, he may be beaten above but not below. In that case, suddenly take on a different mind, drain the enemy's spirit, and attack from below, watching for the moment he collapses. The key is to see that moment. Piercing the bottom can be done with the sword, with the body, or with the mind; it cannot be known in only one way. If he has collapsed from the bottom, you need not hold anything back; otherwise, keep something in reserve. As long as you keep a reserve in mind, the enemy will be hard to break. In both large-scale and small-scale strategy, train thoroughly in piercing the bottom."
+   ],
+   "gist": "A surface win can hide an enemy who has not broken inside. Strike suddenly at his core spirit, and keep a reserve until he truly collapses.",
+   "lesson": "Looking successful on the surface is not enough; make sure the other side is truly beaten underneath, and keep some reserve until the result is solid.",
+   "terms": [
+    {
+     "ja": "底を抜く",
+     "romaji": "soko o nuku",
+     "en": "piercing to the bottom; breaking the enemy's inner resolve"
+    }
+   ]
+  },
+  {
+   "id": "3.24",
+   "title_en": "Renewing (aratanaru)",
+   "en": [
+    "Renewing means this: when you and the enemy are fighting and your minds become tangled so that no progress can be made, drop your current effort. Shake off your spirit and think of everything as freshly begun, then take the rhythm of that renewed moment and find the victory in it. Whenever you and the enemy are locked in a grip, change your mind completely and win with a different advantage. In large-scale strategy too, knowing how to renew is essential. With the wisdom of strategy this is easy to see. Examine it carefully."
+   ],
+   "gist": "When a contest gets stuck, drop the old approach and start again with a fresh mind; a new rhythm often brings a win that was blocked before.",
+   "lesson": "When a project or conversation stalls, reset your attitude and approach it as a fresh start rather than pushing harder on the same stuck point.",
+   "terms": [
+    {
+     "ja": "新たになる",
+     "romaji": "arata ni naru",
+     "en": "renewing; starting afresh"
+    }
+   ]
+  },
+  {
+   "id": "3.25",
+   "title_en": "Rat's Head, Ox's Neck (sotō goshu)",
+   "en": [
+    "In a fight, when you and the enemy are both preoccupied with small details and your minds become entangled, always hold the rat's head and the ox's neck in mind, repeating the phrase to yourself. Amid the small details, suddenly take on a large mind and shift between large and small. This is one of the essentials of martial strategy, a single mental discipline. A warrior should hold this same image in his everyday mind too. In large-scale or small-scale strategy alike, never let go of this mind. Examine it carefully."
+   ],
+   "gist": "When both sides are lost in tiny details, shift abruptly between a small focus and a big-picture view, and train this switch in daily life too.",
+   "lesson": "When you are stuck on a small problem, step back to the big picture, then zoom in again. Moving between detail and overview keeps decisions sharp.",
+   "terms": [
+    {
+     "ja": "鼠頭午首",
+     "romaji": "sotō goshu",
+     "en": "rat's head, ox's neck: switching between small and large"
+    }
+   ]
+  },
+  {
+   "id": "3.26",
+   "title_en": "Knowing the General and Troops (shōsotsu o shiru)",
+   "en": [
+    "Knowing the general and the troops means this: whenever battle comes, in every step of the path you intend to take, always apply this method. With the wisdom of strategy, regard every enemy as one of your own soldiers, and think of shaping him to your wishes. Think that you can move the enemy freely wherever you like. Here, you are the general and the enemy is the soldier. Work this out for yourself."
+   ],
+   "gist": "In a contest, see yourself as the commander and the opponent as a soldier you can direct. Taking this stance lets you move him where you want.",
+   "lesson": "Approach a negotiation or competition as the one setting direction rather than only reacting, so the other party's moves become steps you can guide.",
+   "terms": [
+    {
+     "ja": "将卒",
+     "romaji": "shōsotsu",
+     "en": "general and soldiers"
+    }
+   ]
+  },
+  {
+   "id": "3.27",
+   "title_en": "Releasing the Hilt (tsuka o hanasu)",
+   "en": [
+    "Releasing the hilt has many meanings. Some minds aim to win even with the hands empty of the blade; others hold the long sword yet need not use it to win. These are many different minds, and they cannot be set down in writing. Train thoroughly."
+   ],
+   "gist": "Letting go of the sword can mean winning without it, or holding a blade without relying on it. These mindsets differ and must be practised, not just read.",
+   "lesson": "Sometimes the best result comes from not reaching for your usual tool; practise having other options so you are not dependent on one approach.",
+   "terms": [
+    {
+     "ja": "束をはなす",
+     "romaji": "tsuka o hanasu",
+     "en": "releasing the hilt; letting go of the sword"
+    }
+   ]
+  },
+  {
+   "id": "3.28",
+   "title_en": "The Boulder Body (iwao no mi)",
+   "en": [
+    "The boulder body means this: once you have gained the path of strategy, you suddenly become like a boulder, a body that nothing strikes and nothing moves, unshaken by any of the myriad affairs.",
+    "Oral transmission (kuden)."
+   ],
+   "gist": "After mastering strategy, you can become immovable like a boulder: nothing hits you and nothing moves you. The secret of this state is passed on orally.",
+   "lesson": "Stay calm and steady when pressure hits, so events do not knock you off center. This steadiness is something you practise, not something you have by default.",
+   "terms": [
+    {
+     "ja": "いはほ（巌）の身",
+     "romaji": "iwao no mi",
+     "en": "boulder body"
+    },
+    {
+     "ja": "口伝",
+     "romaji": "kuden",
+     "en": "oral transmission; secret teaching passed by word of mouth"
+    }
+   ]
+  },
+  {
+   "id": "3.29",
+   "title_en": "Afterword of the Fire Scroll (ushirogaki)",
+   "en": [
+    "What I have set down in this scroll is only what has constantly come to my mind within the field of the single school of swordsmanship, and I have spoken of it as it arose. Now, for the first time, I set this benefit down in writing, so the sequence of earlier and later passages is tangled, and it is hard to explain it finely. Still, for the sake of those who will study this path, it may serve as a guide to the heart. From my youth onward I have set my mind on the path of strategy. I have labored at the ordinary techniques of swordsmanship, exhausted my hands and body, and passed through many different states of mind. When I searched out the other schools too, some explained themselves with words and excused their shortcomings, while others performed delicate movements with the hands to look fine in the eyes of onlookers. Not one of them had any true mind. Of course, those who train in this manner think they are disciplining their body and mind, but it becomes a sickness of the path, lingering for generations, and the straight road of strategy grows corrupt in the world; this is the foundation of the path's decline. The sword becomes a true path only when it is used to defeat an enemy in real combat, and this principle must not differ even slightly. If you acquire the understanding in my strategy and walk the straight course, you need have no doubt that you will win. Written on the twelfth day of the fifth month of Shōhō 2 (1645), by Shinmen Musashi, for Terao Magonojō-dono. Dated the fifth day of the second month of Kanbun 7 (1667), Terao Musei Katsunobu (seal), for Yamamoto Gensuke-dono."
+   ],
+   "gist": "Musashi closes: these teachings come from real fighting, not showy technique. Practise the plain, decisive method and trust its result.",
+   "lesson": "Judge a skill by whether it works in real use, not by how impressive it looks; practise the plain method that delivers results.",
+   "terms": [
+    {
+     "ja": "後書",
+     "romaji": "ushirogaki",
+     "en": "afterword"
+    }
+   ]
+  },
+  {
+   "id": "4.1",
+   "title_en": "Learning the Ways of Other Schools",
+   "en": [
+    "This scroll, written as notes in the manner of a jotted record, sets out the practices of other lineages. Without knowing the paths of rival traditions, it is hard to see clearly the principles of my own single school. Looking into the martial arts of other lineages, I find some that take up a very long sword and devote themselves to power in its use. Some, which they call the small sword, pursue the Way with a short blade. Others use many different sword techniques and pass on their teaching through fixed postures, calling the outer form the front and the inner teaching the secret. None of these is the true Way. I have set out their faults clearly in the secret section of this scroll, so that good and bad, right and wrong, become known. The reasoning of my own school is different. Other traditions spread themselves across many accomplishments in order to earn a living; they dress things up, make flowers bloom, and fashion goods to sell, so they are not the true Way. Moreover, people in the world reduce strategy to sword-fencing alone, practice only the swinging of the blade and the training of the body, and judge victory by what the hands can manage. None of these is a sound Way. Each shortfall of the other traditions I write out in this book. Study it thoroughly and understand the advantage of the two swords in one school."
+   ],
+   "gist": "Musashi lists the flaws of rival schools so readers can separate true from false and see why his two-sword school differs.",
+   "lesson": "Before judging any method, learn the alternatives and where they fail. Then you can explain clearly why your own approach works.",
+   "terms": [
+    {
+     "ja": "二刀一流",
+     "romaji": "nitō ichiryū",
+     "en": "two swords, one school"
+    }
+   ]
+  },
+  {
+   "id": "4.2",
+   "title_en": "Using a Very Long Sword",
+   "en": [
+    "Some other traditions favor a very large sword. In my strategy I consider these weak schools. The reason is that they do not know the principle that one wins over a person by any means at all. Valuing the length of the blade, they want to win from a distance where the enemy cannot reach, so they tend to prefer long swords. What the world calls an inch of advantage in the hand is the talk of someone who does not understand strategy. So they rely on length and, lacking real method, try to win from afar. This comes from a weak spirit, which is why I regard them as a weak strategy.",
+    "If the enemy is close and you are grappling, a long sword cannot be swung for much effect. With little room near the hilt, the long-sword user is inferior to someone who swings a short wakizashi freely. Those who like long swords may give reasons for it, and such reasons exist for them personally, but viewed from the real Way of the world, they are not reasonable. If you carry no long sword and must fight with a short one, you will certainly lose at times. Or in a place with no room overhead or at the sides, or in a setting where only a short blade is at hand, preferring a long sword is a doubtful habit in strategy and a bad state of mind.",
+    "Some people are not strong, and some bodies cannot manage a long blade. There is the old saying that the large can encompass the small, but I do not mean to reject the long sword flatly. What I reject is the lean toward the long sword, a narrow attachment. In large-scale strategy, long swords correspond to large numbers and short ones to small numbers. Can small numbers not fight large numbers? There are many examples of few overcoming many. In my school I dislike this kind of narrow, one-sided mind. Consider it carefully."
+   ],
+   "gist": "Preferring a very long sword to win from afar reflects a weak spirit, and in close fighting that length becomes a handicap.",
+   "lesson": "Do not lean on one advantage that works only from a distance. Build the skill that works up close, where the real decisions are made.",
+   "terms": []
+  },
+  {
+   "id": "4.3",
+   "title_en": "The Myth of the Strong Sword",
+   "en": [
+    "There should be no such thing as a 'strong sword' or a 'weak sword'. A sword swung with a strong mind is coarse, and coarseness alone does not win. If in cutting a person you try to cut forcefully, the cut will not land. Trying to cut hard during a test cutting is also bad. When facing an opponent whose blade is hard to beat, one cuts with a weak mind and does not think of cutting hard. But when you are trying to kill a person, there is neither a strong mind nor a weak mind. One thinks only of killing until the enemy dies. If you use a strong sword and the enemy's sword is also strong, you will overshoot and surely end up in a bad state. When you strike hard against the enemy's blade, your own sword bends and shatters. Therefore there is no such thing as a 'strong sword'.",
+    "In large-scale strategy also, if you hold a strong army in battle and want to win by strength, the enemy holds strong troops and also wants to fight with strength. Both are the same. In all things, victory requires a principle; without principle, victory cannot be achieved. In my Way I do not think of anything unreasonable at all. By the wisdom of strategy I can find places to win in whatever way is needed. Think about this carefully."
+   ],
+   "gist": "There is no 'strong' or 'weak' sword: forcing strength ruins cuts, and the aim is simply to kill with a settled mind.",
+   "lesson": "When pushing a deal or argument, do not rely on raw pressure. Keep a clear aim and let sound principle decide the outcome.",
+   "terms": []
+  },
+  {
+   "id": "4.4",
+   "title_en": "Relying on a Short Sword",
+   "en": [
+    "To aim for victory with only a short sword is not the true Way. Since ancient times the sword has been spoken of as long and short, and I explain both. Strong men in the world can swing a large sword lightly, so they have no special liking for the short one. Also, the long sword is used together with spears and long halberds. Choosing a short sword in order to slip through gaps in the enemy's swing, to leap in and grab, reveals a narrowed mind, and that is bad.",
+    "Moreover, watching for openings and aiming to respond only after the enemy has acted is a mind I dislike. If you use a short weapon and try to get in close, it does not work when there are many enemies. A short blade used to cut down a crowd, leap about freely, or whirl around ends up as a purely defensive weapon, and one becomes enveloped and tangled. That is not a sure way. Rather, my body should be strong and upright, pursuing the enemy and forcing him to leap and falter, so that the setup is aimed surely at victory. In large-scale strategy the principle is the same: with superior numbers, pin the enemy in a confined space, as at an archery range, and crush him at once. This is the essence of strategy.",
+    "People in the world, through constant practice of handing things back and forth, passing and ducking, grow accustomed to these motions, and their minds are pulled along by the way of doing them, so others turn them around. The Way of strategy is straight and correct. It is therefore essential to chase the enemy with correct principle and bring him under control. Consider this carefully."
+   ],
+   "gist": "Relying on a short sword to slip past openings is a narrow, defensive habit; the right way is to press forward and seize the initiative.",
+   "lesson": "Avoid defensive habits that wait for an opening. Take the initiative, set the terms, and steer the discussion toward your goal instead of reacting to others.",
+   "terms": []
+  },
+  {
+   "id": "4.5",
+   "title_en": "Too Many Sword Techniques",
+   "en": [
+    "To teach a large number of sword techniques to others is to turn the Way into merchandise, and to make beginners think deeply because the count of techniques looks impressive. Strategy dislikes this. The reason is that when you think there are many ways of killing a person, you become confused. In the world there is no other way to kill a person. Whether one knows the craft or not, whether man, woman, or child, striking and cutting is not a path of many forms. If you change it, saying I will hit this way or strike that way, there is no other method. Because this is a path of cutting first, there is no need for a great number of techniques.",
+    "But depending on the place and circumstances, for instance when the upper side or the sides are blocked, one should hold the sword so that it does not get caught, and so there is a set of five, which are called the five directions. Beyond that, to add techniques, to twist the hands and body, to leap and spread out in order to cut people, is not the true Way. Cutting by twisting does not cut; cutting by twisting the body does not cut; cutting by leaping does not cut; cutting by spreading out does not cut. In the end these are useless. In my strategy, both body and mind are straight. The aim is to make the enemy's posture distort and warp, and the essential thing is to win through the twisting of his mind. Consider this carefully."
+   ],
+   "gist": "Teaching many techniques makes cutting seem complicated; in truth, cutting has few forms and needs only directness.",
+   "lesson": "Too many methods can confuse a team. Reduce a complex task to a few essentials, and apply them consistently.",
+   "terms": []
+  },
+  {
+   "id": "4.6",
+   "title_en": "Relying on Fixed Stances",
+   "en": [
+    "Placing great emphasis on fixed postures of the sword is a mistake. Postures would belong only to a time without an opponent. Rules drawn from old precedent or current fashion have no place in the Way of contest. The task is to make the enemy's position bad. In all things, the idea of a stance is to use a point that does not move. Some fortify a castle or set up a camp, holding firm even when others attack; that is an ordinary matter. But in the Way of strategic contest, in everything the mind must be set on taking the initiative. The stance-mind is the mind that waits for the enemy to act first. Consider this carefully.",
+    "In the Way of strategy and contest, move the enemy's stance. Do something outside his expectation, make him waver, provoke him, or frighten him. Take advantage of the rhythm when he is disordered, and win. So I dislike the mind of the stance, a passive mind that only reacts. Therefore my Way has the saying 'having a stance and having no stance': there is a stance, and yet there is no stance.",
+    "In large-scale strategy too, one must grasp the enemy's numbers, read the nature of the battlefield, know the position of one's own force, and gain its advantage, then form ranks and begin the fight. This is the core of battle. When the enemy has attacked first and we answer, the outcome changes greatly. In handling the sword, hold a sound posture and receive the enemy's blade well. When you feel you can parry well, it is like holding a bristling barrier of spears and halberds. When you strike the enemy, your spirit must be like pulling a stake from a fence and using it as a spear. Examine this closely and cultivate it with careful thought."
+   ],
+   "gist": "Fixed stances suit times when no one is pushing; in real contest, move the enemy's posture and take the initiative.",
+   "lesson": "Rigid plans are fine when nobody pushes back. In competition, keep options open and respond to what others actually do.",
+   "terms": [
+    {
+     "ja": "構",
+     "romaji": "kamae",
+     "en": "stance, posture"
+    }
+   ]
+  },
+  {
+   "id": "4.7",
+   "title_en": "Where to Fix the Eyes",
+   "en": [
+    "Some schools direct the gaze to the enemy's blade, others to his hands, others on his face, others on his feet, and so on. If you fix your gaze deliberately on any one of these, the mind becomes confused, and that is a sickness of strategy. Consider a man playing kemari: he does not stare at the ball, yet by a run of kicks, sliding and rolling the ball, his foot moves by habit without close watching. Likewise, a performer who has mastered his craft can balance a door on his nose or juggle several swords. None of this is deliberate eye-fixing, yet through constant contact with the object he perceives it naturally. In the Way of strategy also, after many encounters, one learns to read each opponent's mind and its lightness and weight, and once the Way is mastered even the distance, speed, and timing of the sword become visible.",
+    "The eye that is set on the opponent in my school is the eye that sees into his intent. In large-scale strategy it is the same: watch the enemy's strength as a whole. There are two modes of seeing: the perceiving gaze and the sighting gaze. The perceiving gaze holds strongly on the enemy's spirit, observes the state of the battle, follows the progress of the fight and the shifts of advantage, and sees weakness and strength at each moment. This surely wins. In single combat, do not fix the eyes on small things. As I said, if you fix on details and neglect what matters, your mind becomes confused and victory slips away. Examine this and train it well."
+   ],
+   "gist": "Fixing the eyes on one spot confuses the mind; a master takes in the whole situation and the enemy's intent, not small details.",
+   "lesson": "Do not fixate on one metric, person, or detail. Keep the whole picture in view and watch for the moment the situation shifts.",
+   "terms": [
+    {
+     "ja": "目付",
+     "romaji": "metsuke",
+     "en": "eye-fixing, watchful gaze"
+    }
+   ]
+  },
+  {
+   "id": "4.8",
+   "title_en": "Footwork in Other Schools",
+   "en": [
+    "Regarding footwork, there are many named methods: floating steps, leaping steps, springing steps, treading steps, crow steps, and various rules for each. I see all of these as lacking. I reject floating steps, because in battle the feet tend to float, so they must be planted firmly. I also do not favor leaping steps, since they foster the habit of leaping and a leaping spirit; no matter how many leaps you make, there is no principle behind them, so leaping is bad. Springing steps are hopping steps, and treading steps are waiting steps, which I dislike especially. Beyond these there are various quick steps, such as crow steps. Yet in swamps, marshes, river valleys, stony ground, or thin paths, one fights enemies who are right there, so leaping and springing cannot always be used, and there are places where settled steps cannot be taken.",
+    "In my school, footwork does not change. I simply walk as one walks on an ordinary road. Speed and slowness are matched to the enemy's rhythm, the body keeps its posture neither too much nor too little, and the feet never become disordered. Footwork is essential in large-scale strategy as well. If you rush in quickly without understanding the enemy's mind, the rhythm will be off and it is hard to win. And if your steps are too slow and you do not catch the enemy's wavering, you lose the chance to win and cannot finish the contest quickly. You must find the moment the enemy wavers and crumbles, and never give him even a little room to recover. Train well."
+   ],
+   "gist": "Footwork should be ordinary and firm, adjusted to rhythm; leaping, floating, and trick steps are unreliable.",
+   "lesson": "Keep your foundation steady and match your pace to the situation. Do not hop between trendy tactics that leave you off balance.",
+   "terms": []
+  },
+  {
+   "id": "4.9",
+   "title_en": "Hurry Is Not Speed",
+   "en": [
+    "The matter of speed in strategy is not the true Way. Speed means being out of step with the rhythm of a thing, so something is judged fast or slow. A master of the Way does not appear to be in a hurry.",
+    "Some people can cover forty or fifty ri on foot in a day, but that does not mean they run continuously from morning to night. An untrained person may seem to run all day, but his measure is poor. In the Way of the dance-chant, if a skilled singer performs and a novice tries to join in, the novice lags behind and becomes busy. When a drum is beaten to the Old Pine tune, the rhythm is calm, yet the novice falls behind or rushes ahead. The Takasago piece is a quick one, but hurry is bad: it stumbles, it is called falling over, and it misses the beat. Slowness is also bad. Skilled performers seem unhurried, yet keep no gap in their timing. In anything a trained person does, there is no appearance of busyness.",
+    "Through these examples, understand the principle of the Way. Speed is especially harmful in strategy, because, depending on the place, such as a swamp or marsh, the body and legs cannot be moved quickly together. Still less can you cut quickly with a long sword in such ground. If you try to cut hurriedly, as though you were wielding a fan or a small knife, you will not cut even a little. Consider this clearly.",
+    "In large-scale strategy as well, a hurried and busy spirit is undesirable. Keep the spirit steady, as one holds a pillow in place, and you will never fall behind by a hair. If the opponent is rushing recklessly, act in the opposite manner and remain calm. Do not be swayed by him. Train diligently to attain this spirit."
+   ],
+   "gist": "Hurry is not speed; true skill keeps a steady rhythm and stays calm rather than rushing to match others.",
+   "lesson": "Rushing to match others' pace causes mistakes. Work at a steady, deliberate rhythm and you will finish sooner, with less rework.",
+   "terms": []
+  },
+  {
+   "id": "4.10",
+   "title_en": "Outer and Inner Teachings",
+   "en": [
+    "In strategy, which is the outer and which the inner? Depending on the art, some speak of inner secrets and hidden keys, but when actually fighting an enemy, the principle is that you fight on the surface and do not cut with some inner secret. My method of teaching is this. For one who is just beginning the Way, I first have him practice forms that are easy to perform and teach the points that are quickly understood. Deeper principles that his mind cannot yet reach, I teach later, gradually, as I see his understanding open. Yet in general there is no entrance into an inner chamber, because one trains by learning the manner of meeting each situation. In the world, when you go into the mountains looking for the inner recesses and keep going deeper, you come back out at the entrance. Every Way has an inner meeting point, and sometimes it is good to show the entrance. In the principle of battle, what should be hidden and what should be revealed?",
+    "Therefore, in passing on my Way, I do not favor sworn oaths, written pledges, or threatened punishments. Observing the ability of those who study with me, I teach the direct path and have them abandon the bad habits of the five or six paths of other arts. They naturally enter the true Way of the warrior's law and come to a state without doubt. This is the teaching of my school. Train well."
+   ],
+   "gist": "No hidden inner teaching exists in real combat; train beginners in what they can grasp first, then deepen step by step.",
+   "lesson": "Do not hoard secret knowledge to feel important. Teach newcomers the basics first, then introduce deeper principles as they are ready.",
+   "terms": [
+    {
+     "ja": "奥",
+     "romaji": "oku",
+     "en": "inner depths, secret teaching"
+    },
+    {
+     "ja": "表",
+     "romaji": "omote",
+     "en": "outer surface, public teaching"
+    }
+   ]
+  },
+  {
+   "id": "4.11",
+   "title_en": "Afterword on Other Schools",
+   "en": [
+    "Above, I have set out the martial traditions of other schools in nine articles in the Wind scroll, with their details written in brief. Each of them, from its openings to its inner secrets, could be shown clearly one by one, but I have deliberately not written the name of any school or its great secrets. The reason is that each school has its own view and its own justifications for its Way, and each person has his own ideas. Even within one school there are small differences, so for the benefit of readers in later generations I have not recorded the lines of each school. I have summed up the general nature of other schools in nine points. If one judges the Ways of the world by the straight reasoning of people, then relying on length, or favoring shortness as a principle, or leaning on strength or weakness, or on roughness or fineness, are all crooked ways. So even if I did not reveal the openings and inner teachings of other schools, everyone should already understand them.",
+    "In my single school, the sword has no inner and outer teaching, and posture has no fixed form. One knows its virtue only through the mind. This is the essential point of strategy. Set down on the 12th day of the 5th month in Shōhō year two (1645) by Shinmen Musashi, addressed to Terao Magonojo. Dated the 5th day of the 2nd month in Kanbun year seven (1667), with the monogram of Terao Musei Katsunobu, addressed to Yamamoto Gensuke."
+   ],
+   "gist": "Musashi withholds rival names and secrets, since each school has its own reasoning; the nine faults are plain to see.",
+   "lesson": "Judge rival approaches by their underlying reasoning, not their labels. Honest evaluation keeps revealing the same few weaknesses.",
+   "terms": []
+  },
+  {
+   "id": "5.1",
+   "title_en": "The Scroll of the Void",
+   "en": [
+    "The Way of strategy of the two swords, one school, is set out here in the Scroll of the Void. The meaning of void is that in all things there is nothing, and whatever is not known is regarded as void. Of course the void is absent. Knowing what is present, one knows what is absent; that is the void.",
+    "In the world, people look at things poorly and take not-understanding as void. That is not the true void, but a confusion of the mind. In the Way of strategy too, warriors who study think that whatever they cannot grasp in their craft is void. That is not real emptiness at all. A warrior who wishes to reach the strategic Way must study the other martial arts thoroughly and not stray a hair's breadth from the warrior's path. With a settled spirit, build up your training every day and every hour. Polish the heart and mind, the two spirits, and sharpen the two modes of seeing, the perceiving eye and the sighting eye. When the spirit is not clouded in the least, when the cloud of confusion has cleared away, there is the true void.",
+    "Until one knows the true Way, one takes oneself to be on a sound path and considers one's own views good, whether one looks through the Buddhist teaching or through common worldly principles. But when these are measured against the great standards of the world with a straight heart, each person's partiality and each person's distortion lead them away from the true Way. Knowing this, take straightforwardness as the root and the true mind as the Way. Practise strategy broadly, correctly, and openly. Grasp the large perspective, adopt emptiness as the path, and regard the path as emptiness.",
+    "Emptiness holds good without evil. Wisdom is present, benefit is present, the Way is present, and the heart is empty. Set down on the 12th day of the 5th month in Shōhō year two (1645) by Shinmen Musashi, addressed to Terao Magonojo. Dated the 5th day of the 2nd month in Kanbun year seven (1667), with the monogram of Terao Musei Katsunobu, addressed to Yamamoto Gensuke."
+   ],
+   "gist": "The void is not ignorance but a clear mind that comes after long training, seeing things straight and without clouds.",
+   "lesson": "Not knowing something is not emptiness. Real calm comes from disciplined practice and an open mind that sees a situation clearly before acting.",
+   "terms": [
+    {
+     "ja": "空",
+     "romaji": "kū",
+     "en": "the void, emptiness"
+    }
+   ]
+  }
+ ]
+}

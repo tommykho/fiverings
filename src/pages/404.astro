@@ -1,0 +1,21 @@
+---
+import { u } from '../lib/url.js';
+import Base from '../layouts/Base.astro';
+import Seal from '../components/Seal.astro';
+---
+<Base title="Void" description="This page is not on the map. Return to the ground and choose your route.">
+  <section class="wrap" style="min-height:80vh;display:grid;place-items:center;text-align:center;padding-top:120px">
+    <div>
+      <Seal text="空" size="lg" style="margin:0 auto 28px" />
+      <h1>This path is void. Return to the ground.</h1>
+      <p class="lede" style="margin-inline:auto">Musashi ends his book with the Void scroll, a single section, 5.1. This page is not part of the map. Regroup and choose your route.</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:24px">
+        <a class="btn btn--seal" href={u('/')}>Home</a>
+        <a class="btn" href={u('/scrolls/')}>The Five Scrolls</a>
+        <a class="btn" href={u('/tactics/')}>Tactics</a>
+        <a class="btn" href={u('/trial/')}>Dojo Trial</a>
+        <a class="btn" href={u('/ask/')}>Ask Musashi</a>
+      </div>
+    </div>
+  </section>
+</Base>

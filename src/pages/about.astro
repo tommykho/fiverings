@@ -1,0 +1,96 @@
+---
+import Base from '../layouts/Base.astro';
+import Seal from '../components/Seal.astro';
+import gorin from '../../data/sources/gorin-ja.json';
+import { tactics } from '../lib/content.js';
+import { SITE } from '../site.config.js';
+const sections = gorin.scrolls.flatMap((s) => s.sections);
+const sectionCount = sections.length;
+const clauseCount = sections.reduce((a, s) => a + s.paragraphs.reduce((b, p) => b + p.length, 0), 0).toLocaleString('en-US');
+---
+<Base title="Sources, privacy & method" description="Where the Book of Five Rings text comes from, how the English rendering and the copy guard work, how Ask Musashi checks its citations, how your API keys are handled, and what is coming next.">
+  <header class="wrap a-hero">
+    <p class="eyebrow" data-reveal>About · 来歴</p>
+    <h1 data-reveal>Old text, new ground.</h1>
+    <p class="lede" data-reveal>Miyamoto Musashi wrote the Book of Five Rings (五輪書) in the 1640s to pass on his way of winning duels. This manual applies that strategy to the conflicts you meet at work and at home. It favours preparation over confrontation, and every passage is cited by section so you can check it against the source.</p>
+  </header>
+
+  <div class="narrow prose">
+    <section id="sources">
+      <h2>Sources</h2>
+      <ul>
+        <li><strong>The book:</strong> 五輪書, by Miyamoto Musashi, written 1643–1645. The public-domain Japanese original is the only source text. Its manuscript date is Kan'ei 20 (1643), and the dedication is dated Shōhō 2 (1645). Some English editions give 1645 as the year of writing; that is a calendar conversion error.</li>
+        <li><strong>The original Japanese (原文):</strong> transcribed by <a href="https://www.koten.net/gorin/" rel="noopener">日本古典文学摘集</a>, based on the 細川家本 manuscript line. It holds {sectionCount} sections and {clauseCount} clauses, with furigana on some words. Only its 原文 is used here, not that site's modern translation.</li>
+        <li><strong>Cross-check:</strong> the transcription was compared with Suzuki Shigeo's e-text, which follows a different manuscript line (for example 岩戸山 where the other reads 巌殿山). The site renders the transcription; the cross-check was used to confirm readings.</li>
+        <li><strong>Manuscript reference:</strong> the National Diet Library scan, NDL 1071527, on <a href="https://commons.wikimedia.org/" rel="noopener">Wikimedia Commons</a>.</li>
+        <li><strong>English:</strong> written for this project from the Japanese, in <code>data/scrolls.en.json</code>. It is not a published translation, and no published translation or commercial summary is reproduced.</li>
+        <li><strong>Tactics:</strong> {tactics.length} original tactics written for this project. Each cites section IDs only (for example <code>3.4</code>). The passage you see is always rendered from the dataset, never typed by hand.</li>
+        <li><strong>Sister project:</strong> <a href="https://github.com/tommykho/suntze">Sun Tzu · Modern Field Manual</a> applies <em>The Art of War</em> in the same way. Its live site is at <a href="https://tommykho.github.io/suntze/">tommykho.github.io/suntze</a>.</li>
+      </ul>
+    </section>
+
+    <section id="method">
+      <h2>How the English and the copy guard work</h2>
+      <ol>
+        <li><strong>Translate from the Japanese.</strong> Each English paragraph is written from the matching Japanese paragraph, in plain modern English and Musashi's first person. Published translations were consulted only to check meaning.</li>
+        <li><strong>Fingerprint the copyrighted texts.</strong> <code>data/guard/fingerprints.json</code> stores only truncated SHA-1 hashes of 8-word runs from copyrighted English translations and commercial summaries. No text from those works is kept in the repository.</li>
+        <li><strong>Reject shared wording.</strong> The build validator rejects any project text that shares an 8-word run with those fingerprints. <code>npm run guard</code> checks a draft file before it goes in.</li>
+      </ol>
+    </section>
+
+    <section id="ask">
+      <h2>How Ask Musashi answers are checked</h2>
+      <ol>
+        <li>Your situation is matched against the book and the tactic library <strong>in your browser</strong>.</li>
+        <li>The AI receives a short list of sections it is allowed to cite, with their IDs.</li>
+        <li>After it answers, every <code>[scroll.section]</code> citation is checked against the dataset. Real sections are shown in full (English and 原文); invented IDs are labelled “Not in the book”; quotes that do not match the text exactly are labelled “Paraphrased”.</li>
+      </ol>
+      <p>AI can still be wrong about people and situations. Treat answers as a second opinion, not as legal, HR, medical or financial advice.</p>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy, keys and the relay</h2>
+      <ul>
+        <li><strong>This site has no database of your questions.</strong> Your situation goes from your browser straight to the AI provider you choose.</li>
+        <li><strong>Keys stay in your browser.</strong> By default they live in session storage and are forgotten when you close the tab. Tick “Remember” to keep them in local storage on that device. “Forget all keys” deletes them.</li>
+        <li><strong>The relay:</strong> NVIDIA NIM and Meta block requests from web pages, so those calls go through <code>/api/relay</code>. It is a stateless pass-through. It forwards your request to an allow-listed provider address and streams the answer back. It does not store or log keys or text, and it refuses any other destination.</li>
+        <li><strong>The Dojo Trial and the journal stay local.</strong> Trial scores are kept in your browser. Dojo journal entries you write are saved only in this browser for now, under keys that start with <code>fr.</code>, and the preview masks emails, links and phone numbers before saving.</li>
+        <li><strong>Provider policies apply.</strong> Free tiers (for example Gemini's) may use prompts to improve the provider's models. Leave out names and private details.</li>
+        <li><strong>Podcast voice:</strong> the default voice (Kokoro-82M) runs on your device. If you choose Gemini, OpenAI or ElevenLabs, the script is sent to that provider with your key.</li>
+      </ul>
+    </section>
+
+    <section id="cost">
+      <h2>Why it costs the site nothing to run</h2>
+      <p>The site is static (Cloudflare Pages). AI and voice run either on your device or on your own provider account. The only server code is the small relay, which fits easily in Cloudflare's free daily quota. If that quota is ever exceeded, relay calls fail until the next day; nothing is billed.</p>
+    </section>
+
+    <section id="roadmap">
+      <h2>Roadmap</h2>
+      <ol>
+        <li><strong>Now:</strong> the five scrolls in 原文 and English, the tactic library, the Dojo Trial (6, 12 or 20 bouts), Ask Musashi, the 30-second podcast MP3, and the Dojo journal in preview mode.</li>
+        <li><strong>Next:</strong> accounts and shared storage for the Dojo journal (only your alias shown), a manuscript-variant viewer for 細川家本 and other lines, an audio reading of the 原文, and expert review of difficult passages such as 2.32 喝咄, 3.16 まぶるる and the kemari passage at 4.7.</li>
+        <li><strong>Later:</strong> daily 30-second episodes, tactic packs, shareable answer cards, and an optional supporter tier.</li>
+      </ol>
+    </section>
+
+    <section id="credits">
+      <h2>Credits and licences</h2>
+      <p class="hint">Musashi's 原文: public domain, transcription by 日本古典文学摘集; manuscript scan NDL 1071527 (public domain). GSAP (Standard “no charge” licence) · Lenis (MIT) · MiniSearch (MIT) · Astro (MIT) · kokoro-js and Kokoro-82M (Apache-2.0) · Transformers.js and ONNX Runtime Web (Apache-2.0/MIT) · lamejs MP3 encoder (LGPL-3.0, loaded as a separate unmodified module) · Anthropic TypeScript SDK (MIT) · WebLLM (Apache-2.0, loaded on demand) · Fonts: Shippori Mincho, Yuji Syuku, Cormorant Garamond, EB Garamond and Inter (SIL OFL).</p>
+    </section>
+  </div>
+
+  <div class="wrap" style="display:grid;justify-items:center;padding:60px 0 100px">
+    <Seal text="五輪書" size="lg" vertical style="--size:140px;font-size:1.1rem" />
+    <p class="muted" style="margin-top:16px;font-style:italic">Earth, water, fire, wind, void: the five scrolls, in the order Musashi wrote them.</p>
+  </div>
+</Base>
+
+<style>
+  .a-hero { padding: 140px 0 40px; }
+  .prose section { padding: 36px 0; border-top: 1px solid var(--line); scroll-margin-top: 90px; }
+  .prose h2 { font-size: clamp(1.8rem, 2vw + 1rem, 2.6rem); }
+  .prose ul, .prose ol { padding-left: 1.2em; display: grid; gap: 10px; color: var(--paper-2); }
+  .prose strong { color: var(--paper); }
+  .prose code { font: 500 0.85em var(--f-ui); background: var(--ink-3); padding: 0.1em 0.4em; border-radius: 4px; }
+</style>

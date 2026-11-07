@@ -1,0 +1,342 @@
+[
+  {
+    "slug": "master-carpenter",
+    "title": "The Master Carpenter",
+    "situation": "You lead a team with uneven skills, and the deadline does not leave room for everyone to learn on the job.",
+    "domain": "work",
+    "tags": ["delegation", "team", "standards", "skills"],
+    "chapter": 1,
+    "principle": "Assign by strength, hold one standard",
+    "verses": ["1.3", "1.4"],
+    "scene": "Picture a site foreman with a house to frame and three crew members with very different hands. One is quick but careless with joints. One is slow and exact. The newest has never set a sill. The weak foreman hands everyone the same task and watches the schedule slip. The master reads each person first: who can take the visible corner, who should handle the sliding doors, and who should learn on the floor joists. The standard stays the same for everyone and only the assignments change. Nobody is told they are useless. Everyone hears what the next level looks like. By Friday the frame is up, and the crew knows why.",
+    "moves": [
+      {
+        "title": "Grade each person honestly",
+        "detail": "Write one line for each team member on what they do well, what they do slowly, and what they have not yet attempted. Base it on recent work you have actually seen, not on impressions. Revisit the notes after each project so the picture stays current."
+      },
+      {
+        "title": "Match the task to the grade",
+        "detail": "Give the critical, visible pieces to people whose track record supports them. Give developing people contained pieces with a named review point. Give necessary but simple work to newer people, and explain plainly why it matters to the whole job."
+      },
+      {
+        "title": "Hold one standard for everyone",
+        "detail": "Define what good looks like in writing: accuracy, timing and the review checklist. Apply it to your strongest person as firmly as to the newest. Correct the work, not the person, and name the exact gap so the fix is obvious."
+      }
+    ],
+    "script": {
+      "label": "1:1 with a developing teammate",
+      "text": "Hi [Name], I want to talk about your next project. You have been very good at [specific strength], and I want you to own the [component] from start to finish. The bar is the same as for everyone on this team: [specific standard]. For the first two weeks I will review your work at [checkpoint], so we can catch problems early. What part of this worries you most, and what would help you start?"
+    },
+    "backfire": "Do not use this to park people or quietly remove them from important work. Grading is for matching tasks to growth, not for labelling. If the standard itself is unclear, fix the standard first. If someone stays below the bar after real support, say so directly and plan the change. Do not hide an honest verdict behind a soft assignment.",
+    "signals": "Deadlines hold without heroics, people ask for harder work, and reviews produce specific fixes rather than general complaints.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": true
+  },
+  {
+    "slug": "audit-the-early-wins",
+    "title": "Audit the Early Wins",
+    "situation": "You have had several fast successes and now assume your method caused them, before checking how much luck was involved.",
+    "domain": "career",
+    "tags": ["reflection", "promotion", "luck", "mentoring"],
+    "chapter": 1,
+    "principle": "Separate skill from luck before you teach",
+    "verses": ["0.1", "1.1"],
+    "scene": "A product manager has shipped three launches in a row and has been asked to present her playbook at the leadership offsite. She is proud, and the room is ready to copy her. Musashi wrote that his early duels went his way, and that only after thirty did he ask whether his method or his opponents were the real reason. Some wins come from real mastery. Others come from a weak rival, a good draw or timing nobody controlled. Before she builds the slides, she sorts each launch into what she controlled, what she got lucky with and what she has never tested under strain. The honest list is shorter than her talk. She teaches only what she can repeat.",
+    "moves": [
+      {
+        "title": "List every win with its cause",
+        "detail": "For each recent success, write three columns: what you did, what the situation gave you, and what you could not have predicted. Be strict. A win that depended on a rival's mistake tells you as much about the rival as about you."
+      },
+      {
+        "title": "Test the method on a harder case",
+        "detail": "Pick an upcoming project with tighter constraints or a skeptical stakeholder. Apply only the parts you believe are skill, and note exactly where they break. The point of breakage is to show what you still have to learn."
+      },
+      {
+        "title": "Teach only the repeatable part",
+        "detail": "When you share your approach, label the proven parts and the open questions separately. Colleagues can build on a clear core, but they will be misled by a playbook that quietly depends on luck."
+      }
+    ],
+    "script": {
+      "label": "Note to a mentee",
+      "text": "Hi [Name], you asked how I got the last three launches through. The honest answer is that part of it was method and part was timing. The method I trust is [practice], because it has worked on [project] and [project] with similar results. The rest I would treat with caution. [Launch] went well partly because a partner had spare capacity, and I have not yet tested the approach on a tight budget. Let's go through your next project together and see which parts hold for you."
+    },
+    "backfire": "Do not use this to downplay results or to avoid credit. Honest sorting is not false modesty. If the audit shows real skill, say so plainly. Do not credit luck for other people's work to look humble, and do not present luck as skill to win the room.",
+    "signals": "You can name the parts of your approach you would bet on again, and your next result matches your forecast more often than before.",
+    "effort": "hours",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "empty-your-belt-first",
+    "title": "Empty Your Belt First",
+    "situation": "Your team says it needs more people or budget to finish, but nobody has listed what it already has available.",
+    "domain": "work",
+    "tags": ["resources", "planning", "budget", "team"],
+    "chapter": 1,
+    "principle": "Use every tool before you ask for more",
+    "verses": ["1.6"],
+    "scene": "Your release is two weeks late, and the program lead wants a decision by Monday: approve two more contractors or the date slips. Before you walk in, check your belt. Who on the team already knows the billing module and has spare hours? Which tool your group already pays for can run the regression suite? What did the last project learn that nobody wrote down? Musashi insisted that a warrior should not die with his weapons unused at his waist. The same holds for a team. Most groups ask for more people before they have used the people they have. Build the inventory first, then decide what is truly missing.",
+    "moves": [
+      {
+        "title": "Inventory what you already hold",
+        "detail": "List people with their real free hours, the tools and licences you pay for, reusable code or documents, and the favours or advice you could ask for. Include the things you do not usually count. Keep it to one page so it can be read in a single meeting."
+      },
+      {
+        "title": "Match each gap to a resource",
+        "detail": "Write the remaining gap in one sentence, then mark which inventory items could close part of it. A reassigned engineer, a deferred feature or a shared service may cover what a new hire was going to cover."
+      },
+      {
+        "title": "Ask for the rest, with the list",
+        "detail": "Present the inventory as proof that you have used what you own. Name the shortfall that is left, the date it matters and what each option costs. A request that shows its working is much easier to approve."
+      }
+    ],
+    "script": {
+      "label": "Request to a program lead",
+      "text": "Hi [Name], before I ask for the two contractors, I wanted to show you what we can already cover. I have listed our free capacity, the tooling we pay for and two reusable modules from last quarter. Together they close about [percent] of the remaining work. The shortfall is [specific task] by [date], and it needs one specialist for three weeks. If you can approve that, we hold the date. If not, here is what I would cut to protect the core release."
+    },
+    "backfire": "Do not hold back a real request just to look self-sufficient. If the inventory shows a true shortfall, ask for it early and plainly. Do not pull people into work they have no time for, and do not hide known risks. Using the team's resources means asking them honestly, not treating their time as free.",
+    "signals": "The request gets a decision in one meeting, the shortfall you name is smaller than you feared, and someone offers a resource you had not counted.",
+    "effort": "hours",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "weigh-gain-and-loss",
+    "title": "Weigh the Gain and the Loss",
+    "situation": "A large client offers a deal that looks profitable, but its real costs are spread across your whole operation.",
+    "domain": "business",
+    "tags": ["pricing", "deals", "decisions", "risk"],
+    "chapter": 1,
+    "principle": "Count both sides of the ledger",
+    "verses": ["1.9"],
+    "scene": "The offer arrives on a Tuesday: a client wants a twelve-month engagement at a discount, with a custom integration and a Friday deadline. The headline revenue looks excellent. Before anyone celebrates, lay out the other side. What does the custom integration take from the roadmap? Which two people will be locked into this account? What happens to your cash if the client pays late? Musashi's practice was to weigh gain and loss in every matter, and that includes the losses you can see and the ones you have to imagine. The deal may still be worth signing. It should be signed after the costs are on the table.",
+    "moves": [
+      {
+        "title": "Write gains and costs side by side",
+        "detail": "Create two columns. On the gain side, list revenue, strategic value and references. On the cost side, list staff time, opportunity cost, support load, cash timing and what you will have to decline. Put numbers on each line where you can, and an honest estimate where you cannot."
+      },
+      {
+        "title": "Price the costs you usually skip",
+        "detail": "Ask the people who would carry the work to estimate their hours and risks. Include maintenance after launch, the effect of a discount on future renewals, and the cost of exiting if the deal goes wrong. Hidden costs decide most of these deals."
+      },
+      {
+        "title": "Ask for terms that rebalance it",
+        "detail": "Request changes that move the balance back: milestone payments, a smaller first phase, or a price for any extra scope. If the client refuses every one, the deal is probably a loss dressed up as a win."
+      }
+    ],
+    "script": {
+      "label": "Email to a prospective client",
+      "text": "Hi [Name], thank you for the detailed proposal. We want to do this well, and that means getting the scope and terms right. Two changes would make it work for us. First, could we start with a first phase covering [scope] and review the integration after [milestone]? Second, payments should follow those milestones, starting with [percent] on signing. With those changes we can commit to [date]. Could we set up a call on [day] to finalise the scope?"
+    },
+    "backfire": "Do not use this to talk yourself out of every risk. Some costs are worth paying for the position they buy. Do not hide the cost side from your own team, and do not push a client into terms they do not understand. If the analysis is rushed, delay the decision rather than guess at the numbers.",
+    "signals": "You can state the net result in one sentence that the people carrying the work would also accept, and the terms you asked for either move or change your decision.",
+    "effort": "hours",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "hear-the-rhythm-of-decline",
+    "title": "Hear the Rhythm of Decline",
+    "situation": "Your main product still sells, but renewals and usage have slipped for several quarters and nobody has named the trend.",
+    "domain": "business",
+    "tags": ["trends", "churn", "early-warning", "product"],
+    "chapter": 1,
+    "principle": "Act while the decline is still a rhythm",
+    "verses": ["1.9"],
+    "scene": "The dashboard is green on every headline number, so the monthly review moves on. But Nadia, who reads the usage logs, sees the same slope for five quarters: fewer weekly active accounts, longer gaps between logins, and renewal calls that open with let's see. Musashi taught that every path has rhythms of rising and falling, and that the person who hears the falling rhythm early can change his step before others notice it. Nadia writes one page with the trend, the three segments it hits hardest and two explanations she can test. The decline has not arrived in full. It is still a rhythm, and rhythms can be changed.",
+    "moves": [
+      {
+        "title": "Plot the trend, not the total",
+        "detail": "Chart the same measure across several periods: usage per account, renewal rate by cohort, time between purchases. A total can stay flat while each cohort slides. Look for the slope and the point where it bends."
+      },
+      {
+        "title": "Find where it starts",
+        "detail": "Split the trend by customer size, product area, region and acquisition channel. Decline usually begins in one place. Talk to five customers in that group and listen for what they stopped doing, not only for what they say they want."
+      },
+      {
+        "title": "Change your step early",
+        "detail": "Choose one experiment aimed at that segment, with a clear measure and a date to judge it. Run it long enough to see a real signal, then scale it or drop it. Tell the team that this is a known trend being worked on, not a surprise."
+      }
+    ],
+    "script": {
+      "label": "Message to a product lead",
+      "text": "Hi [Name], I have been tracking weekly active use by cohort since [quarter]. Over the last five quarters, accounts in [segment] have logged in less often, and their renewal rate fell from [x] to [y]. The rest of the base is steady. I do not yet know why. I would like two weeks to speak with eight customers in that segment, then a proposal for one test with a measure we agree on in advance. Could we look at it together on Thursday?"
+    },
+    "backfire": "Do not treat every dip as a crisis, and do not chase a decline that is only seasonal. Compare the trend against a full cycle before you act. Do not write off a segment because of one unhappy customer. If the data is too thin to read, say so and collect more before you rearrange the roadmap.",
+    "signals": "You can name the segment where the decline starts and the date it began, and the team debates the cause rather than whether the trend is real.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "every-tool-its-use",
+    "title": "Every Tool Has Its Use",
+    "situation": "Your team uses one channel for everything, so decisions drown in chat and hard news gets buried in status updates.",
+    "domain": "work",
+    "tags": ["communication", "tools", "meetings", "decisions"],
+    "chapter": 1,
+    "principle": "Match the tool to the job",
+    "verses": ["1.8", "1.2"],
+    "scene": "The team lead loves the chat channel. It is quick, informal and always open, so every question lands there. A decision about switching vendors is buried under sixty messages and a row of reactions. Bad news about a delayed launch arrives as a one-line reply at nine at night. Musashi wrote that each weapon has its use: the short blade for close quarters, the long one for open ground, and that no warrior should carry one and ignore the rest. The lead starts matching the tool to the message. Quick questions stay in chat. Decisions go into a short written note with an owner and a date. Hard news goes out live, with a call first.",
+    "moves": [
+      {
+        "title": "Sort messages by what they need",
+        "detail": "Group recent team communication into three kinds: quick questions, decisions and hard news. Notice which kind each channel handles badly. Most teams find that decisions and bad news are the messages that keep going to the wrong place."
+      },
+      {
+        "title": "Give each kind a home",
+        "detail": "Quick questions stay in chat with a response expectation. Decisions go into a written log that names the choice, the owner and the review date. Hard news goes by call or direct meeting first, then into writing. Post the routing rules where everyone will see them."
+      },
+      {
+        "title": "Fix the routing, not the person",
+        "detail": "When a message lands badly, check whether it went through the wrong tool before judging the sender. Model the right routing yourself for two weeks, and retire any channel that no longer matches a real job."
+      }
+    ],
+    "script": {
+      "label": "Team post",
+      "text": "Team, from Monday we are using three simple routes. Quick questions go in this channel, and we aim to answer within a working day. Decisions go into the decision log, with the choice, the owner and the review date. Anything that changes a deadline, budget or customer commitment goes to a call first, and then into the log. If something you need feels lost, tell me which route you used and I will fix the routing. Thanks for trying it."
+    },
+    "backfire": "Do not force every message into a document. Quick questions are fine in chat, and a rigid process can slow a small team. Do not use a call to avoid writing down a hard decision. If the change adds steps without removing confusion, drop it. Keep the routes few enough that people remember them.",
+    "signals": "Decisions can be found in the log within a minute, bad news no longer arrives as a surprise, and fewer threads end with someone asking what was decided.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "draw-both-swords",
+    "title": "Draw Both Swords",
+    "situation": "You stick to the method you are best at, while a weaker skill such as presenting or negotiating keeps getting postponed.",
+    "domain": "self",
+    "tags": ["practice", "weakness", "skills", "routine"],
+    "chapter": 1,
+    "principle": "Train the hand you do not favour",
+    "verses": ["1.6"],
+    "scene": "You are a capable engineer who writes clean code and avoids the review meetings where other people argue for their designs. Every quarter the same comment returns: excellent work, but the case is never made. Musashi began his students with a sword in each hand, because a blade in the weaker hand keeps you free to fight on either side in a crowd. Choose one weak skill and schedule it like a sparring session: thirty minutes a week, presenting one short design to a friendly reviewer, with feedback on one thing only. The weaker hand does not become strong overnight. It simply stops being the place where you lose the room.",
+    "moves": [
+      {
+        "title": "Name the hand you avoid",
+        "detail": "Write down the skill you postpone most often and what it costs you. Be specific: presenting numbers, asking for a fee, asking for feedback. A weakness you cannot name will keep steering your calendar without your noticing."
+      },
+      {
+        "title": "Schedule short, regular sparring",
+        "detail": "Book thirty minutes once or twice a week for the weak skill. Start somewhere safe, such as a rehearsal with one colleague or a draft read by a friend. Keep sessions short and frequent so they become routine rather than an event."
+      },
+      {
+        "title": "Measure one thing per session",
+        "detail": "Pick a single criterion for each session, such as a clearer opening sentence or a question asked within the first minute. Record the result in a note. Progress shows up as small, repeated gains rather than one dramatic session."
+      }
+    ],
+    "script": {
+      "label": "Message to a colleague",
+      "text": "Hi [Name], I am working on presenting technical decisions more clearly, and it is the skill I avoid most. Would you be willing to hear a ten-minute walk-through of the [project] design on Thursday? I will be practising the opening and the trade-off slide. Please tell me one thing that was clear and one thing that was not. I will focus on a single point each time, so the feedback stays useful."
+    },
+    "backfire": "Do not push yourself into high-stakes settings before the weak skill has any footing. Practise in low-risk rooms first, and do not make your weakness a public experiment in front of executives. If the skill is one your role truly does not need, it may be enough to partner with someone who has it. Do not practise so much that it crowds out the strengths you rely on.",
+    "signals": "The weak skill moves from something you dread to something you can do without long preparation, and the feedback you ask for is specific rather than general.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "keep-the-nine-rules",
+    "title": "Keep the Nine Rules",
+    "situation": "You want to improve your craft but have no structure, so practice is random and progress feels like luck.",
+    "domain": "self",
+    "tags": ["practice", "habits", "craft", "growth"],
+    "chapter": 1,
+    "principle": "Practise daily and review honestly",
+    "verses": ["1.9", "1.4"],
+    "scene": "Musashi's nine rules for learners start with honest thinking and end with a refusal to do anything without purpose. You do not need nine rules on a poster. You need a weekly check against them. Each Sunday, look at the week and ask plainly: did I practise on every day I could, did I learn from a neighbouring field, did I notice the small detail that went wrong, did I spend hours on something useless? Two or three honest misses show you where next week's training should go. Within a month the list becomes a habit rather than a document.",
+    "moves": [
+      {
+        "title": "Choose a daily drill, not a talent",
+        "detail": "Pick one concrete drill tied to your craft and do it every day, even for twenty minutes. Daily repetition builds the rhythm that people often credit to natural gifts. Record what you did, not how you felt about it."
+      },
+      {
+        "title": "Review the week against the rules",
+        "detail": "Each Sunday, score yourself on the rules that matter most to your role: honest assessment, daily practice, learning another field, weighing costs, noticing small errors and cutting useless work. Circle the lowest score and make it next week's focus."
+      },
+      {
+        "title": "Learn one neighbouring trade a month",
+        "detail": "Pick a discipline close to yours, such as sales for an engineer or design for a writer. Spend an hour a week with a practitioner or a short course. Bring one idea back to your own work and test it there."
+      }
+    ],
+    "script": {
+      "label": "Weekly review note",
+      "text": "Week of [date]. Daily practice: [days completed] out of seven, drill: [drill name]. Honest assessment: I avoided [task] and rushed [task]. Learned from [neighbouring trade]: [one idea]. Weighed a decision: [decision, with costs and gains]. Useless work I cut: [item]. Lowest score: [rule]. Next week I will focus on that rule, with [specific action] on [day]."
+    },
+    "backfire": "Do not turn the review into self-punishment or a tracker you feel obliged to maintain. Two honest minutes beat an elaborate dashboard you stop updating. Do not use the rules to judge other people. If practice starts to crowd out rest, health or relationships, reduce the volume. Discipline serves the craft, not the other way round.",
+    "signals": "You miss fewer days, the weekly review produces one clear focus, and you can point to a specific skill that improved because of a repeated drill.",
+    "effort": "days",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "read-the-large-and-the-small",
+    "title": "Read the Large and the Small",
+    "situation": "The same argument with your sibling flares over small things, but the real issue is who carries the work at gatherings.",
+    "domain": "family",
+    "tags": ["family", "conflict", "patterns", "communication"],
+    "chapter": 1,
+    "principle": "Hold the small event and the large pattern together",
+    "verses": ["1.7", "1.5"],
+    "scene": "Every holiday the same fight starts over who hosts, who brings dessert, who was late. You treat each incident as a separate problem and patch it with a quick apology. Musashi taught that the small and the large belong together, and that a person who knows the smallest matter and the largest one can read everything between them. Step back and look at five years of gatherings. The triggers repeat: plans change at the last minute and one person ends up with most of the preparation. The argument over the pie is the visible edge of a larger imbalance. Once you see it, you can raise the pattern in a calm conversation instead of another round of scorekeeping.",
+    "moves": [
+      {
+        "title": "Log the incidents plainly",
+        "detail": "Note each recent argument with the date, the trigger, who did what and how it ended. Keep the entries factual. Five or six of them are enough to show whether the fights are random or repeating."
+      },
+      {
+        "title": "Name the pattern, not the person",
+        "detail": "Look for the shared structure, such as last-minute changes, uneven workload or unspoken expectations. Describe it in neutral terms. A pattern names a system you both live inside, which is much easier to change than a character flaw."
+      },
+      {
+        "title": "Propose one structural change",
+        "detail": "Suggest a concrete fix aimed at the pattern, such as agreeing on hosting a month ahead or splitting the preparation list. Offer it as a trial with a review date, and be willing to adjust it if it does not fit."
+      }
+    ],
+    "script": {
+      "label": "Message to a sibling",
+      "text": "Hi [Name], I have noticed that our arguments before holidays follow the same pattern: plans change late, and one of us ends up doing most of the preparation. I do not think either of us is the problem, and I would like to fix the setup rather than argue over each detail. Could we try agreeing on hosting and dishes a month ahead, then check in after [holiday] to see whether it works? I would like to hear what you would change."
+    },
+    "backfire": "Do not use the pattern to build a case against a family member or to win others over to your side. This is about changing how you work together, not winning. If there is abuse, threats or fear, this tactic is the wrong tool, and you should seek help from a professional or a trusted adult. Do not raise a pattern in the middle of a fight.",
+    "signals": "The next gathering starts with plans agreed in advance, the old argument does not return in its usual form, and the other person offers an adjustment of their own.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "see-the-unseen-opening",
+    "title": "See the Unseen Opening",
+    "situation": "You are negotiating a lease renewal with a landlord who has not said what matters to them, and your offers keep missing.",
+    "domain": "personal",
+    "tags": ["negotiation", "landlord", "listening", "housing"],
+    "chapter": 1,
+    "principle": "Find the concern they do not state",
+    "verses": ["1.9"],
+    "scene": "Your lease ends in six weeks, and the landlord has answered each offer with a flat no. You keep pushing the monthly price down and the talks stall. Musashi advised that the rhythm of the other side is often hidden, and that a careful person perceives what cannot yet be seen. So you change the question. You ask what a good tenant means to them: a long lease, no empty flat through winter, careful use of the place. You learn the building has been vacant twice in two years. The price stays on the table, but a longer term and a quick signature become a better offer for both sides. The landlord says yes.",
+    "moves": [
+      {
+        "title": "Ask about their constraints",
+        "detail": "Ask open questions about what the landlord needs: timing, certainty, upkeep, fewer repairs or a longer tenancy. Listen for what they repeat or hesitate over. Those answers often sit underneath the stated position."
+      },
+      {
+        "title": "List what you can offer",
+        "detail": "Compare your options against their constraints. A longer lease, a fixed start date or a willingness to handle minor upkeep may cost you little and be worth a lot to them. Write the list before you make any offer."
+      },
+      {
+        "title": "Propose a trade and explain it",
+        "detail": "Make one offer that combines a concession on price with a benefit they need, and explain your reasoning in plain words. Honest reasoning builds trust. It also makes it harder for either side to hide behind a single number."
+      }
+    ],
+    "script": {
+      "label": "Message to a landlord",
+      "text": "Hi [Name], thanks for talking through the renewal. I would like to understand what matters most to you for the next lease. If a longer term and a quick signature would help you avoid another vacancy, I am open to a two-year lease starting [date]. In exchange, I would ask for the rent to stay at [amount] and for the bathroom repair to be done before [date]. Does that structure work for you, or is there something else you need from a tenant?"
+    },
+    "backfire": "Do not pry into someone's private life or use information they did not share with you. Stay with what is relevant to the deal. Do not promise a commitment you cannot keep. If the landlord will not discuss any term, accept that the market is telling you something and start looking early. Honest curiosity works; manipulation damages the relationship and the goodwill you will need when a repair goes wrong.",
+    "signals": "The landlord starts naming their own constraints without being asked, and the final terms include something you offered rather than only a price change.",
+    "effort": "hours",
+    "difficulty": 1,
+    "featured": false
+  }
+]

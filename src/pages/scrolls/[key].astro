@@ -1,0 +1,252 @@
+---
+import { u } from '../../lib/url.js';
+import Base from '../../layouts/Base.astro';
+import TacticCard from '../../components/TacticCard.astro';
+import BrushDivider from '../../components/BrushDivider.astro';
+import ChapterNav from '../../components/ChapterNav.astro';
+import { chapters, verseHref, scrollHref, tactics } from '../../lib/content.js';
+
+export function getStaticPaths() {
+  return chapters.map((c) => ({ params: { key: c.key }, props: { c } }));
+}
+const { c } = Astro.props;
+const prev = chapters[c.n - 2];
+const next = chapters[c.n];
+const ROMAN = ['', 'I', 'II', 'III', 'IV', 'V'];
+const usedBy = (id) => tactics.filter((t) => t.verses.includes(id));
+const principleVerses = new Set(c.principles.flatMap((p) => p.verses));
+const anchor = (id) => `s${id.replace('.', '-')}`;
+const isAfterword = (v) => v.title_ja === '後書';
+---
+<Base title={`${c.title_en} (${c.title_ja})`} description={`${c.essence} ${c.modern_lens}`.slice(0, 300)} el={c.key}>
+  <div class="progress" aria-hidden="true"><i data-progress></i></div>
+  <div class="wrap chapter-bar"><span class="eyebrow">Scroll · 巻</span><ChapterNav current={c.n} label="Jump to scroll" /></div>
+
+  <header class="sc-hero">
+    <div class="wrap sc-hero-grid">
+      <div>
+        <p class="eyebrow" data-reveal>Scroll {ROMAN[c.n]} of V · {c.title_ja} · {c.el.romaji}</p>
+        <h1 data-reveal>{c.title_en}</h1>
+        <p class="lede" data-reveal>{c.essence}</p>
+        <p class="sc-lens" data-reveal>{c.modern_lens}</p>
+        <p class="sc-stats" data-reveal>{c.verses.length} section{c.verses.length === 1 ? "" : "s"} · {c.tactics.length} tactics · <a href="#text-title">Read the scroll ↓</a></p>
+      </div>
+      <div class="sc-kanji" lang="ja" data-reveal="scale" aria-hidden="true">
+        <span class="sc-ring"></span>
+        <span class="brush el-kanji">{c.el.kanji}</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="wrap principles" aria-labelledby="principles-title">
+    <h2 id="principles-title" class="sr-only">Key principles</h2>
+    <div class="grid">
+      {c.principles.map((p, i) => (
+        <article class="card principle" data-reveal>
+          <span class="principle-n">{String(i + 1).padStart(2, '0')}</span>
+          <h3>{p.name}</h3>
+          <p>{p.gloss}</p>
+          <div class="card-meta">
+            {p.verses.map((v) => <a class="chip chip--el" href={verseHref(v)}>§ {v}</a>)}
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <BrushDivider />
+
+  <section class="wrap text-section" aria-labelledby="text-title">
+    <div class="text-head">
+      <div>
+        <p class="eyebrow">The text · 原文と英訳</p>
+        <h2 id="text-title">Read the scroll</h2>
+      </div>
+      <div class="toolbar">
+        <div class="seg" role="group" aria-label="Language">
+          <button class="chip" type="button" data-lang-btn="both" aria-pressed="true">EN + 日本語</button>
+          <button class="chip" type="button" data-lang-btn="en" aria-pressed="false">English</button>
+          <button class="chip" type="button" data-lang-btn="ja" aria-pressed="false">原文</button>
+        </div>
+        <button class="chip" type="button" data-furi-btn aria-pressed="true" title="Show readings above kanji">ふりがな</button>
+      </div>
+    </div>
+
+    <details class="toc">
+      <summary><span class="label">Contents · 目次</span> <span class="muted">{c.verses.length} section{c.verses.length === 1 ? "" : "s"}</span></summary>
+      <ol>
+        {c.verses.map((v) => (
+          <li><a href={`#${anchor(v.id)}`}><span class="toc-id">{v.label}</span><span>{v.title_en}</span><span class="ja muted">{v.title_ja}</span></a></li>
+        ))}
+      </ol>
+    </details>
+
+    <div class="sections" data-lang="both" data-furi="on" data-text>
+      {c.verses.map((v) => {
+        const users = usedBy(v.id);
+        const notes = v.paragraphs.flatMap((p) => p.notes);
+        return (
+          <article class={`sec ${users.length || principleVerses.has(v.id) ? 'is-key' : ''} ${isAfterword(v) ? 'is-after' : ''}`} id={anchor(v.id)}>
+            <header class="sec-head">
+              <a class="sec-id" href={`#${anchor(v.id)}`} aria-label={`Section ${v.id}`}>{v.label}</a>
+              <div>
+                <h3>{v.title_en}</h3>
+                <p class="sec-ja ja" lang="ja">{v.title_ja}</p>
+              </div>
+            </header>
+            {v.gist && <p class="sec-gist">{v.gist}</p>}
+            <div class="paras">
+              {v.paragraphs.map((p, i) => (
+                <div class="para">
+                  <span class="para-n" aria-hidden="true">{i + 1}</span>
+                  <p class="verse-en">{p.en}</p>
+                  <p class="verse-ja" lang="ja" set:html={p.html} />
+                </div>
+              ))}
+            </div>
+            <div class="sec-foot">
+              {v.lesson && <p class="sec-lesson"><span class="label">Modern lens</span> {v.lesson}</p>}
+              {v.terms.length > 0 && (
+                <ul class="terms" aria-label="Key terms">
+                  {v.terms.map((t) => <li><span class="ja">{t.ja}</span> <i>{t.romaji}</i> <span class="muted">· {t.en}</span></li>)}
+                </ul>
+              )}
+              {users.length > 0 && (
+                <p class="sec-users"><span class="label">Applied in</span> {users.map((t) => <a class="chip chip--el" href={u(`/tactics/${t.slug}/`)}>{t.title}</a>)}</p>
+              )}
+              {notes.length > 0 && (
+                <details class="sec-notes">
+                  <summary>Text notes ({notes.length})</summary>
+                  <ul>{notes.map((n) => <li lang="ja"><span class="ja">「{n.shown}」</span> ← 底本「{n.original}」: {n.note}</li>)}</ul>
+                </details>
+              )}
+            </div>
+          </article>
+        );
+      })}
+    </div>
+    <p class="hint" style="margin-top:16px">
+      Original: 五輪書 (public domain), 原文 as transcribed by <a href="https://www.koten.net/gorin/" rel="noopener">日本古典文学摘集</a>, with its marked corrections.
+      English: this project's own rendering from the Japanese, one paragraph per original paragraph. Highlighted sections are used by tactics. Section IDs are scroll.article.
+    </p>
+  </section>
+
+  {c.tactics.length > 0 && (
+    <section class="section wrap" aria-labelledby="tactics-title">
+      <p class="eyebrow" data-reveal>Apply it</p>
+      <h2 id="tactics-title" data-reveal>Tactics from the {c.el.name} scroll</h2>
+      <div class="grid" style="margin-top:28px">
+        {c.tactics.map((t) => <TacticCard t={t} />)}
+      </div>
+    </section>
+  )}
+
+  <nav class="wrap ch-nav" aria-label="Scroll navigation">
+    {prev ? <a class="card" href={scrollHref(prev.n)} data-el={prev.key}><span class="eyebrow">← Previous</span><h3><span class="el-kanji">{prev.el.kanji}</span> {prev.title_en} <span class="ja muted">{prev.title_ja}</span></h3></a> : <a class="card" href={u('/scrolls/')}><span class="eyebrow">← All scrolls</span><h3>The Five Rings <span class="ja muted">五輪</span></h3></a>}
+    {next ? <a class="card next" href={scrollHref(next.n)} data-el={next.key}><span class="eyebrow">Next →</span><h3><span class="el-kanji">{next.el.kanji}</span> {next.title_en} <span class="ja muted">{next.title_ja}</span></h3></a> : <a class="card next" href={u('/trial/')}><span class="eyebrow">Finished the book →</span><h3>Test yourself in the Dojo Trial</h3></a>}
+  </nav>
+</Base>
+
+<script>
+  const box = document.querySelector('[data-text]');
+  const LANG = 'fr.lang', FURI = 'fr.furi';
+  const setLang = (lang) => {
+    box.dataset.lang = lang;
+    document.querySelectorAll('[data-lang-btn]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.langBtn === lang)));
+  };
+  const furiBtn = document.querySelector('[data-furi-btn]');
+  const setFuri = (on) => { box.dataset.furi = on ? 'on' : 'off'; furiBtn.setAttribute('aria-pressed', String(on)); };
+  try { const l = localStorage.getItem(LANG); if (l) setLang(l); const f = localStorage.getItem(FURI); if (f) setFuri(f === 'on'); } catch {}
+  document.querySelectorAll('[data-lang-btn]').forEach((b) =>
+    b.addEventListener('click', () => {
+      setLang(b.dataset.langBtn);
+      try { localStorage.setItem(LANG, b.dataset.langBtn); } catch {}
+      window.dispatchEvent(new Event('resize'));
+    }),
+  );
+  furiBtn.addEventListener('click', () => {
+    const on = box.dataset.furi !== 'on';
+    setFuri(on);
+    try { localStorage.setItem(FURI, on ? 'on' : 'off'); } catch {}
+  });
+</script>
+
+<style>
+  .progress { position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 60; }
+  .progress i { display: block; height: 100%; background: var(--el); transform: scaleX(0); transform-origin: left; }
+  .chapter-bar { padding: 88px 0 18px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; border-bottom: 1px solid var(--line); }
+  .chapter-bar .eyebrow { color: var(--paper-2); font-size: 0.75rem; }
+  .eyebrow::before { background: var(--el); }
+
+  .sc-hero { padding: 40px 0 60px; background: radial-gradient(ellipse 55% 70% at 82% 35%, var(--el-soft), transparent 70%); }
+  .sc-hero-grid { display: grid; grid-template-columns: 1.4fr 0.6fr; gap: 40px; align-items: center; }
+  .sc-lens { color: var(--paper-2); max-width: 62ch; }
+  .sc-stats { font: 500 0.8rem var(--f-ui); color: var(--paper-3); letter-spacing: 0.04em; }
+  .sc-stats a { color: var(--el); }
+  .sc-kanji { position: relative; display: grid; place-items: center; aspect-ratio: 1; max-width: 300px; justify-self: center; width: 100%; }
+  .sc-kanji .brush { position: relative; font-size: clamp(6rem, 13vw, 11rem); filter: url(#ink-bleed); }
+  .sc-ring { position: absolute; inset: 4%; border-radius: 50%; border: 10px solid var(--el); opacity: 0.22; border-right-color: transparent; transform: rotate(-30deg); filter: url(#brush-tex); }
+  @media (max-width: 760px) {
+    .sc-hero-grid { grid-template-columns: 1fr; }
+    .sc-kanji { order: -1; max-width: 150px; justify-self: start; }
+    .sc-kanji .brush { font-size: 5.5rem; }
+  }
+  .principles { padding-bottom: 40px; }
+  .principle-n { font: 600 2.4rem/1 var(--f-display); color: var(--el); }
+
+  .text-section { padding-block: 56px 24px; }
+  .text-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; position: sticky; top: 0; z-index: 5; padding: 80px 0 14px; background: linear-gradient(var(--ink-1) 82%, transparent); }
+  .text-head h2 { margin: 0; }
+  .toolbar, .seg { display: flex; gap: 6px; flex-wrap: wrap; }
+  .toolbar { gap: 14px; }
+
+  .toc { border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 18px; margin-bottom: 18px; background: rgba(236, 228, 210, 0.02); }
+  .toc summary { cursor: pointer; display: flex; gap: 12px; align-items: baseline; font: 500 0.85rem var(--f-ui); }
+  .toc ol { list-style: none; padding: 10px 0 4px; margin: 0; columns: 2 300px; column-gap: 28px; }
+  .toc li { break-inside: avoid; }
+  .toc a { display: grid; grid-template-columns: 44px 1fr; gap: 0 10px; padding: 6px 0; text-decoration: none; font: 400 0.88rem/1.35 var(--f-ui); color: var(--paper-2); border-bottom: 1px dashed var(--line); }
+  .toc a:hover { color: var(--paper); }
+  .toc a .ja { grid-column: 2; font-size: 0.8rem; }
+  .toc-id { color: var(--el); font-weight: 600; }
+
+  .sec { padding: 34px 0 30px; border-bottom: 1px solid var(--line); scroll-margin-top: 240px; }
+  .sec:target { background: linear-gradient(90deg, var(--el-soft), transparent 70%); }
+  .sec-head { display: grid; grid-template-columns: 56px 1fr; gap: 18px; align-items: start; }
+  .sec-head h3 { margin: 0 0 4px; }
+  .sec-ja { margin: 0; color: var(--paper-3); font-size: 0.95rem; letter-spacing: 0.08em; }
+  .sec-id { font: 600 0.78rem var(--f-ui); color: var(--el); letter-spacing: 0.06em; text-decoration: none; padding: 0.4em 0; text-align: center; border: 1px solid var(--el-line); border-radius: 6px; }
+  .sec.is-key .sec-id { background: var(--el); color: var(--ink-1); border-color: var(--el); }
+  .sec-gist { margin: 14px 0 6px 74px; font: italic 500 1.08rem/1.5 var(--f-display); color: var(--paper-2); max-width: 70ch; }
+  .paras { margin-left: 74px; }
+  .para { position: relative; display: grid; gap: 10px; padding: 14px 0; border-top: 1px dashed var(--line); }
+  .para:first-child { border-top: 0; }
+  .para-n { position: absolute; left: -30px; top: 1.15em; font: 500 0.66rem var(--f-ui); color: var(--paper-4); }
+  .para .verse-en { margin: 0; }
+  [data-lang='en'] .verse-ja { display: none; }
+  [data-lang='ja'] .verse-en { display: none; }
+  [data-lang='ja'] .verse-ja { color: var(--paper); font-size: 1.12em; }
+  @media (min-width: 980px) {
+    [data-lang='both'] .para { grid-template-columns: 1.25fr 1fr; gap: 34px; align-items: start; }
+  }
+  .sec-foot { margin: 14px 0 0 74px; display: grid; gap: 10px; }
+  .sec-lesson { margin: 0; padding: 12px 16px; border-left: 3px solid var(--el); background: var(--el-soft); border-radius: 0 10px 10px 0; font: 400 0.92rem/1.55 var(--f-ui); color: var(--paper); }
+  .sec-lesson .label, .sec-users .label { margin-right: 8px; color: var(--el); }
+  .terms { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px 16px; font: 400 0.82rem var(--f-ui); color: var(--paper-2); }
+  .terms .ja { font-size: 1rem; color: var(--paper); }
+  .sec-users { margin: 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .sec-notes { font: 400 0.78rem/1.5 var(--f-ui); color: var(--paper-3); }
+  .sec-notes summary { cursor: pointer; }
+  .sec-notes ul { margin: 6px 0 0; padding-left: 18px; }
+  @media (max-width: 640px) {
+    .text-head { position: static; padding-top: 24px; background: none; }
+    .sec { scroll-margin-top: 80px; }
+    .sec-head { grid-template-columns: 46px 1fr; gap: 12px; }
+    .sec-gist, .paras, .sec-foot { margin-left: 0; }
+    .para-n { display: none; }
+  }
+
+  .ch-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 40px 0 80px; }
+  .ch-nav .next { text-align: right; }
+  .ch-nav .next .eyebrow { justify-content: flex-end; }
+  @media (max-width: 700px) { .ch-nav { grid-template-columns: 1fr; } }
+</style>

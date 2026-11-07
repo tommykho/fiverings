@@ -1,0 +1,131 @@
+---
+import { u } from '../../lib/url.js';
+import Base from '../../layouts/Base.astro';
+import TacticCard from '../../components/TacticCard.astro';
+import ChapterNav from '../../components/ChapterNav.astro';
+import { tactics, chapters, DOMAINS } from '../../lib/content.js';
+---
+<Base title="Tactic library" description={`${tactics.length} practical tactics from Musashi's Book of Five Rings for work, career, business, family and self — each with steps, a ready-to-send script and a backfire check.`}>
+  <div class="wrap chapter-bar"><span class="eyebrow">Scroll · 巻</span><ChapterNav current={0} mode="filter" withAll label="Filter tactics by scroll" /></div>
+
+  <header class="lib-hero wrap">
+    <p class="eyebrow" data-reveal>Tactic library · 兵法實戰</p>
+    <h1 data-reveal>{tactics.length} moves for modern battles.</h1>
+    <p class="lede" data-reveal>Each tactic is anchored to a section of the scrolls, broken into steps, paired with a message you can send today, and ends with an honest backfire check.</p>
+  </header>
+
+  <section class="wrap lib">
+    <div class="filters panel" data-filters>
+      <div class="field" style="flex:1 1 260px">
+        <label for="q">Search</label>
+        <input id="q" class="input" type="search" placeholder="manager, deadline, landlord, salary…" autocomplete="off" data-q />
+      </div>
+      <div class="domains" role="group" aria-label="Domain">
+        <button class="chip" type="button" aria-pressed="true" data-domain="">All</button>
+        {Object.entries(DOMAINS).map(([k, d]) => <button class="chip" type="button" aria-pressed="false" data-domain={k}>{d.label} <span class="ja">{d.ja}</span></button>)}
+      </div>
+    </div>
+    <div class="ch-banner" hidden data-ch-banner>
+      {chapters.map((c) => (
+        <div hidden data-ch-info={c.n}>
+          <span class="eyebrow"><span class="el-kanji">{c.el.kanji}</span> {c.el.name} scroll · <span class="ja">{c.title_ja}</span></span>
+          <h2>{c.title_en}</h2>
+          <p>{c.essence} <a href={u(`/scrolls/${c.key}/`)}>Read the scroll →</a></p>
+        </div>
+      ))}
+    </div>
+    <p class="hint" aria-live="polite" data-tcount>{tactics.length} tactics</p>
+    <div class="grid" data-grid>
+      {tactics.map((t) => <TacticCard t={t} />)}
+    </div>
+    <p class="empty" hidden data-empty>No tactic matches yet. <a href={u('/ask/')}>Ask Musashi</a> and describe your situation in your own words.</p>
+  </section>
+</Base>
+
+<script>
+  const cards = [...document.querySelectorAll('[data-grid] > .tactic-card')];
+  const q = document.querySelector('[data-q]');
+  const count = document.querySelector("[data-tcount]");
+  const empty = document.querySelector('[data-empty]');
+  const nav = document.querySelector('[data-cnav="filter"]');
+  const select = nav.querySelector('[data-cn-select]');
+  const prevBtn = nav.querySelector('[data-cn-step="prev"]');
+  const nextBtn = nav.querySelector('[data-cn-step="next"]');
+  const banner = document.querySelector('[data-ch-banner]');
+  const MAX = 5;
+  const params = new URLSearchParams(location.search);
+  let domain = params.get('domain') || '';
+  const chParam = Number(params.get('ch')); let chapter = Number.isInteger(chParam) && chParam >= 1 && chParam <= MAX ? String(chParam) : '';
+  if (params.get('q')) q.value = params.get('q');
+
+  const syncPager = () => {
+    const n = Number(chapter) || 0;
+    select.value = chapter;
+    const setStep = (el, target) => {
+      el.classList.toggle('is-off', !target);
+      el.dataset.n = target ? String(target) : '';
+      target ? el.removeAttribute('aria-disabled') : el.setAttribute('aria-disabled', 'true');
+      el.tabIndex = target ? 0 : -1;
+      if (target) el.setAttribute('href', `?ch=${target}`); else el.removeAttribute('href');
+      if (target) el.setAttribute('aria-label', `${el.dataset.cnStep === 'prev' ? 'Previous' : 'Next'} scroll: ${select.querySelector(`option[value="${target}"]`).textContent.trim()}`); else el.removeAttribute('aria-label');
+    };
+    setStep(prevBtn, n > 1 ? n - 1 : null);
+    setStep(nextBtn, n ? (n < MAX ? n + 1 : null) : 1);
+    banner.hidden = !chapter;
+    banner.querySelectorAll('[data-ch-info]').forEach((d) => (d.hidden = d.dataset.chInfo !== chapter));
+  };
+
+  const run = () => {
+    const terms = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    let shown = 0;
+    for (const c of cards) {
+      const ok = (!domain || c.dataset.domain === domain) && (!chapter || c.dataset.chapter === chapter) && terms.every((t) => c.dataset.text.includes(t));
+      c.hidden = !ok;
+      if (ok) { shown++; c.style.opacity = 1; c.style.transform = 'none'; }
+    }
+    count.textContent = `${shown} tactic${shown === 1 ? '' : 's'}${chapter ? ` in scroll ${chapter}` : ''}`;
+    empty.hidden = shown > 0;
+    document.querySelectorAll('button[data-domain]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.domain === domain)));
+    syncPager();
+    window.dispatchEvent(new Event('resize'));
+  };
+
+  const setUrl = () => {
+    const p = new URLSearchParams();
+    if (chapter) p.set('ch', chapter);
+    if (domain) p.set('domain', domain);
+    if (q.value.trim()) p.set('q', q.value.trim());
+    history.replaceState(null, '', `${location.pathname}${p.toString() ? `?${p}` : ''}`);
+  };
+
+  // Dropdown and arrows filter instantly (arrow links still work without JS).
+  select.addEventListener('change', () => { chapter = select.value; run(); setUrl(); });
+  nav.querySelector('form')?.addEventListener('submit', (e) => e.preventDefault());
+  [prevBtn, nextBtn].forEach((btn) =>
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (btn.classList.contains('is-off')) return;
+      chapter = btn.dataset.n;
+      run();
+      setUrl();
+    }),
+  );
+  q.addEventListener('input', () => { run(); setUrl(); });
+  document.querySelectorAll('button[data-domain]').forEach((b) => b.addEventListener('click', () => { domain = b.dataset.domain; run(); setUrl(); }));
+  run();
+</script>
+
+<style>
+  .lib-hero { padding: 40px 0 32px; }
+  .chapter-bar { padding: 88px 0 18px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; border-bottom: 1px solid var(--line); }
+  .chapter-bar .eyebrow { color: var(--paper-2); font-size: 0.75rem; }
+  .filters { display: flex; flex-wrap: wrap; gap: 16px; align-items: end; margin-bottom: 14px; position: relative; z-index: 2; }
+  .domains { display: flex; flex-wrap: wrap; gap: 6px; flex-basis: 100%; }
+  .lib { padding-bottom: 100px; }
+  .lib .grid { margin-top: 18px; }
+  .ch-banner { margin: 22px 0 6px; padding: 18px 22px; border-left: 2px solid var(--seal); background: rgba(239, 229, 207, 0.03); border-radius: 0 12px 12px 0; }
+  .ch-banner h2 { font-size: clamp(1.6rem, 1.6vw + 1rem, 2.2rem); margin: 4px 0 6px; }
+  .ch-banner p { margin: 0; color: var(--paper-2); }
+  .ch-banner a { color: var(--seal-hi); text-decoration: none; font: 600 0.8rem var(--f-ui); margin-left: 6px; }
+  .empty { padding: 40px 0; color: var(--paper-2); }
+</style>

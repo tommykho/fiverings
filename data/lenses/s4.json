@@ -1,0 +1,33 @@
+{
+  "n": 4,
+  "essence": "Study the rival methods so your own choices rest on reasons, not habit.",
+  "modern_lens": "The Wind scroll asks you to understand other approaches clearly before you judge them, then to avoid the attachments that weaken any single method: oversized tools, brute force, shortcuts, bloated playbooks, rigid routines and a fixed gaze. Its main warning is about the mind that hangs onto one way of doing things. Modern work and personal life reward the same discipline, because the approaches that feel safest are often the ones you have simply stopped questioning.",
+  "key_verse": "4.1",
+  "principles": [
+    {
+      "name": "Study the Other Schools",
+      "verses": ["4.1", "4.11"],
+      "gloss": "Know each rival method by its reasoning and its faults before you judge it. Then your own approach has reasons you can state out loud."
+    },
+    {
+      "name": "Fit the Tool to the Fight",
+      "verses": ["4.2"],
+      "gloss": "Large tools, budgets and commitments suit some distances and fail at others. Match the size of the commitment to the work in front of you."
+    },
+    {
+      "name": "Principle Over Pressure",
+      "verses": ["4.3"],
+      "gloss": "Force hardens the other side and cracks your own position. Aim clearly, bring the facts, and let the strongest argument do the cutting."
+    },
+    {
+      "name": "Few Essentials, Done Well",
+      "verses": ["4.5", "4.6"],
+      "gloss": "A crowded playbook confuses people, and a fixed routine breaks when conditions change. Keep a short set of core moves and adjust them to the situation."
+    },
+    {
+      "name": "Rhythm Over Haste",
+      "verses": ["4.9"],
+      "gloss": "Hurry is not speed. Hold a steady tempo you can sustain, and add pace only after the form is sound."
+    }
+  ]
+}

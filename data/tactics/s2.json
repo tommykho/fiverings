@@ -1,0 +1,458 @@
+[
+  {
+    "slug": "two-ways-of-seeing",
+    "title": "Two Ways of Seeing",
+    "situation": "You run a meeting and keep reacting to one loud detail while the agenda slips away.",
+    "domain": "work",
+    "tags": ["meetings", "focus", "attention", "facilitation"],
+    "chapter": 2,
+    "principle": "Hold the whole, glance at the detail",
+    "verses": ["2.4", "2.14"],
+    "scene": "Your weekly product review has forty minutes left, and one engineer keeps circling the same bug. Every time she speaks, you lean in, answer in detail, and the agenda slides further away. Musashi describes two ways of seeing: keep the whole room firmly in view, and let the single issue sit lightly at the edge of your attention. Who has gone quiet? What does the clock say? Then return to the detail with a question rather than a verdict. Ask her to write the bug on the parking board and bring it back after the decision. The whole stays firm, the detail stays light, and the meeting keeps its shape.",
+    "moves": [
+      {
+        "title": "Scan the whole table first",
+        "detail": "Before you respond to anything, take one slow look around the room: who is present, who is quiet, and how much time remains. Keep that picture steady for the rest of the meeting. Check it again whenever the agenda changes."
+      },
+      {
+        "title": "Give the detail one question",
+        "detail": "When a single issue pulls at you, ask one open question about it instead of diving in. Something like 'what would it take to close this?' gives the speaker room and gives you information without spending the whole hour."
+      },
+      {
+        "title": "Park it in writing",
+        "detail": "Write the detail on a shared list with an owner and a check-in date. Once it is visible, your attention can leave it. People stop repeating a point they can see has been recorded."
+      },
+      {
+        "title": "Return to the agenda on a timer",
+        "detail": "Show a timer for each agenda item and call out the remaining minutes at the halfway mark. A shared sense of the whole keeps everyone, including you, from drifting back into the one thing you noticed."
+      }
+    ],
+    "script": {
+      "label": "Slack message after the meeting",
+      "text": "Thanks for the discussion on the export bug. To keep us on the agenda, I've parked it on the board with [name] as owner and a check-in on [day]. If it blocks the launch, tell me before Thursday and we'll move it up. Could you also share the two migration options you mentioned? I'd like to decide those today."
+    },
+    "backfire": "Do not use this to shut down a person raising a real safety, legal or customer-harm issue. Parking a concern is only honest if it is actually tracked and revisited. If you use the parking board to bury points you dislike, people will stop raising things with you, and you will lose the view you were trying to protect.",
+    "signals": "The meeting ends with the agenda covered, every raised point has an owner, and people finish their sentences instead of repeating themselves to be heard.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": true
+  },
+  {
+    "slug": "calm-mind-on-the-day",
+    "title": "Keep the Everyday Mind",
+    "situation": "Your pulse jumps before a high-stakes presentation and your thinking narrows to one fear.",
+    "domain": "self",
+    "tags": ["anxiety", "presentation", "preparation", "breathing"],
+    "chapter": 2,
+    "principle": "Carry the ordinary mind into the big day",
+    "verses": ["2.2", "2.1"],
+    "scene": "The investor presentation is at nine. At seven you are already rehearsing the one slide you think will go wrong, and your chest feels tight. Musashi's advice is that your mind on the day should be the same mind you had over morning coffee: open, centered, neither tense nor slack. You cannot switch the nerves off, but you can stop feeding them. Breathe out a little longer than you breathe in. Look at the room, the clock and the faces the way you would on any ordinary morning. Then choose your first sentence and let the rest follow. Calm is not the absence of fear. It is a wide mind that does not lock onto one thing.",
+    "moves": [
+      {
+        "title": "Rehearse the ordinary version",
+        "detail": "Run the talk once at normal speed, sitting in your usual chair, without a performance voice. The aim is to make the presentation feel like a conversation you have had many times. Repeat until the first three minutes come without effort."
+      },
+      {
+        "title": "Breathe out longer than in",
+        "detail": "Before you walk in, breathe in for four counts and out for six, for about a minute. A longer exhale slows the heart and lets the shoulders drop, which keeps your posture level."
+      },
+      {
+        "title": "Name the fear, then set it aside",
+        "detail": "Write the one worry in a single sentence on a card and put the card in a pocket. A named fear takes up less room than a vague one, and once it is named you can stop checking on it."
+      },
+      {
+        "title": "Give your first sentence to the body",
+        "detail": "Decide your opening line in advance and say it aloud twice before you start. Once the first words are out, your mind is working on the talk instead of on the fear."
+      }
+    ],
+    "script": {
+      "label": "Message to your co-presenter",
+      "text": "Hey, I'm feeling a bit wired about nine o'clock. Could you take the pricing slide if I lose my place? I've got the opening and the close. Let's do one quick run-through at eight-thirty, then we're done. Thanks for being on this with me."
+    },
+    "backfire": "Calm does not mean skipping preparation or pretending the stakes are small. If the nerves come from real gaps in the material, breathing will not fix them, so go back and fill the gaps. Do not use composure to hide a risky claim from your audience. If anxiety regularly stops you from working or sleeping, get professional support.",
+    "signals": "Your breathing slows before you speak, your first sentence comes out without a pause, and you recover quickly when you lose a thread.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "everyday-body-fighting-body",
+    "title": "Everyday Body, Fighting Body",
+    "situation": "Your desk posture collapses by mid-afternoon, leaving your neck sore and your focus gone.",
+    "domain": "self",
+    "tags": ["posture", "desk work", "fitness", "habits"],
+    "chapter": 2,
+    "principle": "Make the daily body the working body",
+    "verses": ["2.3"],
+    "scene": "It is three in the afternoon and you have been hunched over a laptop since lunch. Your head has drifted forward, your shoulders have crept toward your ears, and your lower back has given up on the chair. You feel tired, and the tiredness pulls you further down. Musashi's advice on bearing is simple: the body you sit in all day should be the body you can work from under pressure. Lift the head so your eyes sit level with the screen, drop the shoulders, straighten the back and press the feet flat. Brace the belly lightly, as if steadying a belt. It is the same setup that lets you think clearly in a hard meeting.",
+    "moves": [
+      {
+        "title": "Set the screen at eye height",
+        "detail": "Raise the monitor until the top of the screen sits at or just below eye level, roughly an arm's length away. This removes the forward pull on your neck, which is the root cause of most afternoon slumping."
+      },
+      {
+        "title": "Use a one-minute reset",
+        "detail": "Every hour, stand up, drop the shoulders, lengthen the back of the neck and take three slow breaths with the belly lightly braced. Then sit back down. It takes less time than checking your phone."
+      },
+      {
+        "title": "Train the posture you need under stress",
+        "detail": "Add two short sessions a week of wall sits, planks or bodyweight holds. Strong legs and a steady trunk keep the upper body calm when the day turns fast."
+      },
+      {
+        "title": "Attach the check to a cue",
+        "detail": "Pick something you do often, such as opening your email, and align your head and shoulders at that moment. Cues work better than willpower because they fire without you deciding to act."
+      }
+    ],
+    "script": {
+      "label": "Request to facilities",
+      "text": "Hi [Name], I'm trying to fix my desk setup for longer work days. Could I get a monitor riser, a laptop stand and a chair adjustment to match my height? I'd also like to trial a sit-stand desk for two weeks. I'm happy to send a short note on how it feels after a month. Thanks."
+    },
+    "backfire": "Do not hold a position that causes pain. Stop if a posture produces sharp or shooting symptoms, and see a physiotherapist or doctor for persistent back or neck pain. Posture is a habit to build gradually, not a rule to enforce rigidly. A stiff upright sit tires you faster than a relaxed one.",
+    "signals": "Your neck and lower back feel calm by late afternoon, and you notice slumping early enough to correct it without a jolt.",
+    "effort": "days",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "yin-yang-footing-at-home",
+    "title": "Yin-Yang Footing at Home",
+    "situation": "One partner has quietly become the default for every household task, and resentment is building.",
+    "domain": "family",
+    "tags": ["household", "chores", "partner", "fairness"],
+    "chapter": 2,
+    "principle": "Never let one foot do all the stepping",
+    "verses": ["2.6"],
+    "scene": "For months you have been the one who remembers the dentist, the school forms and the grocery list. Your partner does plenty too, but the tasks that carry the most mental weight keep landing on you. You are tired, and you have started keeping a silent tally. The book's image is footwork: never let one foot carry all the stepping. Each leg takes its turn, so the body stays balanced and no single leg wears out. At home, this means handing over whole areas, not single chores. The goal is not an exact fifty-fifty chart. It is a rhythm you can both keep without collapsing. Start by naming one area you will hand over completely, and mean it.",
+    "moves": [
+      {
+        "title": "Split by whole areas",
+        "detail": "Divide the household into areas of ownership rather than separate tasks: one person owns meals and groceries, the other owns appointments, school admin and bills. Each owner decides how it gets done. Single-chore hand-offs create constant reminders; whole areas stop them."
+      },
+      {
+        "title": "Agree on the stepping rhythm",
+        "detail": "Sit down for twenty minutes and agree which areas alternate, by week or by month. Write the schedule down. Alternating keeps both people practiced, so neither becomes the only one who knows how things work."
+      },
+      {
+        "title": "Let the new owner do it their way",
+        "detail": "Once an area changes hands, resist correcting the method unless a real standard is broken. Different does not mean wrong. Hovering over the new owner rebuilds the old imbalance one comment at a time."
+      },
+      {
+        "title": "Review the balance monthly",
+        "detail": "Once a month, spend ten minutes on what felt heavy and what felt light. Adjust one area at a time. This keeps the rhythm honest without turning every week into a negotiation."
+      }
+    ],
+    "script": {
+      "label": "Text to partner",
+      "text": "Hey, I've been carrying the appointments and school admin for a while and it's wearing me down. Could you take them over from this month, end to end, including the reminders? I'll take the bills and the car. Could we talk it through on Sunday over coffee and set a rhythm we both like?"
+    },
+    "backfire": "Do not use this to win an argument or to present a finished list of demands. If the imbalance is part of a wider pattern of control, or you do not feel safe raising it, get support from a counsellor or someone you trust. Also watch for handing a task over and then taking it back at the first mistake.",
+    "signals": "Your partner starts a task without being asked, the mental load drops, and you stop keeping a silent tally.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "stance-without-stance",
+    "title": "Stance Without Stance",
+    "situation": "Your product plan has hardened into one fixed approach while the market shifts underneath it.",
+    "domain": "business",
+    "tags": ["strategy", "pricing", "roadmap", "flexibility"],
+    "chapter": 2,
+    "principle": "Hold the aim, change the shape",
+    "verses": ["2.7", "2.14"],
+    "scene": "Last spring your team committed to one pricing model, and it has become a flag people defend in every meeting. Now sales reports that two competitors have moved to usage-based fees, and customers keep asking questions you cannot answer. The book warns against the stiff habit of locking into one form. A stance is only a position for cutting, Musashi says, and it should move as the opening moves. Keep the goal fixed: win and keep customers who get real value. Change the shape of the offer with small, reversible steps. A stance is a tool, not a loyalty. Test two shapes, then commit to whichever one cuts.",
+    "moves": [
+      {
+        "title": "Restate the goal without the method",
+        "detail": "Write the business goal in one sentence that names no pricing model, such as 'customers pay in proportion to the value they get and stay for years.' Anything that does not serve that sentence is a method you are free to change."
+      },
+      {
+        "title": "Run two small variants",
+        "detail": "For six weeks, offer two packaging variants to a limited group of new customers, each with clear written terms. Keep the change visible and reversible. Compare conversion, retention and support load rather than opinions."
+      },
+      {
+        "title": "Adjust, do not overhaul",
+        "detail": "Make the smallest change that tests your next hypothesis, such as a different tier boundary or a trial length. Large rebuilds are slow to undo. Small shifts let you move toward the middle or drop lower without a crisis."
+      },
+      {
+        "title": "Set a decision date",
+        "detail": "Set a date to choose one shape and retire the other. Without a decision date, flexibility turns into indecision, and the team keeps every option alive forever."
+      }
+    ],
+    "script": {
+      "label": "Email to leadership",
+      "text": "Subject: Pricing test proposal. Two competing models are now in the market, and I'd like to test rather than debate. For six weeks, new trial accounts would see the current plan or a usage-based option, with the same features and clear terms for both. We'd review conversion, retention and support volume on [date], then commit to one. The aim stays the same: customers pay for value and stay. Can we agree on this by Friday?"
+    },
+    "backfire": "Do not run variants that mislead customers about price or terms, and do not switch existing customers without notice and a fair transition. If your core promise depends on one model, such as a fixed regulated contract, a test may add more risk than it removes. Flexibility serves the aim. It is not permission to change the aim whenever a number looks bad.",
+    "signals": "The team argues about the goal rather than the packaging, and the test results change a decision you would otherwise have defended out of habit.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "single-beat-for-the-close",
+    "title": "Single Beat for the Close",
+    "situation": "A buyer has agreed in principle, but you keep circling the close with long preambles and no clear ask.",
+    "domain": "business",
+    "tags": ["negotiation", "closing", "decisions", "clarity"],
+    "chapter": 2,
+    "principle": "Ask cleanly once the ground is ready",
+    "verses": ["2.15"],
+    "scene": "The procurement lead said on Monday that the scope works for her team. Since then you have had three calls, polishing the deck, adding case studies and apologizing for the price. The moment has arrived, and you are still circling it. Musashi calls this the single beat: once you are close and the conditions are ready, act at once and straight, with no long wind-up. In business, that means a short, direct ask. You are not tricking anyone. You are making the decision easy to take. Say the ask in one sentence, name the date, and then stop talking.",
+    "moves": [
+      {
+        "title": "Check that the ground is ready",
+        "detail": "Before you ask, confirm the substance in writing or in the room: scope, rough budget and who signs. A clean ask lands only when the other side has already agreed to the substance."
+      },
+      {
+        "title": "Make one clear ask",
+        "detail": "State the request in a single sentence with a specific next step, for example 'Can we sign the order form by Friday?' Do not stack qualifiers in front of it. Silence after the ask is part of the answer."
+      },
+      {
+        "title": "Cut the wind-up",
+        "detail": "Remove extra slides, apologies and hedges that delay the question. Keep one line of evidence ready if they ask why. The longer the preamble, the more time the other side has to find a reason to wait."
+      },
+      {
+        "title": "Name the decision owner",
+        "detail": "Ask who decides and what they need to see. If the decider is someone you have not met, request a short call with them rather than sending more material to the current contact."
+      }
+    ],
+    "script": {
+      "label": "Email after the call",
+      "text": "Hi [Name], thanks for the walkthrough today. Based on what we agreed on scope and timing, can we move to the order form? I've attached a draft with the terms we discussed. If [decision maker] needs anything else from us to sign off, tell me what it is and I'll send it by Wednesday. Could we confirm the signing date by Friday?"
+    },
+    "backfire": "Do not use this to rush a buyer who has not agreed to the substance or who needs time to consult colleagues. A clean ask made too early reads as pressure and damages trust. If the other side goes quiet after a clear ask, that is information. Do not chase them with manufactured urgency or false deadlines.",
+    "signals": "The other side answers directly, gives a date, or names exactly what is missing. You stop adding material and wait for their reply.",
+    "effort": "minutes",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "two-remaining-rhythm",
+    "title": "Two-Remaining Rhythm",
+    "situation": "A director resists a process change, and you need to learn where the resistance is firm before pushing.",
+    "domain": "work",
+    "tags": ["pilot", "stakeholders", "change", "timing"],
+    "chapter": 2,
+    "principle": "Test the reaction, then act on the opening",
+    "verses": ["2.16"],
+    "scene": "You want the whole team on the new release checklist, and the director of operations keeps saying 'let's see.' Push now and you meet a wall. Wait forever and nothing moves. Musashi describes an opponent who springs back like a drawn bow, and the skill is to notice the moment the tension eases. Here you do the honest version. Propose a small, openly labelled pilot covering one team for two sprints. Watch how the director responds to a concrete, low-risk step. When objections soften into questions about details, the position is moving, and that is the time to ask for the full decision. You have not tricked anyone. You have let the real position show itself.",
+    "moves": [
+      {
+        "title": "Propose a bounded pilot",
+        "detail": "Offer a two-sprint trial on one team, with a clear start, end and success measures. Call it a pilot in the invitation. A small real test shows the other side's actual concerns better than a meeting full of predictions."
+      },
+      {
+        "title": "Ask what would change their mind",
+        "detail": "Ask directly: 'What would you need to see in two sprints to support this?' Their answer becomes a set of criteria you can meet. Write the criteria down and read them back to confirm."
+      },
+      {
+        "title": "Watch for the easing",
+        "detail": "Track objections at each check-in. When pushback shifts from 'no' to questions about details, the position is moving. Note the date and what changed, so you can raise it openly."
+      },
+      {
+        "title": "Ask for the decision once",
+        "detail": "When the criteria are met, request the full decision in one clear message with the results attached. Do not reopen the pilot's terms to add new hurdles."
+      }
+    ],
+    "script": {
+      "label": "Message to the director",
+      "text": "Hi [Name], based on our conversation, I'd like to run a two-sprint pilot of the release checklist with the [team] team, starting [date]. You'd get weekly numbers on failed releases and rework hours. You mentioned you'd support it if it showed fewer rollbacks. Could we agree on that measure, and would you review the results with me on [date]?"
+    },
+    "backfire": "Do not run a pilot your stakeholder has not agreed to, and do not present a test as a neutral experiment while privately planning the outcome. If the pilot fails by your own measures, accept it and say so. Using a probe to find a weak point and then hiding the result is manipulation, and it ends the trust you need for the next change.",
+    "signals": "The director names specific criteria, asks questions about implementation rather than whether to do it, and agrees to a review date.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "strike-like-flowing-water",
+    "title": "Strike Like Flowing Water",
+    "situation": "Your sister keeps pulling away from a family plan, and every push makes her retreat further.",
+    "domain": "family",
+    "tags": ["conflict", "difficult talk", "listening", "family"],
+    "chapter": 2,
+    "principle": "Stay open and press with steady weight",
+    "verses": ["2.18", "2.1"],
+    "scene": "Your sister has skipped the last two planning calls, and when you press her, she leaves the conversation. You want the matter settled before Mum and Dad's anniversary. Your instinct is to corner her and hold the point until she gives in. The book describes a striker meeting an opponent who tries to slip away: open the body and mind, and press slowly, with weight, like still water. Water does not hurry, and it does not leave a gap. Put the argument down. Say what you need, leave her room to answer, and come back in the same calm way, without raising your voice or pulling the plan apart. Steady pressure reaches places a shove cannot.",
+    "moves": [
+      {
+        "title": "Open with the shared goal",
+        "detail": "Start by naming what you both want, such as 'I want Mum and Dad to have a good weekend with all of us there.' Say it without a question attached. People stay in a conversation longer when the first thing they hear is common ground."
+      },
+      {
+        "title": "Slow the pace down",
+        "detail": "Give each point a full breath before you move on. Let her finish, then wait a few seconds before you reply. Quick follow-ups make the other person feel cornered and send them out of the room."
+      },
+      {
+        "title": "Offer one concrete choice",
+        "detail": "Replace an open-ended demand with two options that both work for you, such as 'Could you take the venue or the food?' A narrow choice is easier to agree to than a whole plan."
+      },
+      {
+        "title": "Leave the door open",
+        "detail": "End by saying when you will check in again and that she can reach out any time. Then do it. Consistency is what makes the pressure feel steady rather than threatening."
+      }
+    ],
+    "script": {
+      "label": "Text to sister",
+      "text": "Hey, I know the planning has been stressful and I've been pushing hard. I want Mum and Dad's anniversary to be good for all of us, and I think we both do. Could you take the venue or the food, whichever suits you? If the timing doesn't work, tell me what would, and I'll adjust. Can we talk on Sunday, when you're free?"
+    },
+    "backfire": "Do not use calm pressure to wear someone down into a choice they do not want, and do not lean on guilt or a parent's feelings to force agreement. If the relationship involves abuse, or you feel unsafe, step back and seek support instead. Sometimes the honest outcome is a plan made without someone, and that can be acceptable.",
+    "signals": "She stays in the conversation, gives a real answer, and returns to the plan without you chasing her. Your own voice stays level throughout.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "the-no-thought-strike",
+    "title": "The No-Thought Strike",
+    "situation": "Production alerts fire at 2 a.m. and your first response is a frozen scan of every dashboard you own.",
+    "domain": "work",
+    "tags": ["incidents", "on-call", "drills", "reflexes"],
+    "chapter": 2,
+    "principle": "Train until the response comes without deliberation",
+    "verses": ["2.17", "2.37"],
+    "scene": "The alert fires at 2:14 a.m. Your phone lights up with three dashboards, two chat threads and a half-written message to the wrong channel. You start reading everything at once and lose a minute you cannot spare. The book's no-thought, no-mind strike is what happens when both sides are fully committed and the body acts from long training rather than calculation. You cannot think your way there in the middle of an incident. You build it in quiet weeks beforehand. This is not blind action. The response is a rehearsed sequence: acknowledge, check the status page, confirm scope, page the owner, open the channel. Your hands know the first steps before your mind has finished reading.",
+    "moves": [
+      {
+        "title": "Write the first five steps",
+        "detail": "Put the first five actions for each common alert on one page: acknowledge, check the status page, confirm scope, page the owner, open the channel. Keep it short enough to read at 2 a.m., and link it from the alert itself."
+      },
+      {
+        "title": "Run a drill every month",
+        "detail": "Once a month, simulate one realistic alert during working hours and time how long it takes to reach the owner. Repeat until the first steps are automatic, and fix whichever step always stalls."
+      },
+      {
+        "title": "Practice the handover",
+        "detail": "Rehearse the message you send when you escalate: what you saw, what you tried and what you need. A clear template removes the decision about wording at the moment pressure is highest."
+      },
+      {
+        "title": "Review without blame",
+        "detail": "After each real incident, walk through the timeline with the team. Ask which steps helped by reflex and which were guesses. Update the page with what you learned, then drill those changes too."
+      }
+    ],
+    "script": {
+      "label": "Incident channel opening message",
+      "text": "Incident: [service] error rate above [threshold] since [time]. Status: investigating. Confirmed scope: [region or customers]. I've paged [owner] and opened this channel. Next update in 20 minutes, or sooner if anything changes. Please post suspected causes here rather than in direct messages, so we keep one record."
+    },
+    "backfire": "Do not use a rehearsed script to skip judgment when the situation is new. Reflex works on familiar problems. An unfamiliar failure needs slower thought, and a rigid runbook can make it worse. If drills become a source of pressure or burnout, scale them back and talk to your lead. Never let a practiced response hide a real safety or data issue.",
+    "signals": "The first three actions happen within two minutes, the owner is reached early, and your updates stay short and accurate even when the incident is hard.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "stickiness-without-tangling",
+    "title": "Stickiness Without Tangling",
+    "situation": "A client escalates weekly, and you dodge the hard follow-up because every call feels like a fight.",
+    "domain": "work",
+    "tags": ["stakeholders", "escalation", "clients", "persistence"],
+    "chapter": 2,
+    "principle": "Stay attached to the problem without clutching",
+    "verses": ["2.25", "2.27"],
+    "scene": "The client's operations head has escalated the same integration bug three times in two weeks. Each message lands like a blow, and you have started answering in short, defensive replies. You are avoiding the follow-up call because you do not want to be pinned in a fight. The book describes an entry where the body sticks fully to the opponent, leaving no gap, so the body does not lag behind the hands. Your version: stay fully attached to the problem, while holding your grip loose enough to move. Book the call, bring the full timeline, and stay with the issue until it has an owner and a date. Firm contact is not the same as clutching.",
+    "moves": [
+      {
+        "title": "Put the call on the calendar today",
+        "detail": "Send a thirty-minute review invitation within the day, with a short agenda: the bug, the timeline and the decision you need. A delay tells the client the issue has no owner, which invites the next escalation."
+      },
+      {
+        "title": "Bring the whole timeline",
+        "detail": "Prepare a one-page timeline of what was reported, what changed and what is still open. Lead with the facts. Stickiness here means staying on the same facts from start to finish, not arguing about who is at fault."
+      },
+      {
+        "title": "Stay on the problem, not the person",
+        "detail": "When the client pushes, restate the issue in one sentence and ask what outcome they need. Do not defend your team's history. Tension rises when two people compete, and it falls when both look at the same thing."
+      },
+      {
+        "title": "Close with an owner and a date",
+        "detail": "End the call by naming the owner, the next check-in and the fix date. Confirm it in writing within the hour. A clear commitment is what separates firm contact from a grip that squeezes until someone pulls away."
+      }
+    ],
+    "script": {
+      "label": "Follow-up email to the client",
+      "text": "Hi [Name], thank you for the call. To confirm: [engineer] owns the integration timeout fix, with a test build on [date] and rollout on [date]. I'll send a status note every Tuesday until it's closed. If anything shifts, I'll tell you the same day. Could you confirm test environment access by Thursday so we don't lose time?"
+    },
+    "backfire": "Do not hold on so tightly that you stop listening or start blaming the client for their frustration. If the problem really is your team's error, say so plainly and do not hide behind the timeline. If a client becomes abusive, set a boundary and involve your manager rather than absorbing it. Persistence is only useful when the facts are honest.",
+    "signals": "The client stops escalating the same point, the next check-in happens on schedule, and both sides describe the open issue in the same words.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "many-opponents-at-once",
+    "title": "Many Opponents at Once",
+    "situation": "Five managers send urgent requests on the same afternoon, and each one feels like the only priority.",
+    "domain": "work",
+    "tags": ["triage", "priorities", "overload", "requests"],
+    "chapter": 2,
+    "principle": "Meet the first arrival, keep the crowd in front",
+    "verses": ["2.34", "2.5"],
+    "scene": "By ten o'clock you have seven urgent messages from five managers, and each one says 'today' in bold. You open them all and start a little on each, which means finishing none. The book's advice for many opponents is to settle yourself so that no one reaches you from the side, to meet the one who arrives first, and to keep the others in front rather than around you. Do the same with the inbox. Line the requests up, take the first real one, and send the rest into a visible queue with an honest time. A single calm line of work beats a scattered ring. Hold the list loosely, but keep one item moving.",
+    "moves": [
+      {
+        "title": "Line up every request in one list",
+        "detail": "Put each request in one shared list with the requester, the deadline they gave and the outcome they need. Seeing them together stops the loudest message from setting the order by default."
+      },
+      {
+        "title": "Take the first real one",
+        "detail": "Start with the request that has the nearest real deadline or the largest consequence. Work on it in one block without checking the other channels. Finishing one item changes the room more than touching five."
+      },
+      {
+        "title": "Reply to the rest with a time",
+        "detail": "Send each waiting requester a short note: when you will look at it, and what you can realistically deliver. Be honest about the queue. A specific time lowers the pressure and prevents hourly follow-ups."
+      },
+      {
+        "title": "Re-sort once after lunch",
+        "detail": "Review the list after lunch with what you now know. Move items up or down, and tell the affected people about any change. Keep the rest of the afternoon to one line of work."
+      }
+    ],
+    "script": {
+      "label": "Reply to a manager",
+      "text": "Hi [Name], I've received your request alongside three others today. The one I'm working on now is [item], which has the nearest deadline, and I expect to finish it by [time]. Yours is next in the queue, and I'll send you a realistic time by [time] tomorrow. If yours is more urgent than [item], tell me which one moves down and I'll adjust the list."
+    },
+    "backfire": "Do not use a queue to ignore people who genuinely cannot wait, such as someone facing a safety issue or a customer outage. Ask whether a real emergency exists, and escalate it rather than queueing it. If the volume is not sustainable, show your manager the full list. A long queue is a staffing signal, not only a personal failure.",
+    "signals": "Requesters stop following up every hour, the list shrinks by the end of the day, and you can name what you are working on without checking.",
+    "effort": "minutes",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "beat-yesterday-self",
+    "title": "Beat Yesterday's Self",
+    "situation": "You start a new skill with enthusiasm, drop it after three weeks, and swing between cramming and quitting.",
+    "domain": "self",
+    "tags": ["practice", "habits", "learning", "discipline"],
+    "chapter": 2,
+    "principle": "Train the direct path daily, measure against yourself",
+    "verses": ["2.37", "2.38", "2.8"],
+    "scene": "You bought the guitar in January. For three weeks you practiced an hour a day, then life got busy. Now you practice for two hours on Sunday, finish sore and annoyed, and skip the next week. The book's closing advice is blunt: master the core method, let the body learn it, and measure yourself against your own past rather than against anyone else. Musashi also warns against swinging faster than the blade swings well. A training path works when it is short, repeated and steady. Choose one fundamental, practice it a little every day, and compare yesterday's version with today's. Progress is the sum of ordinary repetitions.",
+    "moves": [
+      {
+        "title": "Pick one fundamental",
+        "detail": "Choose the single basic element that limits everything else, such as the scale, the grip or the first five minutes of a language lesson. Write it at the top of your practice log. Adding more topics dilutes the training."
+      },
+      {
+        "title": "Practice at a pace you control",
+        "detail": "Set the tempo so every repetition is clean. If quality slips, slow down until it returns. Speed comes after accuracy, and rushing the basics builds habits you will later have to undo."
+      },
+      {
+        "title": "Log one line per session",
+        "detail": "After each session, write the date, the time spent and one thing that felt better than last time. A one-line log is easy to keep and gives you a record to measure against."
+      },
+      {
+        "title": "Compare with your past self monthly",
+        "detail": "Once a month, repeat a benchmark exercise from your first week and record the result. Judge progress by the difference between you now and you then, not by how other people are doing."
+      }
+    ],
+    "script": {
+      "label": "Message to a practice partner",
+      "text": "Hey, I'm doing fifteen minutes of scales every morning this month and logging each session. Would you be up for a check-in every two weeks? Send me one short recording and I'll send one back. We don't need to compare, just track how we're each improving. Are you in for the first one on the twelfth?"
+    },
+    "backfire": "Do not turn practice into a punishment schedule. If a routine makes you dread the next session, it is too big: shrink it until you can return the next day without strain. Measuring against yourself does not mean ignoring a teacher or a doctor when practice causes injury. Get help when you need it.",
+    "signals": "You keep practicing on days you do not feel like it, the benchmark moves in the right direction over a month, and your log is never blank for more than two days.",
+    "effort": "days",
+    "difficulty": 1,
+    "featured": false
+  }
+]

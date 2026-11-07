@@ -1,0 +1,351 @@
+---
+import { u } from '../lib/url.js';
+import Base from '../layouts/Base.astro';
+import Seal from '../components/Seal.astro';
+import BrushDivider from '../components/BrushDivider.astro';
+import VerseQuote from '../components/VerseQuote.astro';
+import { chapters, tactics, featured, getVerse, DOMAINS, scrollHref, verseCount } from '../lib/content.js';
+
+const founderOrder = ['master-carpenter', 'two-ways-of-seeing', 'pin-the-pillow'];
+const founders = founderOrder.map((s) => featured.find((t) => t.slug === s)).filter(Boolean);
+const askExamples = [
+  'My cofounder and I keep circling the same argument about pricing.',
+  'I freeze in interviews even though I know the material cold.',
+  'A competitor just copied our product and undercut us by 30%.',
+];
+const ROMAN = ['', 'I', 'II', 'III', 'IV', 'V'];
+---
+<Base>
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" data-hero>
+    <canvas class="hero-ink" data-ink aria-hidden="true"></canvas>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow" data-hero-in>Miyamoto Musashi · 1643–1645 · original Japanese + new English</p>
+        <h1 class="hero-title">
+          <span class="line"><span data-hero-line>The Book of Five Rings,</span></span>
+          <span class="line"><span data-hero-line><em>for the duels</em></span></span>
+          <span class="line"><span data-hero-line>you actually face.</span></span>
+        </h1>
+        <p class="lede" data-hero-in>
+          The pitch you can't afford to lose. The rival who copies every move. The meeting where you freeze. The habit you keep restarting.
+          Musashi won sixty duels, then spent twenty years working out why. Five scrolls of that answer, turned into calm, practical moves.
+        </p>
+        <div class="hero-cta" data-hero-in>
+          <a class="btn btn--seal" href={u('/ask/')}>Bring your duel to Musashi</a>
+          <a class="btn" href={u('/scrolls/')}>Read the five scrolls</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="五輪書 — The Book of Five Rings" lang="ja">
+        <svg class="hero-enso" viewBox="0 0 400 400" fill="none" aria-hidden="true">
+          <path data-enso d="M262 52C190 22 92 50 62 138c-31 90 23 186 115 206 90 20 170-38 180-126 6-56-18-104-58-134" stroke="currentColor" stroke-width="26" stroke-linecap="round" filter="url(#ink-bleed)" />
+        </svg>
+        <div class="callig" data-callig>
+          {['五', '輪', '書'].map((c) => <span class="callig-char" data-char>{c}</span>)}
+        </div>
+        <Seal text="二天" size="lg" class="hero-seal" data-hero-seal />
+      </div>
+    </div>
+    <a class="scroll-cue" href="#manifesto" aria-label="Scroll to begin">
+      <span>Scroll</span>
+      <i aria-hidden="true"></i>
+    </a>
+  </section>
+
+  <!-- ===================== MANIFESTO ===================== -->
+  <section class="section manifesto" id="manifesto">
+    <div class="narrow">
+      <p class="eyebrow" data-reveal>The everyday mind · 平常心</p>
+      <p class="manifesto-text" data-split>
+        Musashi's secret was not a technique. It was a mind that stays the same in the duel as at the dinner table: calm, wide, unhurried.
+        Most modern contests are lost to a tight grip, a fixed gaze or a borrowed rhythm. This manual is about loosening all three.
+      </p>
+      <VerseQuote id="2.2" />
+      <div class="stats">
+        <div data-reveal><strong data-count="5">5</strong><span>scrolls</span></div>
+        <div data-reveal><strong data-count={verseCount}>{verseCount}</strong><span>sections, 原文 &amp; English</span></div>
+        <div data-reveal><strong data-count={tactics.length}>{tactics.length}</strong><span>practical tactics</span></div>
+      </div>
+    </div>
+  </section>
+
+  <BrushDivider />
+
+  <!-- ===================== FIVE RINGS (pinned horizontal) ===================== -->
+  <section class="chapters-h" data-hscroll aria-labelledby="rings-title">
+    <div class="wrap chapters-head">
+      <p class="eyebrow">The five scrolls · 地水火風空</p>
+      <h2 id="rings-title">Five elements. One way of seeing.</h2>
+    </div>
+    <div class="hscroll-viewport">
+      <ol class="hscroll-track" data-hscroll-track>
+        {chapters.map((c) => {
+          const kv = getVerse(c.key_verse);
+          return (
+            <li class="ch-panel" data-panel data-el={c.key}>
+              <a href={scrollHref(c.n)} class="ch-card">
+                <div class="ch-top" data-panel-in>
+                  <span class="ch-roman">{ROMAN[c.n]}</span>
+                  <span class="chip chip--el">{c.el.romaji} · {c.el.name}</span>
+                </div>
+                <div class="ch-kanji brush el-kanji" lang="ja" data-panel-in>{c.el.kanji}</div>
+                <h3 data-panel-in>{c.title_en} <span class="ja muted">{c.title_ja}</span></h3>
+                <p class="ch-essence" data-panel-in>{c.essence}</p>
+                {kv && <p class="ch-verse" data-panel-in>{kv.title_en}: {kv.gist} <span>§{c.key_verse}</span></p>}
+                <span class="ch-more" data-panel-in>{c.verses.length} section{c.verses.length === 1 ? "" : "s"} · {c.tactics.length} tactics →</span>
+              </a>
+            </li>
+          );
+        })}
+      </ol>
+    </div>
+    <div class="wrap"><div class="hscroll-progress"><i data-hscroll-progress></i></div></div>
+  </section>
+
+  <!-- ===================== FOUNDER CASES ===================== -->
+  <section class="section founders">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>From the dojo to the desk</p>
+      <h2 data-reveal>Three duels. No drawn swords.</h2>
+      <p class="lede" data-reveal>One case from each of the first three scrolls. Each turns an image from the book into steps you can take this week.</p>
+      <div class="founder-stack" data-stack>
+        {founders.map((t) => {
+          const c = chapters[t.chapter - 1];
+          return (
+            <article class="founder-card" data-el={c.key}>
+              <div class="founder-num brush el-kanji" aria-hidden="true">{c.el.kanji}</div>
+              <div class="founder-body">
+                <div class="card-meta">
+                  <span class="chip chip--el">{DOMAINS[t.domain].label} · <span class="ja">{DOMAINS[t.domain].ja}</span></span>
+                  <span class="chip">{c.title_en} · {t.verses.map((v) => `§${v}`).join(' ')}</span>
+                </div>
+                <h3>{t.title}</h3>
+                <p class="founder-situation">{t.situation}</p>
+                <p class="founder-scene">{t.scene}</p>
+                <ol class="founder-moves">
+                  {t.moves.slice(0, 4).map((m) => <li>{m.title}</li>)}
+                </ol>
+                <a class="btn btn--sm" href={u(`/tactics/${t.slug}/`)}>Open the full tactic →</a>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DOJO TRIAL TEASER ===================== -->
+  <section class="section quiz-teaser" data-el="fire">
+    <div class="wrap quiz-grid">
+      <div class="quiz-mock" data-reveal="scale" aria-hidden="true">
+        <p class="eyebrow">Bout 4 / 12 · 火 Fire</p>
+        <h3>The Stalled Launch</h3>
+        <p class="qm-text">Your launch date slips for the third time. The team is waiting for the VP, who is waiting for legal…</p>
+        <div class="qm-opt qm-hit"><b>A</b> Send legal the two open questions today, with a decision date</div>
+        <div class="qm-opt qm-wrong"><b>B</b> Repeat last month's escalation email, louder</div>
+        <div class="qm-opt qm-hit"><b>C</b> Switch approach: ship the unblocked half first</div>
+        <div class="qm-score"><strong>67%</strong><span>2 correct · 1 missed (mountain twice)</span></div>
+      </div>
+      <div>
+        <p class="eyebrow" data-reveal>Dojo Trial · 道場試合</p>
+        <h2 data-reveal>Three trials. Earn your licence.</h2>
+        <p class="lede" data-reveal>
+          Choose 稽古 Practice (6 bouts), 試合 Match (12) or 真剣 Live Blade (20). Read a modern contest, pick every move Musashi would make, and see what you missed.
+          Rise from <strong>入門 Entered the Gate</strong> to <strong>二天 Two Heavens</strong>.
+        </p>
+        <a class="btn btn--seal" href={u('/trial/')} data-reveal>Enter the dojo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ASK MUSASHI TEASER ===================== -->
+  <section class="section field-teaser">
+    <div class="wrap field-grid">
+      <div>
+        <p class="eyebrow" data-reveal>Ask Musashi · 武蔵に問う</p>
+        <h2 data-reveal>Describe your duel. <span class="brush-underline">Get a cited plan.<svg viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true" data-draw><path d="M2 8 C 50 2, 120 12, 198 4" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" /></svg></span></h2>
+        <p class="lede" data-reveal>
+          An AI advisor reads your situation, cites the exact section of the scrolls it relies on (checked against the dataset, in English or 原文), and gives you moves, a message to send and a backfire check.
+          Then it turns the plan into a <strong>30-second podcast</strong> you can download as MP3.
+        </p>
+        <ul class="ticks" data-reveal>
+          <li>Free: bring your own key (OpenRouter, Gemini, Groq, NVIDIA…) or use a no-key option</li>
+          <li>Your key stays in your browser. Nothing is stored on our servers.</li>
+          <li>Voice generated on your device. Ask in English or 日本語.</li>
+        </ul>
+        <a class="btn btn--seal" href={u('/ask/')} data-reveal>Ask Musashi</a>
+      </div>
+      <div class="field-mock" data-reveal="scale" aria-hidden="true">
+        <div class="mock-bar"><i></i><i></i><i></i><span>ask musashi</span></div>
+        <div class="mock-body">
+          {askExamples.map((q, i) => <p class={`mock-q mock-q${i}`}>“{q}”</p>)}
+          <div class="mock-a">
+            <span class="mock-tag">Musashi says</span>
+            <p>Strike when the other side has not yet settled: one beat, no wind-up. <b>[2.15]</b></p>
+            <span class="mock-tag">Your moves</span>
+            <p>1. Name the one decision · 2. Bring two options · 3. Close in the same meeting…</p>
+            <div class="mock-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COMMUNITY TEASER ===================== -->
+  <section class="section community-teaser">
+    <div class="narrow" style="text-align:center">
+      <Seal text="衆" size="lg" data-reveal="scale" style="margin:0 auto 28px" />
+      <h2 data-reveal>A dojo journal written by everyone.</h2>
+      <p class="lede" data-reveal style="margin-inline:auto">
+        Post the duel you faced and the tactic that worked. Rate what others tried. The best entries rise; the reckless ones get flagged.
+      </p>
+      <div class="hero-cta" style="justify-content:center" data-reveal>
+        <a class="btn btn--seal" href={u('/community/')}>Read the journal</a>
+        <a class="btn" href={u('/tactics/')}>Browse all {tactics.length} tactics</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script>
+  import { startInk } from '../scripts/ink.js';
+  import gsap from 'gsap';
+  import { ScrollTrigger } from 'gsap/ScrollTrigger';
+  gsap.registerPlugin(ScrollTrigger);
+
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const canvas = document.querySelector('[data-ink]');
+  if (canvas) startInk(canvas, { reduce });
+
+  if (!reduce) {
+    const enso = document.querySelector('[data-enso]');
+    const len = enso.getTotalLength();
+    gsap.set(enso, { strokeDasharray: len, strokeDashoffset: len });
+    const tl = gsap.timeline({ defaults: { ease: 'expo.out' }, delay: 0.15 });
+    tl.from('[data-hero-line]', { yPercent: 110, duration: 1.3, stagger: 0.12 })
+      .to(enso, { strokeDashoffset: 0, duration: 2.1, ease: 'power2.inOut' }, 0.1)
+      .from('[data-char]', { clipPath: 'inset(0 0 100% 0)', opacity: 0.2, duration: 1.3, stagger: 0.28, ease: 'power3.inOut' }, 0.5)
+      .from('[data-hero-in]', { y: 24, opacity: 0, duration: 1, stagger: 0.1 }, 0.6)
+      .from('[data-hero-seal]', { scale: 2.2, rotate: -30, opacity: 0, duration: 0.7, ease: 'back.out(2.2)' }, 1.8);
+
+    gsap.to('.hero-art', {
+      yPercent: 16,
+      opacity: 0.25,
+      filter: 'blur(6px)',
+      ease: 'none',
+      scrollTrigger: { trigger: '[data-hero]', start: 'top top', end: 'bottom top', scrub: true },
+    });
+  }
+</script>
+
+<style>
+  /* ---------- hero ---------- */
+  .hero { position: relative; min-height: 100svh; display: grid; align-items: center; padding-top: 96px; padding-bottom: 72px; overflow: hidden;
+    background: radial-gradient(ellipse 70% 60% at 70% 40%, #201d17 0%, var(--ink-1) 70%); }
+  .hero-ink { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0.85; filter: blur(14px) saturate(1.1); }
+  .hero-grid { position: relative; display: grid; grid-template-columns: 1.25fr 0.75fr; gap: 40px; align-items: center; }
+  .hero-title { margin: 18px 0 26px; font-size: clamp(2.7rem, 6vw + 0.5rem, 6.2rem); line-height: 0.98; }
+  .hero-title .line { display: block; overflow: hidden; padding-bottom: 0.06em; }
+  .hero-title .line > span { display: inline-block; }
+  .hero-title em { font-style: italic; color: var(--paper-2); font-weight: 500; }
+  .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+  .hero-art { position: relative; justify-self: center; width: min(400px, 100%); aspect-ratio: 1; display: grid; place-items: center; }
+  .hero-enso { position: absolute; inset: 0; width: 100%; height: 100%; color: var(--paper); opacity: 0.9; }
+  .callig { position: relative; writing-mode: vertical-rl; display: flex; gap: 0.04em; font-family: var(--f-brush); font-size: clamp(3.8rem, 7.5vw, 6.6rem); line-height: 1; color: var(--paper); filter: url(#ink-bleed); text-shadow: 0 0 40px rgba(236, 228, 210, 0.08); }
+  .callig-char { display: block; }
+  .hero-seal { position: absolute; right: 2%; bottom: 6%; --size: 84px; font-size: 1.1rem; }
+  .scroll-cue { position: absolute; left: 50%; bottom: 22px; transform: translateX(-50%); display: grid; justify-items: center; gap: 8px; text-decoration: none; font: 600 0.65rem var(--f-ui); letter-spacing: 0.3em; text-transform: uppercase; color: var(--paper-3); }
+  .scroll-cue i { width: 1px; height: 46px; background: linear-gradient(var(--paper-3), transparent); animation: cue 2.2s var(--ease) infinite; transform-origin: top; }
+  @keyframes cue { 0% { transform: scaleY(0); } 50% { transform: scaleY(1); } 100% { transform: scaleY(1); opacity: 0; } }
+  @media (max-width: 860px) {
+    .hero-grid { grid-template-columns: 1fr; }
+    .hero-art { order: -1; width: min(220px, 60vw); justify-self: start; }
+    .callig { font-size: 3rem; }
+    .hero-seal { --size: 56px; font-size: 0.75rem; right: -10px; bottom: 0; }
+  }
+
+  /* ---------- manifesto ---------- */
+  .manifesto-text { font-family: var(--f-display); font-size: clamp(1.7rem, 2.4vw + 1rem, 3rem); line-height: 1.22; margin: 18px 0 48px; color: var(--paper); }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 48px; text-align: center; }
+  .stats strong { display: block; font: 600 clamp(2.4rem, 4vw, 3.6rem)/1 var(--f-display); color: var(--paper); }
+  .stats span { font: 500 0.72rem var(--f-ui); letter-spacing: 0.16em; text-transform: uppercase; color: var(--paper-3); }
+
+  /* ---------- five rings horizontal ---------- */
+  .chapters-h { padding-top: clamp(72px, 10vw, 120px); padding-bottom: 40px; overflow: hidden; }
+  .chapters-head { margin-bottom: 36px; }
+  .hscroll-viewport { overflow: visible; }
+  .hscroll-track { list-style: none; margin: 0; padding: 0 var(--gutter); display: flex; gap: 22px; width: max-content; }
+  .ch-panel { width: min(400px, 78vw); flex: none; }
+  .ch-card { display: flex; flex-direction: column; gap: 14px; height: 100%; min-height: 480px; padding: 28px; border-radius: 18px; border: 1px solid var(--line); text-decoration: none;
+    background: radial-gradient(ellipse 80% 50% at 70% 25%, var(--el-soft), transparent 70%), var(--ink-2); transition: border-color 0.4s, transform 0.5s var(--ease); }
+  .ch-card:hover { border-color: var(--el-line); transform: translateY(-6px); color: inherit; }
+  .ch-top { display: flex; justify-content: space-between; align-items: center; }
+  .ch-roman { font: 600 3rem/1 var(--f-display); color: var(--ink-4); }
+  .ch-kanji { font-size: 6rem; margin: 4px 0; filter: url(#ink-bleed); }
+  .ch-card h3 { margin: 0; font-size: 1.7rem; }
+  .ch-card h3 .ja { font-size: 0.9rem; letter-spacing: 0.08em; }
+  .ch-essence { color: var(--paper-2); margin: 0; font-size: 1rem; }
+  .ch-verse { margin: 0; font-family: var(--f-display); font-style: italic; color: var(--paper-3); font-size: 1rem; line-height: 1.45; border-left: 2px solid var(--el); padding-left: 12px; }
+  .ch-verse span { font: 600 0.68rem var(--f-ui); font-style: normal; color: var(--el); margin-left: 4px; }
+  .ch-more { margin-top: auto; font: 600 0.75rem var(--f-ui); letter-spacing: 0.12em; text-transform: uppercase; color: var(--paper-2); }
+  .hscroll-progress { height: 2px; background: var(--line); margin-top: 36px; overflow: hidden; }
+  .hscroll-progress i { display: block; height: 100%; background: linear-gradient(90deg, var(--chi), var(--sui), var(--ka), var(--fu), var(--ku)); transform: scaleX(0); transform-origin: left; }
+  @media (max-width: 899px) {
+    .hscroll-viewport { overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; padding-bottom: 12px; }
+    .ch-panel { scroll-snap-align: start; }
+    .ch-card { min-height: 430px; }
+    .hscroll-progress { display: none; }
+  }
+
+  /* ---------- founders ---------- */
+  .founder-stack { display: grid; gap: 28px; margin-top: 48px; }
+  .founder-card { position: sticky; top: 96px; display: grid; grid-template-columns: 120px 1fr; gap: 28px; padding: clamp(22px, 4vw, 44px); border-radius: 22px; border: 1px solid var(--line-2);
+    background: radial-gradient(ellipse 60% 60% at 0% 0%, var(--el-soft), transparent 60%), linear-gradient(160deg, #1d1b16, #12110e 60%); box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.8); transform-origin: center top; }
+  .founder-num { font-size: 6rem; filter: url(#ink-bleed); }
+  .founder-body h3 { font-size: clamp(1.8rem, 2vw + 1rem, 2.6rem); margin: 14px 0 8px; }
+  .founder-situation { font: 500 0.95rem var(--f-ui); color: var(--el); }
+  .founder-scene { color: var(--paper-2); max-width: 70ch; }
+  .founder-moves { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 0 0 22px; counter-reset: m; }
+  .founder-moves li { counter-increment: m; font: 500 0.78rem var(--f-ui); padding: 0.45em 0.9em; border: 1px solid var(--line-2); border-radius: 999px; color: var(--paper-2); }
+  .founder-moves li::before { content: counter(m) ' · '; color: var(--el); }
+  @media (max-width: 700px) { .founder-card { grid-template-columns: 1fr; position: relative; top: 0; } .founder-num { font-size: 3.5rem; } }
+
+  /* ---------- ask teaser ---------- */
+  .field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 80px); align-items: center; }
+  .ticks { list-style: none; padding: 0; margin: 0 0 30px; display: grid; gap: 10px; font: 400 0.95rem/1.5 var(--f-ui); color: var(--paper-2); }
+  .ticks li { padding-left: 26px; position: relative; }
+  .ticks li::before { content: ''; position: absolute; left: 0; top: 0.3em; width: 13px; height: 13px; border-radius: 50%; border: 2px solid var(--seal-hi); border-right-color: transparent; transform: rotate(-30deg); }
+  .field-mock { border-radius: 18px; border: 1px solid var(--line-2); background: #0c0b09; box-shadow: 0 40px 80px -40px rgba(0, 0, 0, 0.9); overflow: hidden; }
+  .mock-bar { display: flex; gap: 6px; align-items: center; padding: 12px 16px; border-bottom: 1px solid var(--line); font: 500 0.7rem var(--f-ui); color: var(--paper-3); letter-spacing: 0.1em; }
+  .mock-bar i { width: 10px; height: 10px; border-radius: 50%; background: var(--ink-4); }
+  .mock-bar span { margin-left: 8px; }
+  .mock-body { padding: 22px; display: grid; gap: 12px; min-height: 340px; }
+  .mock-q { margin: 0; font-style: italic; color: var(--paper-3); font-size: 0.95rem; }
+  .mock-q0 { color: var(--paper); }
+  .mock-a { margin-top: 8px; padding: 16px; border-radius: 12px; background: rgba(236, 228, 210, 0.04); border: 1px solid var(--line); font-size: 0.95rem; }
+  .mock-a p { margin: 4px 0 12px; }
+  .mock-a b { color: var(--sui); font: 600 0.75rem var(--f-ui); }
+  .mock-tag { font: 600 0.62rem var(--f-ui); letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); }
+  .mock-wave { display: flex; gap: 4px; align-items: center; height: 36px; }
+  .mock-wave i { width: 4px; border-radius: 2px; background: var(--seal-hi); animation: wave 1.2s ease-in-out infinite; }
+  .mock-wave i:nth-child(odd) { animation-delay: -0.4s; } .mock-wave i:nth-child(3n) { animation-delay: -0.8s; }
+  @keyframes wave { 0%, 100% { height: 6px; } 50% { height: 30px; } }
+  @media (max-width: 860px) { .field-grid { grid-template-columns: 1fr; } }
+
+  /* ---------- trial teaser ---------- */
+  .quiz-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 80px); align-items: center; }
+  @media (max-width: 860px) { .quiz-grid { grid-template-columns: 1fr; } }
+  .quiz-mock { padding: 26px; border-radius: 18px; border: 1px solid var(--line-2); background: linear-gradient(160deg, #1d1b16, #12110e 60%); box-shadow: 0 40px 80px -40px #000; }
+  .quiz-mock h3 { margin: 6px 0 8px; }
+  .qm-text { color: var(--paper-2); font-size: 0.98rem; }
+  .qm-opt { display: flex; gap: 10px; align-items: center; padding: 10px 14px; margin-top: 8px; border-radius: 10px; border: 1px solid var(--line-2); font: 400 0.88rem/1.4 var(--f-ui); }
+  .qm-opt b { width: 24px; height: 24px; flex: none; display: grid; place-items: center; border-radius: 6px; font-size: 0.75rem; }
+  .qm-hit { border-color: var(--jade); background: rgba(127, 160, 138, 0.1); }
+  .qm-hit b { background: var(--jade); color: var(--ink-1); }
+  .qm-wrong { border-color: var(--seal-hi); background: rgba(184, 50, 42, 0.1); }
+  .qm-wrong b { background: var(--seal); }
+  .qm-score { display: flex; align-items: baseline; gap: 12px; margin-top: 16px; }
+  .qm-score strong { font: 600 2.4rem/1 var(--f-display); }
+  .qm-score span { font: 500 0.8rem var(--f-ui); color: var(--paper-3); }
+  .community-teaser { background: radial-gradient(ellipse 60% 50% at 50% 50%, rgba(184, 50, 42, 0.08), transparent 70%); }
+</style>

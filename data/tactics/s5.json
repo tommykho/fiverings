@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "not-knowing-is-not-void",
+    "title": "Not Knowing Is Not Void",
+    "situation": "Your team treats every unknown as a dead end, and nobody can separate what is unknown from what is impossible.",
+    "domain": "work",
+    "tags": ["assessment", "uncertainty", "planning", "team"],
+    "chapter": 5,
+    "principle": "Map the blanks honestly before you decide",
+    "verses": ["5.1", "4.1"],
+    "scene": "Your launch review has stalled on one question: will customers pay the new price? Two people say it cannot be known, so there is no point discussing it. Another reads the answer from a single anecdote and considers the matter settled. All three are making the same mistake. They treat not knowing as a wall, or as if it were already answered. Emptiness, as the strategist means it, is a clear mind that sees the blanks exactly as they are. Sort the room's list into what you know, what you can test this week, and what you must carry as an assumption. Clear sight starts with an honest map.",
+    "moves": [
+      { "title": "Sort every open question", "detail": "List each unresolved item in the project and mark it known, unknown but findable, or unknowable for now. Be strict: a guess is not knowledge, and a missing answer is not proof that the answer is impossible." },
+      { "title": "Name the cheapest test", "detail": "For each findable unknown, write one test that takes less than a day and would settle the question, such as a five-customer call or a price test on one segment." },
+      { "title": "Mark the real blanks as assumptions", "detail": "For the unknowable items, write the assumption you will work under and the signal that would change it. Keep them on the list as assumptions, not as closed matters." },
+      { "title": "Revisit the list every week", "detail": "Move items as facts arrive. A blank that stays blank for three weeks needs a decision, made with the risk written down, rather than more worry." }
+    ],
+    "script": {
+      "label": "Team channel post",
+      "text": "Before we settle the vendor question, let's split our open items into three piles. Known: [list]. Unknown but findable: [list], each with a one-day test I can run by Wednesday. Unknowable for now: [list], where I'd proceed on [assumption] and watch for [signal]. Could we agree on this sorting and decide on Friday with the test results? I'd rather be clear about what we don't know than pretend a blank is a wall."
+    },
+    "backfire": "Do not use the sorting to stall a decision indefinitely or to hide weak work behind we don't know yet. Be candid when a test comes back ambiguous. And do not wave off a colleague's concern as merely unknown when it is a warning you should check.",
+    "signals": "The team stops arguing about whether something can be known and starts arguing about which test to run first.",
+    "effort": "hours",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "clear-the-clouds",
+    "title": "Clear the Clouds",
+    "situation": "Your judgement feels foggy by mid-afternoon, and you make small calls you later wish you had thought through.",
+    "domain": "self",
+    "tags": ["daily-practice", "focus", "judgement", "habits"],
+    "chapter": 5,
+    "principle": "Clear the noise daily so the judgement underneath can work",
+    "verses": ["5.1"],
+    "scene": "It is three in the afternoon and you have said yes to three things you did not mean to. The fog is not quite tiredness; it is a pile of half-finished thoughts sitting on top of the one you need. You have tried to power through with coffee and longer hours, and it only makes the fog thicker. The strategist's advice points somewhere else. A clear mind is built slowly through daily practice, the way a blade is kept sharp between uses. Tomorrow, sit for ten minutes before you open email. Write what is pulling at you, then write the one question you truly need to answer. Clear the clouds before you try to see.",
+    "moves": [
+      { "title": "Empty the morning list", "detail": "Each morning, write the three things pulling at your attention, one line each. Writing them down moves them out of your working mind, so they stop competing with the decision in front of you." },
+      { "title": "Sit with one clean question", "detail": "Spend ten minutes on a single decision or problem with the phone in another room. Write the question in one sentence before you think about answers, and keep the sentence where you can see it." },
+      { "title": "Audit the quick calls", "detail": "At the end of the day, pick one judgement you made quickly and ask whether a clearer start would have changed it. Note the answer in one line. Patterns show up within a week." },
+      { "title": "Keep what clears your head", "detail": "Once a week, keep the element of the practice that cleared your head best and drop the part that felt like performance. A practice you keep beats an ideal one you abandon." }
+    ],
+    "script": {
+      "label": "Calendar invite to yourself",
+      "text": "Daily clear-mind block, ten minutes, before email. Step one: write the three things taking my attention, one line each. Step two: write the one decision I face today as a single question. Step three: write the first action I would take if nothing else were pressing. Nothing else goes on the calendar until this is done. Friday review: which entries changed a decision I was about to make?"
+    },
+    "backfire": "Do not use the practice to ignore real emergencies or to avoid people who need a quick answer. A clear mind is not a license to be slow. If the practice becomes one more chore you dread, shorten it. It is a tool for sharper judgement, not a test of character.",
+    "signals": "Your end-of-day notes show fewer quick calls you later wish you had considered, and mornings begin with a named next action.",
+    "effort": "days",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "straight-mind-check",
+    "title": "The Straight Mind Check",
+    "situation": "You are weighing a job offer, and you suspect your own hopes are bending the analysis.",
+    "domain": "career",
+    "tags": ["career", "decisions", "bias", "offers"],
+    "chapter": 5,
+    "principle": "Test your conclusions against plain standards before you act",
+    "verses": ["5.1", "4.7"],
+    "scene": "The offer arrives on a Tuesday: a bigger title, a salary you did not expect. You are already picturing the new office and the sentence you will say at dinner. That is the warning sign. A straight mind is measured against the wider world, not against your own preference, and partiality tilts every scale, even when your intentions are good. So you write the case against the offer as carefully as the case for it. You ask someone who gains if you decline. Only then do you score the four things that matter, on paper, in the same order you would use for a stranger's offer. Judge it as if it belonged to someone else.",
+    "moves": [
+      { "title": "Write the case against", "detail": "Before you weigh the offer, write the strongest honest reasons to decline. Give them the same care and length you give the reasons to accept. If the case against feels weak, ask why you find it so easy to dismiss." },
+      { "title": "Name your favourite story", "detail": "Write the story you already like about this job in three sentences. Mark each claim in it as a fact, a reasonable expectation or a hope. Most of the bending happens in the third category." },
+      { "title": "Ask someone who wants the opposite", "detail": "Find one person who would benefit if you chose differently, and ask for their three strongest concerns. Take notes and do not argue back in the first conversation." },
+      { "title": "Score on fixed criteria", "detail": "Pick four criteria before rereading the offer: pay, growth, team and the work itself. Score each one using facts you can source, then decide. A low score on one criterion must be explained, not averaged away." }
+    ],
+    "script": {
+      "label": "Message to a mentor",
+      "text": "I have an offer and I'm trying to be fair to both sides. Would you spend 20 minutes with me this week? I've written the case for accepting and the case for declining. I'm especially interested in what you think is the strongest reason to decline, because I suspect I'm underweighting it. I'll share the four criteria I'm using and my scores so far."
+    },
+    "backfire": "Do not use the checklist to make a decision look objective when you have already chosen and want permission. Do not share confidential details about your current employer while you test offers. If the choice involves a conflict of values, such as ethics or safety, a score is not the final word; your values decide.",
+    "signals": "You can name the strongest reason against your preferred choice in one sentence, and the decision would still hold if the job title were removed.",
+    "effort": "hours",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "act-fully-then-let-go",
+    "title": "Act Fully, Then Let Go",
+    "situation": "You must have a hard conversation with an in-law and keep replaying it in your head, unable to commit or move on.",
+    "domain": "personal",
+    "tags": ["difficult-conversation", "letting-go", "boundaries", "family"],
+    "chapter": 5,
+    "principle": "Prepare, commit fully in the moment, then release the outcome",
+    "verses": ["5.1"],
+    "scene": "The visit is six weeks away, and your in-laws have assumed three weeks, as usual. You have rehearsed the talk in the shower, in the car and at two in the morning. Each rehearsal makes the next one tighter and more anxious. The strategist's point about emptiness is practical here. Prepare the parts you control, then act with full attention when the moment comes. The conversation is one action, not a verdict on your family. Once it ends, the outcome belongs as much to them as to you. Speak clearly, then turn to the next thing on the list.",
+    "moves": [
+      { "title": "Prepare what you control", "detail": "Write your opening sentence, your three points and your one boundary. Say them aloud once, then stop. More rehearsal after this point mostly adds anxiety rather than clarity." },
+      { "title": "Commit fully on the day", "detail": "Begin with the opening sentence, without apologies or hedges. Keep your attention on the person in front of you. Do not run alternative scripts in your head while they are speaking." },
+      { "title": "Write down what you did", "detail": "Within an hour, note the facts: what you said, what you asked, and what you agreed to. Record the actions, not how the conversation felt, so your memory has something accurate to hold." },
+      { "title": "Set a review, then release", "detail": "Schedule one fixed follow-up, perhaps a week out. Until then, do not replay the conversation. Go back to the next real task on your list." }
+    ],
+    "script": {
+      "label": "Text to your in-law",
+      "text": "Hi [name], I'd like to talk about the visit in [month]. This year I need it to be two weeks, not three, because of [one honest reason]. I'd love to hear what matters most to you about the visit, and I'm open to finding a version that works for everyone. Could we talk by phone on Sunday at 6, or is another time better for you?"
+    },
+    "backfire": "Do not use letting go as a way to skip a promise, a repayment or a safety concern. Releasing the outcome does not mean releasing responsibility. If the conversation needs a next step, such as a written agreement or a follow-up call, take it. Do not use the framing to brush aside the other person's feelings.",
+    "signals": "You can move to the next task within the hour, and when the conversation returns to your mind, it comes back as a fact to learn from rather than a rehearsal.",
+    "effort": "hours",
+    "difficulty": 2,
+    "featured": false
+  }
+]
