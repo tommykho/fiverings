@@ -1,6 +1,7 @@
 // Podcast audio: Kokoro on-device (default, free) or the visitor's own TTS key (OpenAI, ElevenLabs,
 // Gemini). Output is always an MP3 Blob the visitor can download.
 import { relayFetch, explainHttpError } from './providers.js';
+import { isEnglish } from './prompt.js';
 
 export const KOKORO_VOICES = [
   ['af_heart', 'Heart — US, female, warm (default)'],
@@ -96,6 +97,7 @@ export async function encodeMp3(samples, rate, kbps = 96) {
 export async function synthesize(text, s, keys, onStatus) {
   const clean = text.replace(/\[[^\]]*\]/g, '').replace(/[*_#>`]/g, '').replace(/\s+/g, ' ').trim();
   if (!clean) throw new Error('The podcast script is empty.');
+  if (!isEnglish(clean)) throw new Error('This version speaks English only (Japanese, Cantonese and Mandarin voices are coming). The script contains non-English text: ask again, or edit it into English.');
 
   if (s.engine === 'kokoro') {
     const { samples, rate } = await kokoro(clean, s, onStatus);

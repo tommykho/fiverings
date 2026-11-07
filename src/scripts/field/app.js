@@ -5,7 +5,7 @@ import { generalRank, stars } from '../../lib/ranks.js';
 import { PROVIDERS, getProvider, streamChat, listOpenRouterFree } from './providers.js';
 import { loadSettings, saveSettings, loadKeys, saveKeys, clearKeys } from './settings.js';
 import { loadCorpus, retrieve } from './retrieval.js';
-import { SYSTEM_PROMPT, buildUserPrompt, parseSections, verifyCitations } from './prompt.js';
+import { SYSTEM_PROMPT, LANGUAGE_RETRY, buildUserPrompt, parseSections, verifyCitations, isEnglish, languageProblem } from './prompt.js';
 import { renderMarkdown, esc } from './render.js';
 import { synthesize, scriptFromTactic, wordCount, estSeconds } from './tts.js';
 
@@ -237,26 +237,48 @@ ui.form.addEventListener('submit', async (e) => {
     const r = retrieve(db, situation);
     const user = buildUserPrompt(situation, r);
     setStatus(`Consulting the ${rank.en} (${p.label})…`);
-    let pending = false;
-    let finished = false;
-    const paint = () => { pending = false; if (!finished) ui.answer.innerHTML = renderMarkdown(lastAnswer, db.verseById) + '<span class="cursor"></span>'; };
-    const stream = streamChat(p.id, {
-      key: keys[p.id], model: modelFor(p), base: baseFor(p), system: SYSTEM_PROMPT, user, signal: controller.signal, onStatus: setStatus,
-    });
-    for await (const chunk of stream) {
-      if (controller.signal.aborted) break;
-      lastAnswer += chunk;
-      if (!pending) { pending = true; requestAnimationFrame(paint); }
+    // The answer follows the user's language, but the podcast voice is English-only. Some models (notably
+    // Puter's small default) drift into another language or write the podcast script in it, so one problem
+    // answer is retried with a firmer instruction.
+    let problem = null;
+    for (let attempt = 0; attempt < 2; attempt++) {
+      const extra = attempt ? `\n\n${LANGUAGE_RETRY[problem]}` : '';
+      lastAnswer = '';
+      let pending = false;
+      let finished = false;
+      const paint = () => { pending = false; if (!finished) ui.answer.innerHTML = renderMarkdown(lastAnswer, db.verseById) + '<span class="cursor"></span>'; };
+      const stream = streamChat(p.id, {
+        key: keys[p.id], model: modelFor(p), base: baseFor(p), system: SYSTEM_PROMPT + extra, user: user + extra, signal: controller.signal, onStatus: setStatus,
+      });
+      for await (const chunk of stream) {
+        if (controller.signal.aborted) break;
+        lastAnswer += chunk;
+        if (!pending) { pending = true; requestAnimationFrame(paint); }
+      }
+      finished = true;
+      if (controller.signal.aborted || !lastAnswer.trim()) break;
+      problem = languageProblem(lastAnswer, situation);
+      if (!problem) break;
+      if (attempt === 0) {
+        const note = problem === 'answer' ? 'The answer came back in another language. Asking again in English…' : 'The podcast script was not in English. Asking again…';
+        setStatus(note);
+        ui.answer.innerHTML = `<p class="hint">${note}</p>`;
+      }
     }
-    finished = true;
     if (!lastAnswer.trim()) throw new Error('The model returned an empty answer. Try again or pick another model.');
     ui.answer.innerHTML = renderMarkdown(lastAnswer, db.verseById);
+    if (problem === 'answer' && !controller.signal.aborted) {
+      ui.answer.insertAdjacentHTML('beforeend', '<div class="error">This model answered in another language twice. Try again, or choose another model in Settings.</div>');
+    }
     renderVerification(lastAnswer);
     ui.outTools.hidden = false;
     showRating(p);
     const pod = parseSections(lastAnswer)['Podcast Script'];
-    if (pod) { ui.script.value = pod.replace(/^[-*]\s*/gm, '').trim(); updateWords(); }
-    setStatus(controller.signal.aborted ? 'Stopped.' : 'Done. Scroll down to turn the plan into a podcast.');
+    const podOk = pod && isEnglish(pod);
+    if (podOk) { ui.script.value = pod.replace(/^[-*]\s*/gm, '').trim(); updateWords(); }
+    setStatus(controller.signal.aborted ? 'Stopped.'
+      : podOk ? 'Done. Scroll down to turn the plan into a podcast.'
+      : 'Done. The podcast script was not in English, so it was not copied to the studio: the voice speaks English only for now.');
   } catch (err) {
     if (err?.name === 'AbortError') { setStatus('Stopped.'); }
     else {
